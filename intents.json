@@ -126,7 +126,7 @@
                 "Bantuan apa yang bisa saya dapatkan dari kamu?"
             ],
             "responses": [
-                "Saya bisa membantu Anda dengan berbagai informasi seputar Desa Borobudur, termasuk:\n1. Informasi umum tentang Desa Borobudur\n2. Kuliner lokal\n3. Hotel dan penginapan\n4. Tempat wisata\n5. Layanan masyarakat\n6. Transportasi\n7. Data umum penduduk\n8. Informasi pengurus desa"
+                "Saya bisa membantu Anda dengan berbagai informasi seputar Desa Borobudur, termasuk:<br>1. Informasi umum tentang Desa Borobudur<br>2. Kuliner lokal<br>3. Hotel dan penginapan<br>4. Tempat wisata<br>5. Layanan masyarakat<br>6. Transportasi<br>7. Data umum penduduk<br>8. Informasi pengurus desa"
             ]
         },
         {
@@ -157,7 +157,7 @@
                 "Apa yang membuat arsitektur Borobudur berbeda?"
             ],
             "responses": [
-                "Borobudur memiliki tiga bagian utama: dasar, tubuh, dan puncak, \n1. yang melambangkan dunia keinginan (Kamadhatu) \n2. dunia bentuk (Rupadhatu) \n3. dunia tanpa bentuk (Arupadhatu)\n\n Candi ini berbentuk stupa raksasa dengan pola Mandala dan berisi lebih dari 2.672 panel relief dan 504 arca Buddha."
+                "Borobudur memiliki tiga bagian utama: dasar, tubuh, dan puncak, <br>1. yang melambangkan dunia keinginan (Kamadhatu) <br>2. dunia bentuk (Rupadhatu) <br>3. dunia tanpa bentuk (Arupadhatu)<br><br> Candi ini berbentuk stupa raksasa dengan pola Mandala dan berisi lebih dari 2.672 panel relief dan 504 arca Buddha."
             ]
         },
         {
@@ -672,7 +672,7 @@
                 "Harga tiket Candi Borobudur untuk lokal dan asing?"
             ],
             "responses": [
-                "Harga tiket Candi Borobudur adalah:\n- Rp 50.000 untuk lokal dewasa\n- Rp 25.000 untuk lokal anak\n- Rp 350.000 untuk wisatawan asing."
+                "Harga tiket Candi Borobudur adalah:<br>- Rp 50.000 untuk lokal dewasa<br>- Rp 25.000 untuk lokal anak<br>- Rp 350.000 untuk wisatawan asing."
             ]
         },
         {
@@ -686,7 +686,7 @@
                 "Apakah ada toko souvenir di Candi Borobudur?"
             ],
             "responses": [
-                "Fasilitas yang tersedia di Candi Borobudur antara lain:\n- Area parkir\n- Pusat informasi\n- Toilet umum\n- Warung makan\n- Toko souvenir\n- Jalur pendakian\n- Area istirahat\n- Penyewaan pemandu."
+                "Fasilitas yang tersedia di Candi Borobudur antara lain:<br>- Area parkir<br>- Pusat informasi<br>- Toilet umum<br>- Warung makan<br>- Toko souvenir<br>- Jalur pendakian<br>- Area istirahat<br>- Penyewaan pemandu."
             ]
         },
         {
@@ -716,7 +716,7 @@
                 "Apakah Khanaya Hotel & Cafe dekat dengan Borobudur?"
             ],
             "responses": [
-                "Khanaya Hotel & Cafe adalah tempat yang nyaman untuk menginap dengan fasilitas lengkap dan akses mudah ke Borobudur.\n\n1. Harga per malam: IDR 600,000\n2. Fasilitas: Kolam renang, parkir gratis, transfer bandara, AC, resepsionis 24 jam, dan restoran\n3. Lokasi: Jl. Badrawati No. 20, Borobudur, Magelang"
+                "Khanaya Hotel & Cafe adalah tempat yang nyaman untuk menginap dengan fasilitas lengkap dan akses mudah ke Borobudur.<br><br>1. Harga per malam: IDR 600,000<br>2. Fasilitas: Kolam renang, parkir gratis, transfer bandara, AC, resepsionis 24 jam, dan restoran<br>3. Lokasi: Jl. Badrawati No. 20, Borobudur, Magelang"
             ]
         },
         {
@@ -732,7 +732,7 @@
                 "Apakah Shankara Borobudur dekat dengan Candi Borobudur?"
             ],
             "responses": [
-                "Shankara Borobudur menawarkan pengalaman menginap mewah dengan fasilitas lengkap dan akses mudah ke Candi Borobudur.\n\n1. Harga per malam: IDR 600,000\n2. Fasilitas: Kolam renang luar ruangan, spa, pusat kebugaran, restoran, dan taman\n3. Lokasi: Jl. Balaputradewa No.1, Dusun XVI, Borobudur"
+                "Shankara Borobudur menawarkan pengalaman menginap mewah dengan fasilitas lengkap dan akses mudah ke Candi Borobudur.<br><br>1. Harga per malam: IDR 600,000<br>2. Fasilitas: Kolam renang luar ruangan, spa, pusat kebugaran, restoran, dan taman<br>3. Lokasi: Jl. Balaputradewa No.1, Dusun XVI, Borobudur"
             ]
         },
         {
@@ -748,7 +748,7 @@
                 "Apakah Cempaka Villa dekat dengan Borobudur?"
             ],
             "responses": [
-                "Cempaka Villa Restaurant menawarkan suasana yang tenang dengan pemandangan Borobudur yang menakjubkan, cocok untuk menikmati hidangan sambil menikmati pemandangan.\n\n1. Harga per malam: IDR 400,000\n2. Fasilitas: Restoran dengan pemandangan Borobudur, taman, dan tempat duduk luar ruangan\n3. Lokasi: Jl. Badrawati Ngaran Lor No.1, Dusun XVIII, Borobudur"
+                "Cempaka Villa Restaurant menawarkan suasana yang tenang dengan pemandangan Borobudur yang menakjubkan, cocok untuk menikmati hidangan sambil menikmati pemandangan.<br><br>1. Harga per malam: IDR 400,000<br>2. Fasilitas: Restoran dengan pemandangan Borobudur, taman, dan tempat duduk luar ruangan<br>3. Lokasi: Jl. Badrawati Ngaran Lor No.1, Dusun XVIII, Borobudur"
             ]
         },
         {
@@ -764,7 +764,7 @@
                 "Apakah lingkungan Anugrah Borobudur Cottage tenang?"
             ],
             "responses": [
-                "Anugrah Borobudur Cottage menawarkan pengalaman menginap yang tenang dengan pemandangan alam yang indah dan akses mudah ke Candi Borobudur.\n\n1. Harga per malam: IDR 200,000\n2. Fasilitas: Kamar nyaman, agrowisata (wisata pertanian), dan lingkungan yang tenang dan alami\n3. Lokasi: Jalan Badrawati No. 20 Ngaran Ngisor, Dusun XVIII, Borobudur"
+                "Anugrah Borobudur Cottage menawarkan pengalaman menginap yang tenang dengan pemandangan alam yang indah dan akses mudah ke Candi Borobudur.<br><br>1. Harga per malam: IDR 200,000<br>2. Fasilitas: Kamar nyaman, agrowisata (wisata pertanian), dan lingkungan yang tenang dan alami<br>3. Lokasi: Jalan Badrawati No. 20 Ngaran Ngisor, Dusun XVIII, Borobudur"
             ]
         },
         {
@@ -780,7 +780,7 @@
                 "Apa saja layanan yang tersedia di Wahid Borobudur?"
             ],
             "responses": [
-                "Wahid Borobudur adalah pilihan yang tepat untuk Anda yang mencari kenyamanan dengan berbagai fasilitas, termasuk kolam renang dan fasilitas pertemuan.\n\n1. Harga per malam: IDR 400,000\n2. Fasilitas: Kolam renang, spa, restoran, dan fasilitas pertemuan\n3. Lokasi: Jl. Medang Kamulan, Dusun XIII, Borobudur"
+                "Wahid Borobudur adalah pilihan yang tepat untuk Anda yang mencari kenyamanan dengan berbagai fasilitas, termasuk kolam renang dan fasilitas pertemuan.<br><br>1. Harga per malam: IDR 400,000<br>2. Fasilitas: Kolam renang, spa, restoran, dan fasilitas pertemuan<br>3. Lokasi: Jl. Medang Kamulan, Dusun XIII, Borobudur"
             ]
         },
         {
@@ -796,7 +796,7 @@
                 "Apa daya tarik utama The Amrta Borobudur?"
             ],
             "responses": [
-                "The Amrta Borobudur menawarkan fasilitas modern dan pemandangan yang indah dengan akses mudah ke Candi Borobudur.\n\n1. Harga per malam: IDR 600,000\n2. Fasilitas: Kolam renang, restoran, dan taman\n3. Lokasi: Jl. Badrawati No.30, Dusun XVIII, Borobudur"
+                "The Amrta Borobudur menawarkan fasilitas modern dan pemandangan yang indah dengan akses mudah ke Candi Borobudur.<br><br>1. Harga per malam: IDR 600,000<br>2. Fasilitas: Kolam renang, restoran, dan taman<br>3. Lokasi: Jl. Badrawati No.30, Dusun XVIII, Borobudur"
             ]
         },
         {
@@ -812,7 +812,7 @@
                 "Apa yang membuat Sarasvati Borobudur Hotel unik?"
             ],
             "responses": [
-                "Sarasvati Borobudur Hotel adalah pilihan yang nyaman dengan fasilitas lengkap dan akses mudah ke Candi Borobudur.\n\n1. Harga per malam: IDR 800,000\n2. Fasilitas: Kolam renang luar ruangan, pusat kebugaran, restoran, dan spa\n3. Lokasi: Jl. Balaputradewa No.10, Dusun XVII, Borobudur"
+                "Sarasvati Borobudur Hotel adalah pilihan yang nyaman dengan fasilitas lengkap dan akses mudah ke Candi Borobudur.<br><br>1. Harga per malam: IDR 800,000<br>2. Fasilitas: Kolam renang luar ruangan, pusat kebugaran, restoran, dan spa<br>3. Lokasi: Jl. Balaputradewa No.10, Dusun XVII, Borobudur"
             ]
         },
         {
@@ -828,7 +828,7 @@
                 "Apakah ada restoran di Gopalan Borobudur?"
             ],
             "responses": [
-                "Gopalan Borobudur menawarkan pengalaman menginap yang nyaman dengan akses langsung ke Candi Borobudur.\n\n1. Harga per malam: IDR 600,000\n2. Fasilitas: Restoran, tempat duduk luar ruangan, dan kedekatannya dengan Candi Borobudur\n3. Lokasi: Gopalan, Jl. Borobudur - Ngadiharjo, Borobudur"
+                "Gopalan Borobudur menawarkan pengalaman menginap yang nyaman dengan akses langsung ke Candi Borobudur.<br><br>1. Harga per malam: IDR 600,000<br>2. Fasilitas: Restoran, tempat duduk luar ruangan, dan kedekatannya dengan Candi Borobudur<br>3. Lokasi: Gopalan, Jl. Borobudur - Ngadiharjo, Borobudur"
             ]
         },
         {
@@ -844,7 +844,7 @@
                 "Apa keunggulan Manohara Resort?"
             ],
             "responses": [
-                "Manohara Resort adalah pilihan ideal dengan pemandangan matahari terbit, akses mudah ke Candi Borobudur, dan fasilitas lengkap.\n\n1. Harga per malam: IDR 1,500,000\n2. Fasilitas: Taman, teras, restoran, dan Wi-Fi gratis\n3. Lokasi: Komplek Taman Wisata Candi, Kw. Candi Borobudur, Borobudur, sekitar 5 menit berjalan kaki dari Candi Borobudur"
+                "Manohara Resort adalah pilihan ideal dengan pemandangan matahari terbit, akses mudah ke Candi Borobudur, dan fasilitas lengkap.<br><br>1. Harga per malam: IDR 1,500,000<br>2. Fasilitas: Taman, teras, restoran, dan Wi-Fi gratis<br>3. Lokasi: Komplek Taman Wisata Candi, Kw. Candi Borobudur, Borobudur, sekitar 5 menit berjalan kaki dari Candi Borobudur"
             ]
         },
         {
@@ -860,7 +860,7 @@
                 "Apa saja aktivitas yang bisa dilakukan di Plataran Heritage Borobudur?"
             ],
             "responses": [
-                "Plataran Heritage Borobudur menawarkan pengalaman menginap yang mewah dengan kombinasi arsitektur Jawa dan kolonial, serta fasilitas lengkap dan pemandangan yang luar biasa.\n\n1. Harga per malam: Mulai IDR 2,000,000 (tergantung tipe kamar dan periode pemesanan)\n2. Fasilitas: Kolam renang luar ruangan, spa, restoran dengan berbagai pilihan masakan, pusat kebugaran, dan Wi-Fi gratis\n3. Lokasi: Dusun Kretek, Karangrejo, Borobudur dengan pemandangan indah dari Menoreh Hill dan dekat dengan Candi Borobudur"
+                "Plataran Heritage Borobudur menawarkan pengalaman menginap yang mewah dengan kombinasi arsitektur Jawa dan kolonial, serta fasilitas lengkap dan pemandangan yang luar biasa.<br><br>1. Harga per malam: Mulai IDR 2,000,000 (tergantung tipe kamar dan periode pemesanan)<br>2. Fasilitas: Kolam renang luar ruangan, spa, restoran dengan berbagai pilihan masakan, pusat kebugaran, dan Wi-Fi gratis<br>3. Lokasi: Dusun Kretek, Karangrejo, Borobudur dengan pemandangan indah dari Menoreh Hill dan dekat dengan Candi Borobudur"
             ]
         },
         {
@@ -875,7 +875,7 @@
                 "Apa alamat lengkap Kantor Desa Borobudur?"
             ],
             "responses": [
-                "Kantor Desa Borobudur menyediakan layanan administrasi bagi warga setempat.\n\n1. Lokasi: Jl. Samaratungga No.21, Dusun XI, Borobudur, Magelang, Jawa Tengah\n2. Jam Operasional: 08:00 - 16:00 (Senin-Jumat)\n3. Kontak: (0293) 788832 / +62856 4111 9345"
+                "Kantor Desa Borobudur menyediakan layanan administrasi bagi warga setempat.<br><br>1. Lokasi: Jl. Samaratungga No.21, Dusun XI, Borobudur, Magelang, Jawa Tengah<br>2. Jam Operasional: 08:00 - 16:00 (Senin-Jumat)<br>3. Kontak: (0293) 788832 / +62856 4111 9345"
             ]
         },
         {
@@ -889,7 +889,7 @@
                 "Siapa yang bisa saya hubungi untuk informasi Posyandu?"
             ],
             "responses": [
-                "Posyandu Borobudur melayani pemeriksaan kesehatan ibu dan anak di sekitar desa.\n\n1. Lokasi dan Waktu: Harap ditanyakan ke pihak Puskesmas\n2. Kontak: Melalui Puskesmas di (0293) 788569"
+                "Posyandu Borobudur melayani pemeriksaan kesehatan ibu dan anak di sekitar desa.<br><br>1. Lokasi dan Waktu: Harap ditanyakan ke pihak Puskesmas<br>2. Kontak: Melalui Puskesmas di (0293) 788569"
             ]
         },
         {
@@ -903,7 +903,7 @@
                 "Apa nomor telepon Puskesmas Borobudur?"
             ],
             "responses": [
-                "Puskesmas Borobudur menyediakan layanan kesehatan dasar untuk masyarakat sekitar.\n\n1. Lokasi: Jl. Sentanu No.9, Sriyasan, Wringinputih, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553\n2. Jam Operasional: 07:00 - 11:00 (Senin-Jumat)\n3. Kontak: (0293) 788569"
+                "Puskesmas Borobudur menyediakan layanan kesehatan dasar untuk masyarakat sekitar.<br><br>1. Lokasi: Jl. Sentanu No.9, Sriyasan, Wringinputih, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553<br>2. Jam Operasional: 07:00 - 11:00 (Senin-Jumat)<br>3. Kontak: (0293) 788569"
             ]
         },
         {
@@ -917,7 +917,7 @@
                 "Dimana Polsek Borobudur berada?"
             ],
             "responses": [
-                "Polsek Borobudur melayani keamanan dan ketertiban masyarakat.\n\n1. Lokasi: Jl. Sentanu No.54, Borobudur, Magelang, Jawa Tengah\n2. Jam Operasional: 24 jam\n3. Kontak: (0293) 788161"
+                "Polsek Borobudur melayani keamanan dan ketertiban masyarakat.<br><br>1. Lokasi: Jl. Sentanu No.54, Borobudur, Magelang, Jawa Tengah<br>2. Jam Operasional: 24 jam<br>3. Kontak: (0293) 788161"
             ]
         },
         {
@@ -951,7 +951,7 @@
                 "RS N-21 Gemilang memiliki akreditasi apa?"
             ],
             "responses": [
-                "Berikut adalah informasi Rumah Sakit N-21 Gemilang:\n1. Lokasi: Jl. Pondok Pabelan No. 05 Pabelan, Mungkid, Mungkid, Jawa Tengah, Indonesia 56512\n2. Kontak: (0293) 782109 / Emergency Call: (+62) 852 2560 6864\n3. Layanan Spesialisasi: Poli Bedah, Poliklinik Gigi, Poli Obgyn, Poli CVT & Umum, Poli Syaraf, Poli Anak\n4. Fasilitas: IGD 24 Jam, Rawat jalan, Rawat Inap, Radiologi, Laboratorium, dan Farmasi\n5. Jenis Rumah Sakit: Rumah sakit umum tipe D"
+                "Berikut adalah informasi Rumah Sakit N-21 Gemilang:<br>1. Lokasi: Jl. Pondok Pabelan No. 05 Pabelan, Mungkid, Mungkid, Jawa Tengah, Indonesia 56512<br>2. Kontak: (0293) 782109 / Emergency Call: (+62) 852 2560 6864<br>3. Layanan Spesialisasi: Poli Bedah, Poliklinik Gigi, Poli Obgyn, Poli CVT & Umum, Poli Syaraf, Poli Anak<br>4. Fasilitas: IGD 24 Jam, Rawat jalan, Rawat Inap, Radiologi, Laboratorium, dan Farmasi<br>5. Jenis Rumah Sakit: Rumah sakit umum tipe D"
             ]
         },
         {
@@ -985,7 +985,7 @@
                 "Rumah sakit umum daerah Merah Putih Kabupaten Magelang memiliki akreditasi apa?"
             ],
             "responses": [
-                "Berikut adalah informasi RSUD Merah Putih Kabupaten Magelang:\n1. Lokasi: Jl Raya Magelang - Yogyakarta KM 5 Mungkidan Danurejo, Magelang 56172\n2. Kontak: (0293) 3202654 / Emergency Call: (0293) 3276000\n3. Layanan: Poli Umum, Poli Penyakit Dalam, Poli Kandungan & Kebidanan, Poli Anak, Poli Bedah, Poli Urologi, Poli Jantung, Poli Mata, Poli Orthopedi, Poli Saraf, Poli Kulit & Kelamin, Poli THT, Poli Gigi, Klinik Psikologis\n4. Fasilitas: IGD 24 Jam, Rawat jalan, Rawat Inap, Radiologi, NICU, Laboratorium, dan Farmasi\n5. Jenis Rumah Sakit: Rumah sakit umum tipe C"
+                "Berikut adalah informasi RSUD Merah Putih Kabupaten Magelang:<br>1. Lokasi: Jl Raya Magelang - Yogyakarta KM 5 Mungkidan Danurejo, Magelang 56172<br>2. Kontak: (0293) 3202654 / Emergency Call: (0293) 3276000<br>3. Layanan: Poli Umum, Poli Penyakit Dalam, Poli Kandungan & Kebidanan, Poli Anak, Poli Bedah, Poli Urologi, Poli Jantung, Poli Mata, Poli Orthopedi, Poli Saraf, Poli Kulit & Kelamin, Poli THT, Poli Gigi, Klinik Psikologis<br>4. Fasilitas: IGD 24 Jam, Rawat jalan, Rawat Inap, Radiologi, NICU, Laboratorium, dan Farmasi<br>5. Jenis Rumah Sakit: Rumah sakit umum tipe C"
             ]
         },
         {
@@ -1019,7 +1019,7 @@
                 "Rumah sakit Aisyiyah Muntilan memiliki akreditasi apa?"
             ],
             "responses": [
-                "Berikut adalah informasi RS Aisyiyah Muntilan:\n1. Lokasi: JL. KH A. Dahlan No. 24 Muntilan, Magelang, 56414\n2. Kontak: (+62) 895377676706\n3. Layanan Spesialisasi: Poli Kandungan, Poli Anak, Poli Syaraf, Poli Ortopedi, Poli Penyakit Dalam, Poli Mata, Poli Bedah, Poli Jiwa, Poli Umum, Poli Radiologi & USG\n4. Fasilitas: IGD 24 Jam, Radiologi, Farmasi, Laboratorium\n5. Jenis Rumah Sakit: Rumah sakit umum tipe D"
+                "Berikut adalah informasi RS Aisyiyah Muntilan:<br>1. Lokasi: JL. KH A. Dahlan No. 24 Muntilan, Magelang, 56414<br>2. Kontak: (+62) 895377676706<br>3. Layanan Spesialisasi: Poli Kandungan, Poli Anak, Poli Syaraf, Poli Ortopedi, Poli Penyakit Dalam, Poli Mata, Poli Bedah, Poli Jiwa, Poli Umum, Poli Radiologi & USG<br>4. Fasilitas: IGD 24 Jam, Radiologi, Farmasi, Laboratorium<br>5. Jenis Rumah Sakit: Rumah sakit umum tipe D"
             ]
         },
         {
@@ -1036,7 +1036,7 @@
                 "Bagaimana cara menghubungi Apotek Candi Husada?"
             ],
             "responses": [
-                "Berikut adalah informasi mengenai Apotek Candi Husada \n1. Lokasi: Jl. Pramudyawardhani, Dusun XVI, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 \n2. Jam Buka: Senin-Sabtu (08.00-21.00), Minggu (15.00-21.00) \n3.Kontak: (0293) 789612"
+                "Berikut adalah informasi mengenai Apotek Candi Husada <br>1. Lokasi: Jl. Pramudyawardhani, Dusun XVI, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 <br>2. Jam Buka: Senin-Sabtu (08.00-21.00), Minggu (15.00-21.00) <br>3.Kontak: (0293) 789612"
             ]
         },
         {
@@ -1053,7 +1053,7 @@
                 "Bagaimana cara menghubungi Apotek Citra Farma?"
             ],
             "responses": [
-                "Berikut adalah informasi mengenai Apotek Citra Farma \n1. Lokasi: Jl. Sudirman No.14, Dusun XIV, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 \n2. Jam Buka: Senin-Sabtu (08.00-21.00) \n3. Kontak: 0857-4109-8423"
+                "Berikut adalah informasi mengenai Apotek Citra Farma <br>1. Lokasi: Jl. Sudirman No.14, Dusun XIV, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 <br>2. Jam Buka: Senin-Sabtu (08.00-21.00) <br>3. Kontak: 0857-4109-8423"
             ]
         },
         {
@@ -1070,7 +1070,7 @@
                 "Bagaimana cara menghubungi Apotek Syailendra Farma?"
             ],
             "responses": [
-                "Berikut adalah informasi mengenai Apotek Syailendra Farma \n1. Lokasi: Jalan Syailendra Raya No.26, Kaliabon, Borobudur, Dusun X, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56511 \n2. Jam Buka: Setiap hari (08.00-21.00) \n3. Kontak: (0293) 788544 / 0812-284-373-63"
+                "Berikut adalah informasi mengenai Apotek Syailendra Farma <br>1. Lokasi: Jalan Syailendra Raya No.26, Kaliabon, Borobudur, Dusun X, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56511 <br>2. Jam Buka: Setiap hari (08.00-21.00) <br>3. Kontak: (0293) 788544 / 0812-284-373-63"
             ]
         },
         {
@@ -1087,7 +1087,7 @@
                 "Bagaimana cara menghubungi Apotek Kurnia As-Syifa?"
             ],
             "responses": [
-                "Berikut adalah informasi mengenai Apotek Kurnia As-Syifa \n1. Lokasi: Jl. Badrawati No.184, Pulon, Tuksongo, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 \n2. Jam Buka: Senin-Sabtu (07.30-20.00) \n3. Kontak: 0851-4710-1473"
+                "Berikut adalah informasi mengenai Apotek Kurnia As-Syifa <br>1. Lokasi: Jl. Badrawati No.184, Pulon, Tuksongo, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 <br>2. Jam Buka: Senin-Sabtu (07.30-20.00) <br>3. Kontak: 0851-4710-1473"
             ]
         },
         {
@@ -1104,7 +1104,7 @@
                 "Bagaimana cara menghubungi Apotek Sawitan?"
             ],
             "responses": [
-                "Berikut adalah informasi mengenai Apotek Sawitan \n1. Lokasi: Jl. Soekarno Hatta No.70, Ngentan II, Sawitan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56511 \n2. Jam Buka: Senin-Sabtu (08.00-20.30), Minggu (09.00-20.30) \n3. Kontak: (0293) 789634"
+                "Berikut adalah informasi mengenai Apotek Sawitan <br>1. Lokasi: Jl. Soekarno Hatta No.70, Ngentan II, Sawitan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56511 <br>2. Jam Buka: Senin-Sabtu (08.00-20.30), Minggu (09.00-20.30) <br>3. Kontak: (0293) 789634"
             ]
         },
         {
@@ -1121,7 +1121,7 @@
                 "Bagaimana cara menghubungi Apotek Jaya Farma?"
             ],
             "responses": [
-                "Berikut adalah informasi mengenai Apotek Jaya Farma \n1. Lokasi: Jl. Sudirman, Dusun X, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 \n2. Jam Buka: Senin-Sabtu (07.00-20.00) \n3. Kontak: (0293) 788959"
+                "Berikut adalah informasi mengenai Apotek Jaya Farma <br>1. Lokasi: Jl. Sudirman, Dusun X, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 <br>2. Jam Buka: Senin-Sabtu (07.00-20.00) <br>3. Kontak: (0293) 788959"
             ]
         },
         {
@@ -1139,7 +1139,7 @@
                 "Layanan kesehatan apa saja yang tersedia di Klinik Griya Medika 2 Borobudur?"
             ],
             "responses": [
-                "Berikut adalah informasi mengenai Klinik Griya Medika 2 Borobudur \n1. Lokasi: Jl. Syailendra Raya Borobudur, Dusun X, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 \n2. Jam Buka: Senin-Sabtu (14.00-22.00) \n3. Kontak: 0813-2587-4799 / Social Media: griyamedika2borobudur (instagram) \n4. Layanan: IGD, Poli Umum, Poli Gigi, Laboratorium"
+                "Berikut adalah informasi mengenai Klinik Griya Medika 2 Borobudur <br>1. Lokasi: Jl. Syailendra Raya Borobudur, Dusun X, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 <br>2. Jam Buka: Senin-Sabtu (14.00-22.00) <br>3. Kontak: 0813-2587-4799 / Social Media: griyamedika2borobudur (instagram) <br>4. Layanan: IGD, Poli Umum, Poli Gigi, Laboratorium"
             ]
         },
         {
@@ -1157,7 +1157,7 @@
                 "Layanan kesehatan apa saja yang tersedia di Klinik KJP Magelang?"
             ],
             "responses": [
-                "Berikut adalah informasi mengenai Klinik KJP Magelang \n1. Lokasi: Jl. Soekarno Hatta, Patran, Sawitan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56511 \n2. Jam Buka: Senin-Minggu (07.00-21.00) \n3. Kontak: 0819-5263-3727 / Social Media: kjp_magelang (instagram) \n4. Layanan: Poli Umum, Poli Gigi, Laboratorium, Laboratorium, USG 2D&4D, Pemeriksaan kehamilan"
+                "Berikut adalah informasi mengenai Klinik KJP Magelang <br>1. Lokasi: Jl. Soekarno Hatta, Patran, Sawitan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56511 <br>2. Jam Buka: Senin-Minggu (07.00-21.00) <br>3. Kontak: 0819-5263-3727 / Social Media: kjp_magelang (instagram) <br>4. Layanan: Poli Umum, Poli Gigi, Laboratorium, Laboratorium, USG 2D&4D, Pemeriksaan kehamilan"
             ]
         },
         {
@@ -1175,7 +1175,7 @@
                 "Layanan kesehatan apa saja yang tersedia di Klinik Dhiaulhaq Srowol?"
             ],
             "responses": [
-                "Berikut adalah informasi mengenai Klinik Dhiaulhaq Srowol \n1. Lokasi: Srowol, Jl. Village Progowati, Kanden, Progowati, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512 \n2. Jam Buka: 24 jam \n3. Kontak: 0857-0069-5135 / Social Media: bpmdhiaulhaq__ (instagram) \n4. Layanan: Pemeriksaan kehamilan, Persalinan, Pemeriksaan Kesehatan Ibu dan Anak, Imunisasi Bayi Balita, Konsultasi"
+                "Berikut adalah informasi mengenai Klinik Dhiaulhaq Srowol <br>1. Lokasi: Srowol, Jl. Village Progowati, Kanden, Progowati, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512 <br>2. Jam Buka: 24 jam <br>3. Kontak: 0857-0069-5135 / Social Media: bpmdhiaulhaq__ (instagram) <br>4. Layanan: Pemeriksaan kehamilan, Persalinan, Pemeriksaan Kesehatan Ibu dan Anak, Imunisasi Bayi Balita, Konsultasi"
             ]
         },
         {
@@ -1242,7 +1242,7 @@
                 "Berapa biaya masuk Punthuk Setumbu?"
             ],
             "responses": [
-                "Punthuk Setumbu adalah bukit dengan pemandangan matahari terbit yang spektakuler, menampilkan siluet Candi Borobudur dan Pegunungan Menoreh.\n\n1. Harga Tiket: Rp 20.000\n2. Jam Operasional: 04:00 - 18:00\n3. Lokasi: Kurahan, Karangrejo, Borobudur."
+                "Punthuk Setumbu adalah bukit dengan pemandangan matahari terbit yang spektakuler, menampilkan siluet Candi Borobudur dan Pegunungan Menoreh.<br><br>1. Harga Tiket: Rp 20.000<br>2. Jam Operasional: 04:00 - 18:00<br>3. Lokasi: Kurahan, Karangrejo, Borobudur."
             ]
         },
         {
@@ -1257,7 +1257,7 @@
                 "Apa yang bisa dilihat di Gereja Ayam?"
             ],
             "responses": [
-                "Gereja Ayam adalah bangunan ikonik berbentuk ayam, sering menjadi lokasi foto dan memiliki area observasi dengan pemandangan indah.\n\n1. Harga Tiket: Rp 25.000\n2. Jam Operasional: 07:00 - 17:00\n3. Lokasi: Karangrejo Gombong, Kurahan, Kembanglimus, Kec. Borobudur, Kabupaten Magelang."
+                "Gereja Ayam adalah bangunan ikonik berbentuk ayam, sering menjadi lokasi foto dan memiliki area observasi dengan pemandangan indah.<br><br>1. Harga Tiket: Rp 25.000<br>2. Jam Operasional: 07:00 - 17:00<br>3. Lokasi: Karangrejo Gombong, Kurahan, Kembanglimus, Kec. Borobudur, Kabupaten Magelang."
             ]
         },
         {
@@ -1272,7 +1272,7 @@
                 "Apa saja yang bisa dilihat di Curug Watuploso?"
             ],
             "responses": [
-                "Curug Watuploso adalah sebuah air terjun yang terletak di Olgung, Giripurno, Kec. Borobudur. Tempat ini menawarkan keindahan alam yang alami.\n\n1. Harga Tiket: Rp 10.000\n2. Jam Operasional: 08:00 - 18:00\n3. Lokasi: 956C+R33, Olgung, Giripurno, Kec. Borobudur."
+                "Curug Watuploso adalah sebuah air terjun yang terletak di Olgung, Giripurno, Kec. Borobudur. Tempat ini menawarkan keindahan alam yang alami.<br><br>1. Harga Tiket: Rp 10.000<br>2. Jam Operasional: 08:00 - 18:00<br>3. Lokasi: 956C+R33, Olgung, Giripurno, Kec. Borobudur."
             ]
         },
         {
@@ -1287,7 +1287,7 @@
                 "Apa yang bisa dilihat di Candi Mendut dan Candi Pawon?"
             ],
             "responses": [
-                "Candi Mendut dan Candi Pawon adalah candi-candi bersejarah yang terletak di sekitar Borobudur. Candi Mendut terkenal dengan patung Buddha besar yang ada di dalamnya.\n\n1. Harga Tiket: Rp 10.000 untuk domestik (plus asuransi Rp 500), Rp 20.500 untuk wisatawan mancanegara\n2. Jam Operasional: 07:00 - 16:00\n3. Lokasi: 96V9+GRV, Brojonalan, Dusun 1, Wanurejo, Kec. Borobudur."
+                "Candi Mendut dan Candi Pawon adalah candi-candi bersejarah yang terletak di sekitar Borobudur. Candi Mendut terkenal dengan patung Buddha besar yang ada di dalamnya.<br><br>1. Harga Tiket: Rp 10.000 untuk domestik (plus asuransi Rp 500), Rp 20.500 untuk wisatawan mancanegara<br>2. Jam Operasional: 07:00 - 16:00<br>3. Lokasi: 96V9+GRV, Brojonalan, Dusun 1, Wanurejo, Kec. Borobudur."
             ]
         },
         {
@@ -1302,7 +1302,7 @@
                 "Apa yang bisa dilihat di Museum Kapal Samudra Raksa?"
             ],
             "responses": [
-                "Museum Kapal Samudra Raksa adalah museum yang terletak di kompleks Taman Wisata Candi Borobudur, menampilkan replika kapal dan koleksi terkait sejarah maritim.\n\n1. Harga Tiket: Sepaket dengan tiket masuk Candi Borobudur\n2. Jam Operasional: 08:00 - 15:30\n3. Lokasi: Taman Wisata Candi Borobudur, Jl. Badrawati, Borobudur, Kw. Candi Borobudur."
+                "Museum Kapal Samudra Raksa adalah museum yang terletak di kompleks Taman Wisata Candi Borobudur, menampilkan replika kapal dan koleksi terkait sejarah maritim.<br><br>1. Harga Tiket: Sepaket dengan tiket masuk Candi Borobudur<br>2. Jam Operasional: 08:00 - 15:30<br>3. Lokasi: Taman Wisata Candi Borobudur, Jl. Badrawati, Borobudur, Kw. Candi Borobudur."
             ]
         },
         {
@@ -1318,7 +1318,7 @@
                 "Menu favorit di Rumah Makan Bale Kambang apa?"
             ],
             "responses": [
-                "Rumah Makan Bale Kambang menawarkan tempat makan dengan konsep apung, menyediakan berbagai sajian seperti ikan nila bakar, tumis kangkung, jamur goreng tepung, dan ikan patin rica-rica.\n\n1. Kisaran Harga: Rp 25.000 - Rp 100.000\n2. Jam Operasional: Selasa - Minggu, 08:30 - 17:00\n3. Lokasi: Jl. Raya Borobudur No.Km. 2, 8, Slak, Pabelan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
+                "Rumah Makan Bale Kambang menawarkan tempat makan dengan konsep apung, menyediakan berbagai sajian seperti ikan nila bakar, tumis kangkung, jamur goreng tepung, dan ikan patin rica-rica.<br><br>1. Kisaran Harga: Rp 25.000 - Rp 100.000<br>2. Jam Operasional: Selasa - Minggu, 08:30 - 17:00<br>3. Lokasi: Jl. Raya Borobudur No.Km. 2, 8, Slak, Pabelan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
             ]
         },
         {
@@ -1334,7 +1334,7 @@
                 "Menu andalan Borobudur Silver Resto apa?"
             ],
             "responses": [
-                "Borobudur Silver Resto memiliki desain interior kontemporer Jawa yang tradisional dan elegan dengan berbagai furniture kayu, menyajikan makanan tradisional seperti nasi goreng jawa, magelangan, ayam, seafood, hingga baceman.\n\n1. Kisaran Harga: Rp 5.000 - Rp 30.000\n2. Jam Operasional: Setiap hari, 08:00 - 19:00\n3. Lokasi: Jl. Mayor Kusen No.KM. 2,4, Pabelan Satu, Pabelan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
+                "Borobudur Silver Resto memiliki desain interior kontemporer Jawa yang tradisional dan elegan dengan berbagai furniture kayu, menyajikan makanan tradisional seperti nasi goreng jawa, magelangan, ayam, seafood, hingga baceman.<br><br>1. Kisaran Harga: Rp 5.000 - Rp 30.000<br>2. Jam Operasional: Setiap hari, 08:00 - 19:00<br>3. Lokasi: Jl. Mayor Kusen No.KM. 2,4, Pabelan Satu, Pabelan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
             ]
         },
         {
@@ -1350,7 +1350,7 @@
                 "Makanan khas di Sekar Kedhaton Restaurant apa?"
             ],
             "responses": [
-                "Sekar Kedhaton Restaurant memiliki konsep rumah makan dengan nuansa Kerajaan Mataram Islam, menawarkan makanan khas Nusantara terutama Jawa Tengah seperti nasi goreng, bakmi, ayam goreng, dan ikan masak asam.\n\n1. Kisaran Harga: Rp 30.000 - Rp 100.000\n2. Jam Operasional: Setiap hari, 11:00 - 21:00\n3. Lokasi: Jl. Tegal Gendu No.28, Prenggan, Kec. Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55173"
+                "Sekar Kedhaton Restaurant memiliki konsep rumah makan dengan nuansa Kerajaan Mataram Islam, menawarkan makanan khas Nusantara terutama Jawa Tengah seperti nasi goreng, bakmi, ayam goreng, dan ikan masak asam.<br><br>1. Kisaran Harga: Rp 30.000 - Rp 100.000<br>2. Jam Operasional: Setiap hari, 11:00 - 21:00<br>3. Lokasi: Jl. Tegal Gendu No.28, Prenggan, Kec. Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55173"
             ]
         },
         {
@@ -1366,7 +1366,7 @@
                 "Menu spesial Mangut Beong Asli Borobudur apa?"
             ],
             "responses": [
-                "Mangut Beong Asli Borobudur menyediakan berbagai menu varian mangut, seperti beong, lele, belut, patin, ayam goreng, serta aneka sayur seperti lompong, tahu, tempe, dan krecek.\n\n1. Kisaran Harga: Rp 30.000 - Rp 80.000\n2. Jam Operasional: Setiap hari, 08:00 - 17:00\n3. Lokasi: Kanggan, Jl. Sudirman, Wringinputih, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+                "Mangut Beong Asli Borobudur menyediakan berbagai menu varian mangut, seperti beong, lele, belut, patin, ayam goreng, serta aneka sayur seperti lompong, tahu, tempe, dan krecek.<br><br>1. Kisaran Harga: Rp 30.000 - Rp 80.000<br>2. Jam Operasional: Setiap hari, 08:00 - 17:00<br>3. Lokasi: Kanggan, Jl. Sudirman, Wringinputih, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
             ]
         },
         {
@@ -1382,7 +1382,7 @@
                 "Apa saja masakan tradisional di Stupa Restaurant?"
             ],
             "responses": [
-                "Stupa Restaurant menawarkan masakan tradisional Indonesia seperti sate ayam, gurami goreng, nasi uduk, rawon, ayam bakar taliwang, dan lainnya.\n\n1. Kisaran Harga: Rp 100.000 - Rp 1.000.000\n2. Jam Operasional: Setiap hari, 07:00 - 11:00\n3. Lokasi: Dusun Kretek - adjacent to Plataran Heritage Borobudur Karangrejo, Dusun II, Borobudur, Magelang Regency, Central Java 56553"
+                "Stupa Restaurant menawarkan masakan tradisional Indonesia seperti sate ayam, gurami goreng, nasi uduk, rawon, ayam bakar taliwang, dan lainnya.<br><br>1. Kisaran Harga: Rp 100.000 - Rp 1.000.000<br>2. Jam Operasional: Setiap hari, 07:00 - 11:00<br>3. Lokasi: Dusun Kretek - adjacent to Plataran Heritage Borobudur Karangrejo, Dusun II, Borobudur, Magelang Regency, Central Java 56553"
             ]
         },
         {
@@ -1398,7 +1398,7 @@
                 "Menu tradisional Joglo Panglipuran Borobudur apa saja?"
             ],
             "responses": [
-                "Joglo Panglipuran Borobudur menyajikan menu seperti iwak kali, garang asem ayam kampung, nasi megono, buntil, dan tiwul.\n\n1. Kisaran Harga: Rp 25.000 - Rp 50.000\n2. Jam Operasional: Setiap hari, 09:00 - 17:00\n3. Lokasi: Jl. Sudirman, Dusun 1, Wanurejo, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+                "Joglo Panglipuran Borobudur menyajikan menu seperti iwak kali, garang asem ayam kampung, nasi megono, buntil, dan tiwul.<br><br>1. Kisaran Harga: Rp 25.000 - Rp 50.000<br>2. Jam Operasional: Setiap hari, 09:00 - 17:00<br>3. Lokasi: Jl. Sudirman, Dusun 1, Wanurejo, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
             ]
         },
         {
@@ -1414,7 +1414,7 @@
                 "Apa menu andalan Rumah Makan Sehati Borobudur?"
             ],
             "responses": [
-                "Rumah Makan Sehati Borobudur menawarkan menu mangut Beong super pedas, mangut lele, opor ayam, dan dawet gula Jawa.\n\n1. Kisaran Harga: Rp 25.000 - Rp 50.000\n2. Jam Operasional: Setiap hari, 08:00 - 16:00\n3. Lokasi: Bumen, RT.01/RW.06, Bumen, Kembanglimus, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+                "Rumah Makan Sehati Borobudur menawarkan menu mangut Beong super pedas, mangut lele, opor ayam, dan dawet gula Jawa.<br><br>1. Kisaran Harga: Rp 25.000 - Rp 50.000<br>2. Jam Operasional: Setiap hari, 08:00 - 16:00<br>3. Lokasi: Bumen, RT.01/RW.06, Bumen, Kembanglimus, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
             ]
         },
         {
@@ -1430,7 +1430,7 @@
                 "Menu spesial di Kedai Bukit Rhema apa saja?"
             ],
             "responses": [
-                "Kedai Bukit Rhema terkenal dengan pemandangan indah dan menyajikan menu seperti bakmi magelangan, risol mayo, serabi, spageti, kunyit asam, dan temulawak.\n\n1. Kisaran Harga: Rp 25.000 - Rp 50.000\n2. Jam Operasional: Setiap hari, 06:00 - 18:00\n3. Lokasi: Kurahan, Karangrejo, Borobudur, Magelang Regency, Central Java 56553"
+                "Kedai Bukit Rhema terkenal dengan pemandangan indah dan menyajikan menu seperti bakmi magelangan, risol mayo, serabi, spageti, kunyit asam, dan temulawak.<br><br>1. Kisaran Harga: Rp 25.000 - Rp 50.000<br>2. Jam Operasional: Setiap hari, 06:00 - 18:00<br>3. Lokasi: Kurahan, Karangrejo, Borobudur, Magelang Regency, Central Java 56553"
             ]
         },
         {
@@ -1446,7 +1446,7 @@
                 "Menu unik di Rumah Ketela apa saja?"
             ],
             "responses": [
-                "Rumah Ketela menyajikan berbagai olahan singkong seperti tiwul, gethuk bakar, stik singkong, dan makanan berat seperti ayam geprek, nasi goreng kambing, dan mie aceh.\n\n1. Kisaran Harga: Rp 25.000 - Rp 50.000\n2. Jam Operasional: Setiap hari, 07:00 - 16:00\n3. Lokasi: Jl. Badrawati Dusun Ngaran II, RT.01/RW.06, Dusun XIX, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+                "Rumah Ketela menyajikan berbagai olahan singkong seperti tiwul, gethuk bakar, stik singkong, dan makanan berat seperti ayam geprek, nasi goreng kambing, dan mie aceh.<br><br>1. Kisaran Harga: Rp 25.000 - Rp 50.000<br>2. Jam Operasional: Setiap hari, 07:00 - 16:00<br>3. Lokasi: Jl. Badrawati Dusun Ngaran II, RT.01/RW.06, Dusun XIX, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
             ]
         },
         {
@@ -1462,7 +1462,7 @@
                 "Menu favorit di Warung Kopi Badhek apa?"
             ],
             "responses": [
-                "Warung Kopi Badhek Borobudur menawarkan konsep warung kopi desa dengan suasana Jawa yang santai di pinggir persawahan.\n\n1. Kisaran Harga: Rp 1.000 - Rp 10.000\n2. Jam Operasional: Setiap hari, 08:00 - 21:00\n3. Lokasi: Dusun Sabrangrowo, RT.01/RW.16, Dusun XXII, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+                "Warung Kopi Badhek Borobudur menawarkan konsep warung kopi desa dengan suasana Jawa yang santai di pinggir persawahan.<br><br>1. Kisaran Harga: Rp 1.000 - Rp 10.000<br>2. Jam Operasional: Setiap hari, 08:00 - 21:00<br>3. Lokasi: Dusun Sabrangrowo, RT.01/RW.16, Dusun XXII, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
             ]
         },
         {
@@ -1478,7 +1478,7 @@
                 "Apa menu andalan Amanjiwo Restaurant?"
             ],
             "responses": [
-                "The Restaurant & Bar at Amanjiwo menyajikan berbagai makanan Indonesia, Asia, dan Western seperti nasi goreng, ayam laksa, gulai kambing, rawon, dan pizza.\n\n1. Kisaran Harga: Rp 80.000 - Rp 300.000\n2. Jam Operasional: Setiap hari, 06:30 - 23:00\n3. Lokasi: Sawah, Majaksingi, Borobudur, Magelang Regency, Central Java 56553"
+                "The Restaurant & Bar at Amanjiwo menyajikan berbagai makanan Indonesia, Asia, dan Western seperti nasi goreng, ayam laksa, gulai kambing, rawon, dan pizza.<br><br>1. Kisaran Harga: Rp 80.000 - Rp 300.000<br>2. Jam Operasional: Setiap hari, 06:30 - 23:00<br>3. Lokasi: Sawah, Majaksingi, Borobudur, Magelang Regency, Central Java 56553"
             ]
         },
         {
@@ -1494,7 +1494,7 @@
                 "Apa menu spesial di Omah Kayoman?"
             ],
             "responses": [
-                "Omah Kayoman menyajikan hidangan ikan air tawar dari Sungai Progo, seperti ikan wader, lele, nila, patin, dan ikan beong.\n\n1. Kisaran Harga: Rp 25.000 - Rp 50.000\n2. Jam Operasional: Setiap hari, 09:00 - 16:00\n3. Lokasi: Jl. Village Pogowati, Progowati, Mungkid, Kanden, Progowati, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
+                "Omah Kayoman menyajikan hidangan ikan air tawar dari Sungai Progo, seperti ikan wader, lele, nila, patin, dan ikan beong.<br><br>1. Kisaran Harga: Rp 25.000 - Rp 50.000<br>2. Jam Operasional: Setiap hari, 09:00 - 16:00<br>3. Lokasi: Jl. Village Pogowati, Progowati, Mungkid, Kanden, Progowati, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
             ]
         },
         {
@@ -1510,7 +1510,7 @@
                 "Apa menu andalan Benoa Borobudur Resto?"
             ],
             "responses": [
-                "Benoa Borobudur Resto and Gallery menawarkan masakan Indonesia dan Western seperti nasi goreng seafood, ayam lada hitam, spageti, dan chicken katsu.\n\n1. Kisaran Harga: Rp 50.000 - Rp 75.000\n2. Jam Operasional: Setiap hari, 11:00 - 21:00\n3. Lokasi: Jl. Balaputradewa No.57 B, Dusun XVI, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+                "Benoa Borobudur Resto and Gallery menawarkan masakan Indonesia dan Western seperti nasi goreng seafood, ayam lada hitam, spageti, dan chicken katsu.<br><br>1. Kisaran Harga: Rp 50.000 - Rp 75.000<br>2. Jam Operasional: Setiap hari, 11:00 - 21:00<br>3. Lokasi: Jl. Balaputradewa No.57 B, Dusun XVI, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
             ]
         },
         {
@@ -1526,7 +1526,7 @@
                 "Apa menu andalan Menoreh Restaurant?"
             ],
             "responses": [
-                "Menoreh Restaurant memiliki arsitektur kolonial yang dipadukan dengan nuansa Jawa, menawarkan berbagai macam menu dengan cita rasa khas masakan Asia, dengan aneka dimsum sebagai salah satu menu unggulannya.\n\n1. Kisaran Harga: Rp 175.000 - Rp 200.000\n2. Jam Operasional: Setiap hari, 07:00 - 23:00\n3. Lokasi: Dusun Kretek, Karangrejo, Dusun II, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+                "Menoreh Restaurant memiliki arsitektur kolonial yang dipadukan dengan nuansa Jawa, menawarkan berbagai macam menu dengan cita rasa khas masakan Asia, dengan aneka dimsum sebagai salah satu menu unggulannya.<br><br>1. Kisaran Harga: Rp 175.000 - Rp 200.000<br>2. Jam Operasional: Setiap hari, 07:00 - 23:00<br>3. Lokasi: Dusun Kretek, Karangrejo, Dusun II, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
             ]
         },
         {
@@ -1542,7 +1542,7 @@
                 "Apa menu spesial Dapoer Gending Borobudur?"
             ],
             "responses": [
-                "Dapoer Gending Borobudur menyajikan beragam menu seperti nasi penyet, ayam geprek, nasi goreng seafood, mie godok, dan lainnya.\n\n1. Kisaran Harga: Rp 16.000 - Rp 40.000\n2. Jam Operasional: Setiap hari, 10:00 - 21:00\n3. Lokasi: Jl. Pramudyawardhani No.19, Dusun XV, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+                "Dapoer Gending Borobudur menyajikan beragam menu seperti nasi penyet, ayam geprek, nasi goreng seafood, mie godok, dan lainnya.<br><br>1. Kisaran Harga: Rp 16.000 - Rp 40.000<br>2. Jam Operasional: Setiap hari, 10:00 - 21:00<br>3. Lokasi: Jl. Pramudyawardhani No.19, Dusun XV, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
             ]
         },
         {
@@ -1558,7 +1558,7 @@
                 "Apa menu spesial di Saung Makan Bu Empat?"
             ],
             "responses": [
-                "Saung Makan Bu Empat merupakan rumah makan dengan spesialis hidangan udang galah dan ikan, tersedia juga hidangan lain seperti tahu goreng, tempe goreng, sayur asem, ayam bakar, dan sup gurame.\n\n1. Kisaran Harga: Rp 9.000 - Rp 80.000\n2. Jam Operasional: Setiap hari, 08:00 - 21:00\n3. Lokasi: Jl. Raya Borobudur No.4, Ngrajek II, Ngrajek, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
+                "Saung Makan Bu Empat merupakan rumah makan dengan spesialis hidangan udang galah dan ikan, tersedia juga hidangan lain seperti tahu goreng, tempe goreng, sayur asem, ayam bakar, dan sup gurame.<br><br>1. Kisaran Harga: Rp 9.000 - Rp 80.000<br>2. Jam Operasional: Setiap hari, 08:00 - 21:00<br>3. Lokasi: Jl. Raya Borobudur No.4, Ngrajek II, Ngrajek, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
             ]
         },
         {
@@ -1569,7 +1569,7 @@
                 "Siapa saja dalam struktur TP PKK Desa Borobudur?"
             ],
             "responses": [
-                "Struktur TP PKK Desa Borobudur lengkap adalah sebagai berikut:\n\n**Ketua**: Ismi Prastikawati, A.MK\n**Wakil Ketua I**: Dwi Anggar Kaswati\n**Sekretaris**: Lucia Hari Sucahyowati\n**Wakil Sekretaris I**: Dianovita Paramita Wardani, S.Gz\n**Wakil Sekretaris II**: Siska Wahyanti\n**Bendahara**: Sri Hendratik\n**Wakil Bendahara I**: Munawaroh\n**Wakil Bendahara II**: Ratih Ambarsari\n\nPokja I hingga Pokja IV mencakup ketua, sekretaris, bendahara, dan anggota."
+                "Struktur TP PKK Desa Borobudur lengkap adalah sebagai berikut:<br><br>**Ketua**: Ismi Prastikawati, A.MK<br>**Wakil Ketua I**: Dwi Anggar Kaswati<br>**Sekretaris**: Lucia Hari Sucahyowati<br>**Wakil Sekretaris I**: Dianovita Paramita Wardani, S.Gz<br>**Wakil Sekretaris II**: Siska Wahyanti<br>**Bendahara**: Sri Hendratik<br>**Wakil Bendahara I**: Munawaroh<br>**Wakil Bendahara II**: Ratih Ambarsari<br><br>Pokja I hingga Pokja IV mencakup ketua, sekretaris, bendahara, dan anggota."
             ]
         },
         {
@@ -2097,7 +2097,7 @@
                 "Apa saja nama anggota TP PKK Desa Borobudur?"
             ],
             "responses": [
-                "Berikut adalah daftar anggota TP PKK Desa Borobudur:\n\n1. Ismi Prastikawati, A.MK (Ketua)\n2. Dwi Anggar Kaswati (Wakil Ketua I)\n3. Lucia Hari Sucahyowati (Sekretaris)\n4. Dianovita Paramita Wardani, S.Gz (Wakil Sekretaris I)\n5. Siska Wahyanti (Wakil Sekretaris II)\n6. Sri Hendratik (Bendahara)\n7. Munawaroh (Wakil Bendahara I)\n8. Ratih Ambarsari (Wakil Bendahara II)\n9. Seluruh anggota dari Pokja I hingga Pokja IV."
+                "Berikut adalah daftar anggota TP PKK Desa Borobudur:<br><br>1. Ismi Prastikawati, A.MK (Ketua)<br>2. Dwi Anggar Kaswati (Wakil Ketua I)<br>3. Lucia Hari Sucahyowati (Sekretaris)<br>4. Dianovita Paramita Wardani, S.Gz (Wakil Sekretaris I)<br>5. Siska Wahyanti (Wakil Sekretaris II)<br>6. Sri Hendratik (Bendahara)<br>7. Munawaroh (Wakil Bendahara I)<br>8. Ratih Ambarsari (Wakil Bendahara II)<br>9. Seluruh anggota dari Pokja I hingga Pokja IV."
             ]
         },
         {
@@ -2108,7 +2108,7 @@
                 "Apa saja nama perangkat desa di Desa Borobudur?"
             ],
             "responses": [
-                "Berikut adalah daftar perangkat desa di Desa Borobudur:\n\n1. **Kepala Desa**: Anwar Ujang Maryadi Lukman, S.E.\n2. **Sekretaris Desa**: Ichsanusi\n3. **Kepala Seksi Pemerintahan**: Elgus Kelanawati\n4. **Kepala Seksi Pelayanan**: Budiman A\n5. **Kepala Seksi Kesejahteraan Rakyat**: Evinda Riyandani\n6. **Kepala Urusan Keuangan**: Dianovita Paramita Wardani\n7. **Kepala Urusan Tata Usaha dan Umum**: Muh Agung Wibowo Aji\n8. **Kepala Urusan Perencanaan**: Andik Cahyono\n\n**Kepala Dusun:**\n- Jayan dan Kaliabon: Sutarja\n- Jligudan dan Kelon: Romadi\n- Kurahan dan Cawangsari: Ferriyanto\n- Janan: Maryoto\n- Ngaran I dan Ngaran II: Rujianto\n- Gopalan dan Bumisegoro: Nurul Yadin\n- Maitan, Tamanan dan Tanjungan: Heri Agus Setiawan\n- Sabrangrowo, Kujon dan Gejagan: Mugiman\n- Gendingan dan Bogowanti Kidul: Matori\n- Bogowanti Lor dan Kenayan: Sutaryanto"
+                "Berikut adalah daftar perangkat desa di Desa Borobudur:<br><br>1. **Kepala Desa**: Anwar Ujang Maryadi Lukman, S.E.<br>2. **Sekretaris Desa**: Ichsanusi<br>3. **Kepala Seksi Pemerintahan**: Elgus Kelanawati<br>4. **Kepala Seksi Pelayanan**: Budiman A<br>5. **Kepala Seksi Kesejahteraan Rakyat**: Evinda Riyandani<br>6. **Kepala Urusan Keuangan**: Dianovita Paramita Wardani<br>7. **Kepala Urusan Tata Usaha dan Umum**: Muh Agung Wibowo Aji<br>8. **Kepala Urusan Perencanaan**: Andik Cahyono<br><br>**Kepala Dusun:**<br>- Jayan dan Kaliabon: Sutarja<br>- Jligudan dan Kelon: Romadi<br>- Kurahan dan Cawangsari: Ferriyanto<br>- Janan: Maryoto<br>- Ngaran I dan Ngaran II: Rujianto<br>- Gopalan dan Bumisegoro: Nurul Yadin<br>- Maitan, Tamanan dan Tanjungan: Heri Agus Setiawan<br>- Sabrangrowo, Kujon dan Gejagan: Mugiman<br>- Gendingan dan Bogowanti Kidul: Matori<br>- Bogowanti Lor dan Kenayan: Sutaryanto"
             ]
         },
         {
@@ -2120,7 +2120,7 @@
                 "Siapa saja yang tergabung dalam pengurus BPD Desa Borobudur?"
             ],
             "responses": [
-                "Berikut adalah daftar pengurus BPD Desa Borobudur:\n\n1. Ketua: Darsono, S.T.\n2. Wakil Ketua: Jazin Riyono\n3. Sekretaris: Itamawanti\n4. Anggota:\n   - Slamet Munir\n   - Muhamad Mukorobin\n   - Suripto\n   - Makmun\n   - Sumartono\n   - Dimas Septiyuga Nusantara."
+                "Berikut adalah daftar pengurus BPD Desa Borobudur:<br><br>1. Ketua: Darsono, S.T.<br>2. Wakil Ketua: Jazin Riyono<br>3. Sekretaris: Itamawanti<br>4. Anggota:<br>   - Slamet Munir<br>   - Muhamad Mukorobin<br>   - Suripto<br>   - Makmun<br>   - Sumartono<br>   - Dimas Septiyuga Nusantara."
             ]
         },
         {
@@ -2146,7 +2146,7 @@
               "Apakah ada hotel di sekitar desa Borobudur?"
             ],
             "responses": [
-              "Berikut adalah beberapa rekomendasi hotel: \n1. Hotel Khanaya Borobudur \n2. Hotel Sankara Borobudur \n3. Hotel Cempaka Villa Borobudur \n4. Hotel Anugrah Borobudur \n5. Hotel Wahid Borobudur \n6. Hotel Amrta Borobudur \n7. Hotel Sarasvati Borobudur \n8. Hotel Gopalan Borobudur \n9. Hotel Manohara Borobudur \n10. Hotel Plataran Heritage Borobudur"
+              "Berikut adalah beberapa rekomendasi hotel: <br>1. Hotel Khanaya Borobudur <br>2. Hotel Sankara Borobudur <br>3. Hotel Cempaka Villa Borobudur <br>4. Hotel Anugrah Borobudur <br>5. Hotel Wahid Borobudur <br>6. Hotel Amrta Borobudur <br>7. Hotel Sarasvati Borobudur <br>8. Hotel Gopalan Borobudur <br>9. Hotel Manohara Borobudur <br>10. Hotel Plataran Heritage Borobudur"
             ]
           },
           {
@@ -2159,7 +2159,7 @@
               "Apakah ada Rumah Sakit yang dekat dari desa Borobudur?"
             ],
             "responses": [
-              "Berikut adalah beberapa fasilitas kesehatan: \n1. Puskesmas Borobudur \n2. Rumah Sakit: Rumah Sakit N-21 Gemilang, RSUD Merah Putih Kabupaten Magelang, RS Aisyiyah Muntilan \n3. Klinik: Klinik Griya Medika 2 Borobudur, Klinik KJP Magelang, Klinik Dhiaulhaq Srowol \n4. Apotek: Apotek Candi Husada, Apotek Citra Farma, Apotek Syailendra Farma, Apotek Kurnia As-Syifa, Apotek Sawitan, Apotek Jaya Farma"
+              "Berikut adalah beberapa fasilitas kesehatan: <br>1. Puskesmas Borobudur <br>2. Rumah Sakit: Rumah Sakit N-21 Gemilang, RSUD Merah Putih Kabupaten Magelang, RS Aisyiyah Muntilan <br>3. Klinik: Klinik Griya Medika 2 Borobudur, Klinik KJP Magelang, Klinik Dhiaulhaq Srowol <br>4. Apotek: Apotek Candi Husada, Apotek Citra Farma, Apotek Syailendra Farma, Apotek Kurnia As-Syifa, Apotek Sawitan, Apotek Jaya Farma"
             ]
           },
           {
@@ -2174,7 +2174,7 @@
               "ada transportasi apa saja yang disediakan di Desa Borobudur"
             ],
             "responses": [
-              "Berikut adalah beberapa Layanan Transportasi: \n1. Terminal Borobudur \n2. Stasiun Magelang \n3. Agen Bus Satono \n4. Becak Dokar Borobudur"
+              "Berikut adalah beberapa Layanan Transportasi: <br>1. Terminal Borobudur <br>2. Stasiun Magelang <br>3. Agen Bus Satono <br>4. Becak Dokar Borobudur"
             ]
           },
           {
@@ -2187,7 +2187,7 @@
               "Apakah ada aktivitas menarik yang bisa dilakukan di sekitar desa Borobudur?"
             ],
             "responses": [
-              "Berikut beberapa tempat wisata rekomendasi: \n1. Punthuk Setumbu \n2. Gereja Ayam \n3. Curug Watuploso \n4. Candi Mendut Pawon \n5. Museum Kapal Samudra  Raksa"
+              "Berikut beberapa tempat wisata rekomendasi: <br>1. Punthuk Setumbu <br>2. Gereja Ayam <br>3. Curug Watuploso <br>4. Candi Mendut Pawon <br>5. Museum Kapal Samudra  Raksa"
             ]
           },
           {
@@ -2210,7 +2210,7 @@
               "wisata kuliner di desa borobudur"
             ],
             "responses": [
-              "Berikut adalah rekomendasi kuliner: \n1. Rumah Makan Bale Kambang \n2. Borobudur Silver Resto \n3. Sekar Kedhaton Restaurant \n4. Mangut Beong Asli Borobudur \n5. Stupa Restaurant \n6. Joglo Panglipuran Borobudur \n7. Rumah Makan Sehati Borobudur Spesial Ndas Beong \n8. Kedai Bukit Rhema \n9. Rumah Ketela \n10. Warung Kopi Bandhek \n11. Amanjiwo Restaurant \n12. Omah Kanyoman \n13. Benoa Borobudur Resto \n14. Manoreh Restaurant \n15. Saung Makan Bu Empat \n16. Dapoer Gending Borobudur"
+              "Berikut adalah rekomendasi kuliner: <br>1. Rumah Makan Bale Kambang <br>2. Borobudur Silver Resto <br>3. Sekar Kedhaton Restaurant <br>4. Mangut Beong Asli Borobudur <br>5. Stupa Restaurant <br>6. Joglo Panglipuran Borobudur <br>7. Rumah Makan Sehati Borobudur Spesial Ndas Beong <br>8. Kedai Bukit Rhema <br>9. Rumah Ketela <br>10. Warung Kopi Bandhek <br>11. Amanjiwo Restaurant <br>12. Omah Kanyoman <br>13. Benoa Borobudur Resto <br>14. Manoreh Restaurant <br>15. Saung Makan Bu Empat <br>16. Dapoer Gending Borobudur"
             ]
           },
           {
@@ -2738,7 +2738,7 @@
                 "Desa Borobudur memiliki agama apa saja?"
             ],
             "responses": [
-                "Agama-agama yang ada di Desa Borobudur adalah:\n1. Islam\n2. Kristen\n3. Katolik\n4. Buddha\n5. Hindu\n6. Konghucu\n7. Lainnya"
+                "Agama-agama yang ada di Desa Borobudur adalah:<br>1. Islam<br>2. Kristen<br>3. Katolik<br>4. Buddha<br>5. Hindu<br>6. Konghucu<br>7. Lainnya"
             ]
         },
         {
