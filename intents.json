@@ -1,0 +1,2781 @@
+{
+    "intents": [
+        {
+            "tag": "basic_greeting_hello",
+            "patterns": [
+                "Halo",
+                "Hai",
+                "Selamat pagi",
+                "Selamat siang",
+                "Selamat malam",
+                "Apa kabar?"
+            ],
+            "responses": [
+                "Halo! Ada yang bisa saya bantu?",
+                "Hai! Selamat datang, bagaimana saya bisa membantu Anda?",
+                "Selamat pagi! Ada yang bisa saya bantu hari ini?",
+                "Selamat malam! Apa yang bisa saya bantu?"
+            ]
+        },
+        {
+            "tag": "basic_goodbye_bye",
+            "patterns": [
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "Dadah",
+                "Terima kasih, sampai bertemu lagi",
+                "See you"
+            ],
+            "responses": [
+                "Selamat tinggal! Semoga hari Anda menyenankan!",
+                "Sampai jumpa! Jangan ragu untuk kembali jika butuh bantuan.",
+                "Terima kasih! Sampai bertemu lagi.",
+                "See you soon! Semoga harimu menyenankan."
+            ]
+        },
+        {
+            "tag": "basic_thanks_thank_you",
+            "patterns": [
+                "Terima kasih",
+                "Makasih",
+                "Terima kasih banyak",
+                "Thanks",
+                "Thank you"
+            ],
+            "responses": [
+                "Sama-sama! Senang bisa membantu.",
+                "Terima kasih kembali! Semoga hari Anda menyenankan.",
+                "Tidak masalah! Jika ada pertanyaan lagi, saya siap membantu.",
+                "Terima kasih! Jangan ragu untuk bertanya lagi."
+            ]
+        },
+        {
+            "tag": "basic_apology_sorry",
+            "patterns": [
+                "Maaf",
+                "Saya minta maaf",
+                "Maafkan saya",
+                "Sorry"
+            ],
+            "responses": [
+                "Tidak apa-apa! Ada yang bisa saya bantu?",
+                "Tidak masalah, saya di sini untuk membantu.",
+                "Maafkan saya juga, apakah ada yang bisa saya bantu?"
+            ]
+        },
+        {
+            "tag": "basic_help_need_help",
+            "patterns": [
+                "Saya butuh bantuan",
+                "Tolong bantu saya",
+                "Ada yang bisa membantu saya?",
+                "Saya memerlukan bantuan"
+            ],
+            "responses": [
+                "Tentu! Apa yang bisa saya bantu?",
+                "Tentu, apa yang Anda perlukan bantuan?",
+                "Saya siap membantu. Apa yang bisa saya lakukan?"
+            ]
+        },
+        {
+            "tag": "basic_clarification_confused",
+            "patterns": [
+                "Bisa jelaskan lebih jelas?",
+                "Apa maksudnya?",
+                "Bisa ulangi?"
+            ],
+            "responses": [
+                "Tentu! Saya akan coba jelaskan lagi dengan lebih jelas.",
+                "Maaf jika penjelasan saya kurang jelas. Izinkan saya untuk mengulangnya.",
+                "Tentu! Saya akan memberikan penjelasan yang lebih lengkap."
+            ]
+        },
+        {
+            "tag": "introduce_chatbot_identity",
+            "patterns": [
+                "Siapa kamu?",
+                "Kamu ini siapa?",
+                "Apa kamu chatbot?",
+                "Ceritakan tentang dirimu",
+                "Kamu dibuat oleh siapa?",
+                "Siapa yang membuatmu?"
+            ],
+            "responses": [
+                "Saya adalah chatbot yang dibuat oleh Telkom University khusus untuk memberikan informasi seputar Desa Borobudur."
+            ]
+        },
+        {
+            "tag": "introduce_chatbot_creation",
+            "patterns": [
+                "Kapan kamu dibuat?",
+                "Tahun berapa kamu dibuat?",
+                "Chatbot ini dibuat kapan?",
+                "Apa tahun pembuatan chatbot ini?"
+            ],
+            "responses": [
+                "Saya dibuat pada tahun 2024 oleh mahasiswa Telkom University."
+            ]
+        },
+        {
+            "tag": "introduce_chatbot_capabilities",
+            "patterns": [
+                "Apa yang bisa kamu lakukan?",
+                "Kamu bisa membantu apa saja?",
+                "Apa fungsi kamu?",
+                "Apa saja informasi yang bisa kamu berikan?",
+                "Bantuan apa yang bisa saya dapatkan dari kamu?"
+            ],
+            "responses": [
+                "Saya bisa membantu Anda dengan berbagai informasi seputar Desa Borobudur, termasuk:\n1. Informasi umum tentang Desa Borobudur\n2. Kuliner lokal\n3. Hotel dan penginapan\n4. Tempat wisata\n5. Layanan masyarakat\n6. Transportasi\n7. Data umum penduduk\n8. Informasi pengurus desa"
+            ]
+        },
+        {
+            "tag": "canbo_Sejarah_Borobudur",
+            "patterns": [
+                "Apa sejarah Candi Borobudur?",
+                "Siapa yang membangun Candi Borobudur?",
+                "Ceritakan tentang asal-usul Borobudur.",
+                "Bagaimana sejarah pembangunan Borobudur?",
+                "Kapan dan oleh siapa Borobudur dibangun?",
+                "Sejak kapan Borobudur ada?",
+                "Apa yang melatarbelakangi pembangunan Borobudur?",
+                "Ceritakan sejarah singkat Candi Borobudur."
+            ],
+            "responses": [
+                "Borobudur dibangun pada abad ke-8 hingga ke-9 oleh Dinasti Syailendra. Nama 'Borobudur' berasal dari 'Biara Budur' yang berarti 'candi di atas bukit'. Pada abad ke-14, candi ini ditinggalkan karena pengaruh Islam yang semakin kuat. Borobudur ditemukan kembali pada tahun 1814 oleh Sir Thomas Stamford Raffles."
+            ]
+        },
+        {
+            "tag": "canbo_Arsitektur_Borobudur",
+            "patterns": [
+                "Bagaimana bentuk arsitektur Borobudur?",
+                "Apa yang unik dari desain Borobudur?",
+                "Ceritakan tentang struktur arsitektur Borobudur.",
+                "Bagaimana Borobudur mencerminkan konsep Mandala?",
+                "Jelaskan struktur candi Borobudur secara detail.",
+                "Apa saja bagian utama dari arsitektur Borobudur?",
+                "Apa yang membuat arsitektur Borobudur berbeda?"
+            ],
+            "responses": [
+                "Borobudur memiliki tiga bagian utama: dasar, tubuh, dan puncak, \n1. yang melambangkan dunia keinginan (Kamadhatu) \n2. dunia bentuk (Rupadhatu) \n3. dunia tanpa bentuk (Arupadhatu)\n\n Candi ini berbentuk stupa raksasa dengan pola Mandala dan berisi lebih dari 2.672 panel relief dan 504 arca Buddha."
+            ]
+        },
+        {
+            "tag": "canbo_Fungsi_Religius_Borobudur",
+            "patterns": [
+                "Apa fungsi utama Borobudur?",
+                "Kenapa Borobudur penting untuk umat Buddha?",
+                "Apa tujuan religius dari Candi Borobudur?",
+                "Bagaimana Borobudur digunakan saat perayaan Waisak?",
+                "Apa peran Borobudur dalam kehidupan religius umat Buddha?",
+                "Ceritakan kegiatan religius yang dilakukan di Borobudur.",
+                "Bagaimana Borobudur membantu ziarah spiritual?"
+            ],
+            "responses": [
+                "Borobudur digunakan sebagai tempat ziarah religius dan perayaan Waisak oleh umat Buddha. Kegiatan meliputi meditasi, prosesi lilin, dan pemanjatan doa di area candi yang melambangkan perjalanan menuju pencerahan spiritual."
+            ]
+        },
+        {
+            "tag": "canbo_Pemugaran_Borobudur",
+            "patterns": [
+                "Kapan Borobudur mengalami pemugaran besar-besaran?",
+                "Bagaimana proses pemugaran Borobudur dilakukan?",
+                "Apa tantangan utama dalam konservasi Borobudur?",
+                "Siapa yang memimpin proyek pemugaran Borobudur?",
+                "Ceritakan tentang restorasi Candi Borobudur.",
+                "Bagaimana UNESCO membantu pemugaran Borobudur?",
+                "Apa langkah-langkah untuk melindungi Borobudur?"
+            ],
+            "responses": [
+                "Pemugaran besar dilakukan pada tahun 1973 hingga 1984 dengan dukungan UNESCO. Restorasi melibatkan pembongkaran dan perakitan ulang struktur candi, pemasangan sistem drainase, dan pengamanan dari kerusakan lingkungan."
+            ]
+        },
+        {
+            "tag": "canbo_Wisata_dan_Akses_Borobudur",
+            "patterns": [
+                "Bagaimana cara terbaik mengunjungi Borobudur?",
+                "Apa saja fasilitas yang tersedia di Borobudur?",
+                "Berapa biaya tiket masuk Borobudur?",
+                "Apa waktu yang tepat untuk berkunjung ke Borobudur?",
+                "Apa yang bisa dilihat di sekitar Borobudur?",
+                "Ceritakan tentang pengalaman wisata di Borobudur.",
+                "Apa rute perjalanan menuju Borobudur?"
+            ],
+            "responses": [
+                "Candi Borobudur dapat diakses dari Yogyakarta dalam waktu sekitar 1 jam perjalanan. Tiket masuk untuk wisatawan lokal sekitar IDR 50,000, dan waktu terbaik untuk kunjungan adalah pagi hari saat matahari terbit. Terdapat fasilitas seperti pusat informasi, restoran, dan toko suvenir."
+            ]
+        },
+        {
+            "tag": "canbo_Festival_dan_Acara_Borobudur",
+            "patterns": [
+                "Apa saja acara tahunan di Borobudur?",
+                "Kapan Festival Waisak diadakan di Borobudur?",
+                "Apa itu Festival Borobudur?",
+                "Acara apa yang sering diadakan di Borobudur?",
+                "Ceritakan tentang perayaan Waisak di Borobudur.",
+                "Apa yang menarik dari acara di Borobudur?",
+                "Bagaimana perayaan di Borobudur diadakan?"
+            ],
+            "responses": [
+                "Festival Waisak adalah acara tahunan terbesar di Borobudur yang dirayakan oleh umat Buddha dari seluruh dunia. Selain itu, Festival Borobudur menampilkan seni budaya, tari-tarian tradisional, dan pameran kerajinan lokal."
+            ]
+        },
+        {
+            "tag": "canbo_Mitologi_Borobudur",
+            "patterns": [
+                "Apa mitos yang terkait dengan Borobudur?",
+                "Apakah ada cerita mistis tentang Borobudur?",
+                "Ceritakan legenda yang terkait dengan Borobudur.",
+                "Apa misteri di balik pembangunan Borobudur?",
+                "Apakah ada energi spiritual di Borobudur?",
+                "Apa saja cerita rakyat tentang Borobudur?",
+                "Mengapa Borobudur sering dikaitkan dengan hal mistis?"
+            ],
+            "responses": [
+                "Borobudur dikaitkan dengan berbagai mitos, termasuk legenda tentang raksasa yang membantu membangun candi ini dalam semalam. Ada juga kepercayaan bahwa candi ini menyimpan energi spiritual yang kuat."
+            ]
+        },
+        {
+            "tag": "canbo_Cagar_Budaya_UNESCO",
+            "patterns": [
+                "Apa status Borobudur sebagai cagar budaya dunia?",
+                "Kapan Borobudur menjadi situs warisan dunia?",
+                "Mengapa Borobudur diakui sebagai warisan dunia?",
+                "Apa peran UNESCO dalam pelestarian Borobudur?",
+                "Bagaimana Borobudur menjadi warisan budaya internasional?",
+                "Kenapa Borobudur dianggap sebagai cagar budaya yang penting?",
+                "Ceritakan tentang status Borobudur di UNESCO."
+            ],
+            "responses": [
+                "Candi Borobudur ditetapkan sebagai Situs Warisan Dunia UNESCO pada tahun 1991 karena nilai sejarah, arsitektur, dan budaya yang luar biasa. Borobudur dianggap sebagai monumen Buddha terbesar di dunia."
+            ]
+        },
+        {
+            "tag": "canbo_Dasar_Borobudur",
+            "patterns": [
+                "Apa bagian dasar Borobudur?",
+                "Ceritakan tentang struktur dasar Borobudur.",
+                "Bagaimana desain bagian dasar Borobudur?",
+                "Apa fungsi dasar Borobudur dalam arsitekturnya?",
+                "Bagaimana dasar Borobudur melambangkan Kamadhatu?",
+                "Apa yang bisa ditemukan di bagian dasar Borobudur?",
+                "Bagaimana struktur dasar mendukung bangunan Borobudur?"
+            ],
+            "responses": [
+                "Bagian dasar Borobudur disebut Kamadhatu, melambangkan dunia keinginan. Pada bagian ini terdapat relief Karmawibhangga yang menggambarkan sebab akibat dari perbuatan manusia."
+            ]
+        },
+        {
+            "tag": "canbo_Tubuh_Borobudur",
+            "patterns": [
+                "Apa bagian tubuh Borobudur?",
+                "Ceritakan tentang struktur tubuh Borobudur.",
+                "Bagaimana desain bagian tubuh Borobudur?",
+                "Apa fungsi tubuh Borobudur dalam arsitekturnya?",
+                "Bagaimana tubuh Borobudur melambangkan Rupadhatu?",
+                "Apa yang ada di bagian tubuh Borobudur?",
+                "Bagaimana relief pada tubuh Borobudur dibuat?"
+            ],
+            "responses": [
+                "Tubuh Borobudur disebut Rupadhatu, melambangkan dunia bentuk. Terdiri dari empat tingkat berteras dengan dinding berhiaskan relief yang menggambarkan kehidupan Buddha."
+            ]
+        },
+        {
+            "tag": "canbo_Puncak_Borobudur",
+            "patterns": [
+                "Apa bagian puncak Borobudur?",
+                "Ceritakan tentang struktur puncak Borobudur.",
+                "Bagaimana desain bagian puncak Borobudur?",
+                "Apa fungsi puncak Borobudur dalam arsitekturnya?",
+                "Bagaimana puncak Borobudur melambangkan Arupadhatu?",
+                "Apa yang ada di bagian puncak Borobudur?",
+                "Apa makna simbolis dari stupa utama di Borobudur?"
+            ],
+            "responses": [
+                "Puncak Borobudur disebut Arupadhatu, melambangkan dunia tanpa bentuk. Pada bagian ini terdapat stupa utama yang besar sebagai simbol pencerahan sempurna."
+            ]
+        },
+        {
+            "tag": "canbo_Tiga_Candi_Serangkai",
+            "patterns": [
+                "Apa saja tiga candi serangkai di sekitar Borobudur?",
+                "Jelaskan hubungan antara Borobudur dan tiga candi serangkai.",
+                "Apa itu Pawon dan Mendut?"
+            ],
+            "responses": [
+                "Tiga candi serangkai adalah Borobudur, Pawon, dan Mendut. Ketiga candi ini terletak pada satu garis lurus yang dianggap memiliki hubungan religius dan ritual."
+            ]
+        },
+        {
+            "tag": "canbo_Danau_Purba_Borobudur",
+            "patterns": [
+                "Apa yang dimaksud dengan danau purba di sekitar Borobudur?",
+                "Apakah Borobudur dulunya berada di tengah danau?",
+                "Jelaskan tentang teori danau purba Borobudur."
+            ],
+            "responses": [
+                "Teori danau purba menyatakan bahwa Borobudur dulunya berada di tengah danau yang mengering. Hal ini diperkuat oleh penelitian geologi yang menemukan endapan tanah di sekitar candi."
+            ]
+        },
+        {
+            "tag": "canbo_Lingkungan_Sekitar_Borobudur",
+            "patterns": [
+                "Bagaimana lingkungan sekitar Borobudur?",
+                "Apa yang menarik di sekitar Borobudur?",
+                "Jelaskan tentang kawasan Borobudur."
+            ],
+            "responses": [
+                "Lingkungan sekitar Borobudur meliputi desa-desa tradisional, sawah hijau, dan bukit-bukit kecil. Kawasan ini juga memiliki berbagai situs arkeologi dan pemandangan indah."
+            ]
+        },
+        {
+            "tag": "canbo_Struktur_Bangunan_Borobudur",
+            "patterns": [
+                "Bagaimana struktur bangunan Borobudur?",
+                "Apa saja elemen dalam struktur Borobudur?",
+                "Ceritakan tentang desain dan struktur Borobudur."
+            ],
+            "responses": [
+                "Struktur Borobudur dibangun dengan susunan batu vulkanik yang disusun tanpa perekat. Setiap bagian dirancang dengan pola Mandala yang melambangkan alam semesta menurut ajaran Buddha."
+            ]
+        },
+        {
+            "tag": "canbo_Relief_Borobudur",
+            "patterns": [
+                "Apa saja relief yang ada di Borobudur?",
+                "Berapa jumlah panel relief di Borobudur?",
+                "Ceritakan tentang relief di Borobudur.",
+                "Apa tema utama relief yang ada di Borobudur?",
+                "Apa fungsi relief di Borobudur?",
+                "Bagaimana relief di Borobudur dibuat?",
+                "Apa saja cerita yang tergambar di relief Borobudur?"
+            ],
+            "responses": [
+                "Borobudur memiliki 2.672 panel relief yang terbagi menjadi beberapa tema utama, yaitu Karmawibhangga, Lalitawistara, Jataka dan Awadana, serta Gandawyuha. Relief ini menggambarkan ajaran Buddha, kehidupan, dan cerita moral."
+            ]
+        },
+        {
+            "tag": "canbo_Relief_Karmawibhangga",
+            "patterns": [
+                "Apa itu relief Karmawibhangga?",
+                "Ceritakan tentang Karmawibhangga di Borobudur.",
+                "Apa yang tergambar dalam relief Karmawibhangga?",
+                "Apa fungsi relief Karmawibhangga di Borobudur?",
+                "Apa tema dari relief Karmawibhangga?",
+                "Bagaimana relief Karmawibhangga menjelaskan hukum karma?",
+                "Di mana letak relief Karmawibhangga di Borobudur?"
+            ],
+            "responses": [
+                "Relief Karmawibhangga menggambarkan hukum karma dan sebab akibat dari perbuatan manusia. Relief ini berada di bagian dasar Borobudur dan berisi ilustrasi kehidupan yang penuh makna moral."
+            ]
+        },
+        {
+            "tag": "canbo_Relief_Lalitawistara",
+            "patterns": [
+                "Apa itu relief Lalitawistara?",
+                "Ceritakan tentang Lalitawistara di Borobudur.",
+                "Apa isi dari relief Lalitawistara?",
+                "Apa tema dari relief Lalitawistara?",
+                "Bagaimana Lalitawistara menggambarkan kehidupan Buddha?",
+                "Apa yang tergambar dalam relief Lalitawistara?",
+                "Di mana letak relief Lalitawistara di Borobudur?"
+            ],
+            "responses": [
+                "Relief Lalitawistara menggambarkan kehidupan awal Buddha, mulai dari kelahiran hingga pencerahan. Relief ini ada di bagian tubuh Borobudur dan menunjukkan perjalanan spiritual Buddha."
+            ]
+        },
+        {
+            "tag": "canbo_Relief_Jataka_Awadana",
+            "patterns": [
+                "Apa itu relief Jataka dan Awadana?",
+                "Ceritakan tentang Jataka dan Awadana di Borobudur.",
+                "Apa tema utama dari relief Jataka dan Awadana?",
+                "Bagaimana Jataka dan Awadana menggambarkan kehidupan Buddha?",
+                "Apa kisah moral yang tergambar di Jataka dan Awadana?",
+                "Apa isi relief Jataka dan Awadana?",
+                "Di mana letak relief Jataka dan Awadana di Borobudur?"
+            ],
+            "responses": [
+                "Relief Jataka dan Awadana berisi cerita kehidupan lampau Buddha dan kisah-kisah moral lainnya. Kisah-kisah ini dimaksudkan untuk memberikan pelajaran moral dan berada di tingkat tubuh Borobudur."
+            ]
+        },
+        {
+            "tag": "canbo_Relief_Gandawyuha",
+            "patterns": [
+                "Apa itu relief Gandawyuha?",
+                "Ceritakan tentang Gandawyuha di Borobudur.",
+                "Apa tema utama dari relief Gandawyuha?",
+                "Apa yang tergambar dalam relief Gandawyuha?",
+                "Bagaimana Gandawyuha menceritakan perjalanan Sudhana?",
+                "Apa kisah dalam relief Gandawyuha?",
+                "Di mana letak relief Gandawyuha di Borobudur?"
+            ],
+            "responses": [
+                "Relief Gandawyuha menceritakan perjalanan Sudhana dalam mencari kebijaksanaan. Relief ini berada di bagian atas tubuh Borobudur dan menunjukkan pencarian pencerahan melalui petunjuk para Bodhisattva."
+            ]
+        },
+        {
+            "tag": "canbo_Arca_Buddha_Borobudur",
+            "patterns": [
+                "Berapa jumlah arca Buddha di Borobudur?",
+                "Apa yang unik dari arca Buddha di Borobudur?",
+                "Ceritakan tentang arca Buddha di Borobudur.",
+                "Apa saja mudra yang ada pada arca Buddha di Borobudur?",
+                "Bagaimana arca Buddha di Borobudur dibuat?",
+                "Apa makna simbolis dari arca Buddha di Borobudur?",
+                "Apa saja posisi arca Buddha di Borobudur?"
+            ],
+            "responses": [
+                "Borobudur memiliki 504 arca Buddha yang tersebar di berbagai tingkat candi. Setiap arca melambangkan mudra atau gerakan tangan tertentu yang menggambarkan aspek ajaran Buddha."
+            ]
+        },
+        {
+            "tag": "canbo_Arca_Bhumisparsha",
+            "patterns": [
+                "Apa itu arca Buddha dengan mudra Bhumisparsha?",
+                "Apa makna mudra Bhumisparsha pada arca Buddha?",
+                "Ceritakan tentang arca dengan mudra Bhumisparsha.",
+                "Apa posisi tangan mudra Bhumisparsha?",
+                "Dimana letak arca Bhumisparsha di Borobudur?",
+                "Apa yang melambangkan mudra Bhumisparsha?"
+            ],
+            "responses": [
+                "Mudra Bhumisparsha, atau menyentuh bumi, melambangkan panggilan kepada bumi sebagai saksi pencerahan Buddha. Arca dengan mudra ini ditemukan di bagian tubuh candi Borobudur."
+            ]
+        },
+        {
+            "tag": "canbo_Arca_Dhyana",
+            "patterns": [
+                "Apa itu arca Buddha dengan mudra Dhyana?",
+                "Apa makna mudra Dhyana pada arca Buddha?",
+                "Ceritakan tentang arca dengan mudra Dhyana.",
+                "Apa posisi tangan mudra Dhyana?",
+                "Dimana letak arca Dhyana di Borobudur?",
+                "Apa simbolisme dari mudra Dhyana?"
+            ],
+            "responses": [
+                "Mudra Dhyana, atau sikap meditasi, melambangkan ketenangan dan konsentrasi. Arca dengan mudra ini berada di bagian Rupadhatu candi Borobudur."
+            ]
+        },
+        {
+            "tag": "canbo_Arca_Dharmachakra",
+            "patterns": [
+                "Apa itu arca Buddha dengan mudra Dharmachakra?",
+                "Apa makna mudra Dharmachakra pada arca Buddha?",
+                "Ceritakan tentang arca dengan mudra Dharmachakra.",
+                "Apa posisi tangan mudra Dharmachakra?",
+                "Dimana letak arca Dharmachakra di Borobudur?",
+                "Apa arti dari mudra Dharmachakra?"
+            ],
+            "responses": [
+                "Mudra Dharmachakra, atau memutar roda dharma, melambangkan pengajaran pertama Buddha. Arca ini ditemukan di bagian atas tubuh candi Borobudur."
+            ]
+        },
+        {
+            "tag": "canbo_Arca_Varada",
+            "patterns": [
+                "Apa itu arca Buddha dengan mudra Varada?",
+                "Apa makna mudra Varada pada arca Buddha?",
+                "Ceritakan tentang arca dengan mudra Varada.",
+                "Apa posisi tangan mudra Varada?",
+                "Dimana letak arca Varada di Borobudur?",
+                "Apa simbolisme dari mudra Varada?"
+            ],
+            "responses": [
+                "Mudra Varada, atau pemberian, melambangkan kedermawanan dan kasih sayang. Arca dengan mudra ini berada di area tengah candi Borobudur."
+            ]
+        },
+        {
+            "tag": "canbo_Arca_Abhaya",
+            "patterns": [
+                "Apa itu arca Buddha dengan mudra Abhaya?",
+                "Apa makna mudra Abhaya pada arca Buddha?",
+                "Ceritakan tentang arca dengan mudra Abhaya.",
+                "Apa posisi tangan mudra Abhaya?",
+                "Dimana letak arca Abhaya di Borobudur?",
+                "Apa arti dari mudra Abhaya?"
+            ],
+            "responses": [
+                "Mudra Abhaya, atau perlindungan, melambangkan pengusiran rasa takut. Arca dengan mudra ini ditemukan di beberapa tingkatan candi Borobudur."
+            ]
+        },
+        {
+            "tag": "canbo_Arca_Vitarka",
+            "patterns": [
+                "Apa itu arca Buddha dengan mudra Vitarka?",
+                "Apa makna mudra Vitarka pada arca Buddha?",
+                "Ceritakan tentang arca dengan mudra Vitarka.",
+                "Apa posisi tangan mudra Vitarka?",
+                "Dimana letak arca Vitarka di Borobudur?",
+                "Apa simbolisme dari mudra Vitarka?"
+            ],
+            "responses": [
+                "Mudra Vitarka, atau diskusi, melambangkan penyampaian ajaran Buddha. Arca ini berada di bagian tertentu dari candi Borobudur."
+            ]
+        },
+        {
+            "tag": "canbo_Warisan_Dunia_Borobudur",
+            "patterns": [
+                "Apa status Borobudur sebagai warisan dunia?",
+                "Kapan Borobudur diakui oleh UNESCO?",
+                "Mengapa Borobudur menjadi warisan dunia?",
+                "Ceritakan tentang pengakuan Borobudur oleh UNESCO.",
+                "Apa kriteria yang membuat Borobudur menjadi warisan dunia?",
+                "Bagaimana Borobudur menjadi situs warisan dunia?",
+                "Apa yang menjadikan Borobudur penting di dunia internasional?"
+            ],
+            "responses": [
+                "Borobudur diakui sebagai Situs Warisan Dunia oleh UNESCO pada tahun 1991 karena nilai sejarah, arsitektur, dan budaya yang luar biasa. Candi ini merupakan salah satu monumen Buddha terbesar di dunia yang melambangkan puncak pencapaian seni dan arsitektur klasik Asia."
+            ]
+        },
+        {
+            "tag": "canbo_Warisan_Budaya_Lokal",
+            "patterns": [
+                "Apa arti Borobudur bagi masyarakat lokal?",
+                "Bagaimana Borobudur memengaruhi budaya di sekitarnya?",
+                "Ceritakan peran Borobudur dalam kehidupan masyarakat lokal.",
+                "Apa hubungan antara Borobudur dan tradisi lokal?",
+                "Bagaimana masyarakat di sekitar Borobudur menjaga budaya mereka?",
+                "Apa saja tradisi lokal yang dipengaruhi oleh keberadaan Borobudur?",
+                "Bagaimana Borobudur menjadi bagian dari identitas budaya lokal?"
+            ],
+            "responses": [
+                "Borobudur menjadi pusat kegiatan budaya dan religius masyarakat setempat. Tradisi seperti upacara Waisak, seni ukir batu, dan pembuatan kerajinan lokal banyak dipengaruhi oleh keberadaan candi ini. Masyarakat sekitar juga menjaga hubungan spiritual dengan Borobudur melalui berbagai upacara adat."
+            ]
+        },
+        {
+            "tag": "canbo_area_parkir",
+            "patterns": [
+                "Di mana area parkir Candi Borobudur?",
+                "Apakah tersedia area parkir di Borobudur?",
+                "Bagaimana fasilitas parkir di sekitar Candi Borobudur?",
+                "Lokasi parkir untuk pengunjung Borobudur di mana?",
+                "Apakah ada tempat parkir untuk bus di Borobudur?"
+            ],
+            "responses": [
+                "Area parkir di Candi Borobudur tersedia dengan kapasitas yang luas, mencakup kendaraan roda dua, roda empat, hingga bus. Jika membutuhkan informasi lebih lanjut, Anda dapat bertanya langsung kepada petugas di lokasi. Untuk lokasinya bisa dilihat di map ini: [Area Parkir](https://borobudurpark.com/wp-content/uploads/2019/09/Venue-Borobudur-02-1.jpg)"
+            ]
+        },
+        {
+            "tag": "canbo_pusat_informasi",
+            "patterns": [
+                "Di mana pusat informasi di Borobudur?",
+                "Apakah ada pusat informasi untuk pengunjung di Borobudur?",
+                "Bagaimana cara mendapatkan informasi tentang area Borobudur?",
+                "Lokasi pusat informasi di kawasan Candi Borobudur?",
+                "Apakah Borobudur menyediakan pusat informasi untuk wisatawan?"
+            ],
+            "responses": [
+                "Terdapat pusat informasi di Candi Borobudur yang menyediakan sejarah, peta area, dan panduan kunjungan. Jika membutuhkan informasi lebih lanjut, Anda dapat bertanya langsung kepada petugas di lokasi. Untuk lokasinya bisa dilihat di map ini: [Pusat Informasi](https://borobudurpark.com/wp-content/uploads/2019/09/Venue-Borobudur-02-1.jpg)"
+            ]
+        },
+        {
+            "tag": "canbo_toilet_umum",
+            "patterns": [
+                "Apakah ada toilet umum di Borobudur?",
+                "Bagaimana fasilitas toilet di Borobudur?",
+                "Di mana saya bisa menemukan toilet di Borobudur?",
+                "Apakah toilet di kawasan Borobudur bersih?",
+                "Toilet terdekat di sekitar Candi Borobudur ada di mana?"
+            ],
+            "responses": [
+                "Toilet umum tersedia di beberapa titik di sekitar area Candi Borobudur, dengan fasilitas bersih dan memadai. Jika membutuhkan informasi lebih lanjut, Anda dapat bertanya langsung kepada petugas di lokasi. Untuk lokasinya bisa dilihat di map ini: [Toilet Umum](https://borobudurpark.com/wp-content/uploads/2019/09/Venue-Borobudur-02-1.jpg)"
+            ]
+        },
+        {
+            "tag": "canbo_warung_makan",
+            "patterns": [
+                "Apakah ada warung makan di dekat Borobudur?",
+                "Di mana tempat makan di sekitar Candi Borobudur?",
+                "Pilihan restoran di sekitar Borobudur apa saja?",
+                "Saya ingin makan di dekat Candi Borobudur, apakah ada tempatnya?",
+                "Apakah tersedia makanan khas lokal di area Borobudur?"
+            ],
+            "responses": [
+                "Tersedia berbagai pilihan warung makan dan restoran di sekitar Candi Borobudur, dengan makanan lokal dan internasional. Jika membutuhkan informasi lebih lanjut, Anda dapat bertanya langsung kepada petugas di lokasi. Untuk lokasinya bisa dilihat di map ini: [Warung Makan dan Restoran](https://borobudurpark.com/wp-content/uploads/2019/09/Venue-Borobudur-02-1.jpg)"
+            ]
+        },
+        {
+            "tag": "canbo_toko_souvenir",
+            "patterns": [
+                "Apakah ada toko souvenir di Borobudur?",
+                "Apa saja yang dijual di toko souvenir Borobudur?",
+                "Di mana saya bisa membeli oleh-oleh khas Borobudur?",
+                "Apakah ada barang khas Borobudur yang bisa dibeli?",
+                "Toko oleh-oleh di kawasan Borobudur ada di mana?"
+            ],
+            "responses": [
+                "Toko souvenir di Borobudur menawarkan berbagai barang, seperti patung Buddha mini, kain batik, dan aksesori khas lainnya. Jika membutuhkan informasi lebih lanjut, Anda dapat bertanya langsung kepada petugas di lokasi. Untuk lokasinya bisa dilihat di map ini: [Toko Souvenir](https://borobudurpark.com/wp-content/uploads/2019/09/Venue-Borobudur-02-1.jpg)"
+            ]
+        },
+        {
+            "tag": "canbo_jalur_pendakian",
+            "patterns": [
+                "Apakah ada jalur pendakian di Candi Borobudur?",
+                "Bagaimana cara menuju puncak Borobudur?",
+                "Apakah jalur menuju puncak Borobudur aman?",
+                "Rute pendakian di Borobudur seperti apa?",
+                "Apakah tersedia tangga menuju puncak Candi Borobudur?"
+            ],
+            "responses": [
+                "Jalur pendakian menuju puncak Candi Borobudur telah tertata dengan baik dan dilengkapi pagar pengaman. Jika membutuhkan informasi lebih lanjut, Anda dapat bertanya langsung kepada petugas di lokasi. Untuk lokasinya bisa dilihat di map ini: [Jalur Pendakian](https://borobudurpark.com/wp-content/uploads/2019/09/Venue-Borobudur-02-1.jpg)"
+            ]
+        },
+        {
+            "tag": "canbo_area_istirahat",
+            "patterns": [
+                "Apakah ada area istirahat di Borobudur?",
+                "Di mana tempat untuk beristirahat di sekitar Candi Borobudur?",
+                "Fasilitas untuk istirahat di kawasan Borobudur ada di mana?",
+                "Adakah tempat duduk untuk istirahat di Borobudur?",
+                "Di mana saya bisa istirahat setelah berjalan-jalan di Borobudur?"
+            ],
+            "responses": [
+                "Area istirahat tersedia di berbagai lokasi sekitar Candi Borobudur, memberikan kenyamanan bagi pengunjung. Jika membutuhkan informasi lebih lanjut, Anda dapat bertanya langsung kepada petugas di lokasi. Untuk lokasinya bisa dilihat di map ini: [Area Istirahat](https://borobudurpark.com/wp-content/uploads/2019/09/Venue-Borobudur-02-1.jpg)"
+            ]
+        },
+        {
+            "tag": "canbo_penyewaan_pemandu",
+            "patterns": [
+                "Apakah saya bisa menyewa pemandu di Borobudur?",
+                "Bagaimana cara mendapatkan pemandu wisata di Borobudur?",
+                "Berapa biaya untuk pemandu wisata di Borobudur?",
+                "Apakah pemandu wisata di Borobudur membantu menjelaskan sejarah?",
+                "Di mana saya bisa menyewa pemandu wisata di kawasan Borobudur?"
+            ],
+            "responses": [
+                "Pemandu wisata tersedia untuk disewa di Candi Borobudur, memberikan wawasan mendalam tentang sejarah dan makna candi. Jika membutuhkan informasi lebih lanjut, Anda dapat bertanya langsung kepada petugas di lokasi. Untuk lokasinya bisa dilihat di map ini: [Penyewaan Pemandu](https://borobudurpark.com/wp-content/uploads/2019/09/Venue-Borobudur-02-1.jpg)"
+            ]
+        },
+        {
+            "tag": "canbo_jam_buka_borobudur",
+            "patterns": [
+                "Jam berapa Candi Borobudur buka?",
+                "Kapan Candi Borobudur buka?",
+                "Apa jam operasional Candi Borobudur?",
+                "Candi Borobudur buka sampai jam berapa?",
+                "Jam buka Candi Borobudur setiap hari?",
+                "Candi Borobudur buka mulai jam berapa?"
+            ],
+            "responses": [
+                "Candi Borobudur buka setiap hari dari pukul 07:00 hingga 16:00."
+            ]
+        },
+        {
+            "tag": "canbo_harga_tiket_borobudur",
+            "patterns": [
+                "Berapa harga tiket Candi Borobudur?",
+                "Harga tiket masuk Candi Borobudur berapa?",
+                "Tiket Candi Borobudur untuk dewasa berapa?",
+                "Berapa harga tiket untuk wisatawan asing di Candi Borobudur?",
+                "Harga tiket Candi Borobudur untuk anak-anak?",
+                "Harga tiket Candi Borobudur untuk lokal dan asing?"
+            ],
+            "responses": [
+                "Harga tiket Candi Borobudur adalah:\n- Rp 50.000 untuk lokal dewasa\n- Rp 25.000 untuk lokal anak\n- Rp 350.000 untuk wisatawan asing."
+            ]
+        },
+        {
+            "tag": "canbo_fasilitas_borobudur",
+            "patterns": [
+                "Apa saja fasilitas yang ada di Candi Borobudur?",
+                "Fasilitas apa yang tersedia di sekitar Candi Borobudur?",
+                "Di Candi Borobudur ada fasilitas apa saja?",
+                "Apakah ada warung makan di sekitar Candi Borobudur?",
+                "Candi Borobudur memiliki fasilitas apa saja?",
+                "Apakah ada toko souvenir di Candi Borobudur?"
+            ],
+            "responses": [
+                "Fasilitas yang tersedia di Candi Borobudur antara lain:\n- Area parkir\n- Pusat informasi\n- Toilet umum\n- Warung makan\n- Toko souvenir\n- Jalur pendakian\n- Area istirahat\n- Penyewaan pemandu."
+            ]
+        },
+        {
+            "tag": "canbo_lokasi_borobudur",
+            "patterns": [
+                "Dimana lokasi Candi Borobudur?",
+                "Apa alamat lengkap Candi Borobudur?",
+                "Candi Borobudur terletak di mana?",
+                "Dimana alamat Candi Borobudur di Magelang?",
+                "Candi Borobudur ada di desa apa?",
+                "Lokasi Candi Borobudur di Magelang ada di mana?"
+            ],
+            "responses": [
+                "Candi Borobudur terletak di Jl. Badrawati, Kw. Candi Borobudur, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah, Indonesia. Anda dapat melihat lokasi di peta ini: [Lokasi Candi Borobudur](https://maps.app.goo.gl/cHCA3JcDJdfdyvyG8)"
+            ]
+        },
+        {
+            "tag": "Hotel_Khanaya_Borobudur",
+            "patterns": [
+                "Berapa harga per malam di Khanaya Hotel & Cafe?",
+                "Apa fasilitas yang tersedia di Khanaya Hotel & Cafe?",
+                "Dimana lokasi Khanaya Hotel & Cafe?",
+                "Ceritakan tentang Khanaya Hotel & Cafe",
+                "Berikan informasi mengenai Hotel Khanaya Borobudur",
+                "Apakah Khanaya Hotel & Cafe memiliki kolam renang?",
+                "Apakah ada restoran di Khanaya Hotel & Cafe?",
+                "Apakah Khanaya Hotel & Cafe dekat dengan Borobudur?"
+            ],
+            "responses": [
+                "Khanaya Hotel & Cafe adalah tempat yang nyaman untuk menginap dengan fasilitas lengkap dan akses mudah ke Borobudur.\n\n1. Harga per malam: IDR 600,000\n2. Fasilitas: Kolam renang, parkir gratis, transfer bandara, AC, resepsionis 24 jam, dan restoran\n3. Lokasi: Jl. Badrawati No. 20, Borobudur, Magelang"
+            ]
+        },
+        {
+            "tag": "Hotel_Sankara_Borobudur",
+            "patterns": [
+                "Berapa harga per malam di Shankara Borobudur?",
+                "Apa fasilitas yang ada di Shankara Borobudur?",
+                "Dimana lokasi Shankara Borobudur?",
+                "Ceritakan tentang Shankara Borobudur",
+                "Apakah Shankara Borobudur menyediakan spa?",
+                "Shankara Borobudur buka jam berapa?",
+                "Apakah ada taman di Shankara Borobudur?",
+                "Apakah Shankara Borobudur dekat dengan Candi Borobudur?"
+            ],
+            "responses": [
+                "Shankara Borobudur menawarkan pengalaman menginap mewah dengan fasilitas lengkap dan akses mudah ke Candi Borobudur.\n\n1. Harga per malam: IDR 600,000\n2. Fasilitas: Kolam renang luar ruangan, spa, pusat kebugaran, restoran, dan taman\n3. Lokasi: Jl. Balaputradewa No.1, Dusun XVI, Borobudur"
+            ]
+        },
+        {
+            "tag": "Hotel_Cempaka_Villa_Borobudur",
+            "patterns": [
+                "Berapa harga per malam di Cempaka Villa Restaurant?",
+                "Apa fasilitas yang ada di Cempaka Villa Restaurant?",
+                "Dimana lokasi Cempaka Villa Restaurant?",
+                "Ceritakan tentang Cempaka Villa Restaurant",
+                "Apakah ada taman di Cempaka Villa Restaurant?",
+                "Cempaka Villa Restaurant buka jam berapa?",
+                "Apakah Cempaka Villa Restaurant memiliki restoran dengan pemandangan?",
+                "Apakah Cempaka Villa dekat dengan Borobudur?"
+            ],
+            "responses": [
+                "Cempaka Villa Restaurant menawarkan suasana yang tenang dengan pemandangan Borobudur yang menakjubkan, cocok untuk menikmati hidangan sambil menikmati pemandangan.\n\n1. Harga per malam: IDR 400,000\n2. Fasilitas: Restoran dengan pemandangan Borobudur, taman, dan tempat duduk luar ruangan\n3. Lokasi: Jl. Badrawati Ngaran Lor No.1, Dusun XVIII, Borobudur"
+            ]
+        },
+        {
+            "tag": "Hotel_Anugrah_Borobudur",
+            "patterns": [
+                "Berapa harga per malam di Homestay & Penginapan Anugrah Borobudur Cottage?",
+                "Apa fasilitas yang tersedia di Anugrah Borobudur Cottage?",
+                "Dimana lokasi Anugrah Borobudur Cottage?",
+                "Ceritakan tentang Anugrah Borobudur Cottage",
+                "Apakah Anugrah Borobudur Cottage memiliki wisata pertanian?",
+                "Apakah Anugrah Borobudur Cottage cocok untuk keluarga?",
+                "Berapa jarak Anugrah Borobudur Cottage ke Candi Borobudur?",
+                "Apakah lingkungan Anugrah Borobudur Cottage tenang?"
+            ],
+            "responses": [
+                "Anugrah Borobudur Cottage menawarkan pengalaman menginap yang tenang dengan pemandangan alam yang indah dan akses mudah ke Candi Borobudur.\n\n1. Harga per malam: IDR 200,000\n2. Fasilitas: Kamar nyaman, agrowisata (wisata pertanian), dan lingkungan yang tenang dan alami\n3. Lokasi: Jalan Badrawati No. 20 Ngaran Ngisor, Dusun XVIII, Borobudur"
+            ]
+        },
+        {
+            "tag": "Hotel_Wahid_Borobudur",
+            "patterns": [
+                "Berapa harga per malam di Wahid Borobudur?",
+                "Apa fasilitas yang ada di Wahid Borobudur?",
+                "Dimana lokasi Wahid Borobudur?",
+                "Ceritakan tentang Wahid Borobudur",
+                "Apakah Wahid Borobudur memiliki kolam renang?",
+                "Apakah ada fasilitas pertemuan di Wahid Borobudur?",
+                "Wahid Borobudur buka jam berapa?",
+                "Apa saja layanan yang tersedia di Wahid Borobudur?"
+            ],
+            "responses": [
+                "Wahid Borobudur adalah pilihan yang tepat untuk Anda yang mencari kenyamanan dengan berbagai fasilitas, termasuk kolam renang dan fasilitas pertemuan.\n\n1. Harga per malam: IDR 400,000\n2. Fasilitas: Kolam renang, spa, restoran, dan fasilitas pertemuan\n3. Lokasi: Jl. Medang Kamulan, Dusun XIII, Borobudur"
+            ]
+        },
+        {
+            "tag": "Hotel_Amrta_Borobudur",
+            "patterns": [
+                "Berapa harga per malam di The Amrta Borobudur?",
+                "Apa fasilitas yang ada di The Amrta Borobudur?",
+                "Dimana lokasi The Amrta Borobudur?",
+                "Ceritakan tentang The Amrta Borobudur",
+                "Apakah The Amrta Borobudur memiliki kolam renang?",
+                "Apa saja fasilitas yang tersedia di The Amrta Borobudur?",
+                "Apakah The Amrta Borobudur cocok untuk liburan keluarga?",
+                "Apa daya tarik utama The Amrta Borobudur?"
+            ],
+            "responses": [
+                "The Amrta Borobudur menawarkan fasilitas modern dan pemandangan yang indah dengan akses mudah ke Candi Borobudur.\n\n1. Harga per malam: IDR 600,000\n2. Fasilitas: Kolam renang, restoran, dan taman\n3. Lokasi: Jl. Badrawati No.30, Dusun XVIII, Borobudur"
+            ]
+        },
+        {
+            "tag": "Hotel_Sarasvati_Borobudur",
+            "patterns": [
+                "Berapa harga per malam di Sarasvati Borobudur Hotel?",
+                "Apa fasilitas yang ada di Sarasvati Borobudur Hotel?",
+                "Dimana lokasi Sarasvati Borobudur Hotel?",
+                "Ceritakan tentang Sarasvati Borobudur Hotel",
+                "Apakah Sarasvati Borobudur Hotel memiliki kolam renang?",
+                "Apakah ada spa di Sarasvati Borobudur Hotel?",
+                "Sarasvati Borobudur Hotel buka jam berapa?",
+                "Apa yang membuat Sarasvati Borobudur Hotel unik?"
+            ],
+            "responses": [
+                "Sarasvati Borobudur Hotel adalah pilihan yang nyaman dengan fasilitas lengkap dan akses mudah ke Candi Borobudur.\n\n1. Harga per malam: IDR 800,000\n2. Fasilitas: Kolam renang luar ruangan, pusat kebugaran, restoran, dan spa\n3. Lokasi: Jl. Balaputradewa No.10, Dusun XVII, Borobudur"
+            ]
+        },
+        {
+            "tag": "Hotel_Gopalan_Borobudur",
+            "patterns": [
+                "Berapa harga per malam di Gopalan Borobudur?",
+                "Apa fasilitas yang ada di Gopalan Borobudur?",
+                "Dimana lokasi Gopalan Borobudur?",
+                "Ceritakan tentang Gopalan Borobudur",
+                "Apakah Gopalan Borobudur dekat dengan Candi Borobudur?",
+                "Apa saja fasilitas di Gopalan Borobudur?",
+                "Gopalan Borobudur buka jam berapa?",
+                "Apakah ada restoran di Gopalan Borobudur?"
+            ],
+            "responses": [
+                "Gopalan Borobudur menawarkan pengalaman menginap yang nyaman dengan akses langsung ke Candi Borobudur.\n\n1. Harga per malam: IDR 600,000\n2. Fasilitas: Restoran, tempat duduk luar ruangan, dan kedekatannya dengan Candi Borobudur\n3. Lokasi: Gopalan, Jl. Borobudur - Ngadiharjo, Borobudur"
+            ]
+        },
+        {
+            "tag": "Hotel_Manohara_Borobudur",
+            "patterns": [
+                "Berapa harga per malam di Manohara Resort?",
+                "Apa fasilitas yang ada di Manohara Resort?",
+                "Dimana lokasi Manohara Resort?",
+                "Ceritakan tentang Manohara Resort",
+                "Apakah Manohara Resort memiliki pemandangan matahari terbit?",
+                "Berapa jarak Manohara Resort dari Candi Borobudur?",
+                "Apakah Manohara Resort menyediakan Wi-Fi gratis?",
+                "Apa keunggulan Manohara Resort?"
+            ],
+            "responses": [
+                "Manohara Resort adalah pilihan ideal dengan pemandangan matahari terbit, akses mudah ke Candi Borobudur, dan fasilitas lengkap.\n\n1. Harga per malam: IDR 1,500,000\n2. Fasilitas: Taman, teras, restoran, dan Wi-Fi gratis\n3. Lokasi: Komplek Taman Wisata Candi, Kw. Candi Borobudur, Borobudur, sekitar 5 menit berjalan kaki dari Candi Borobudur"
+            ]
+        },
+        {
+            "tag": "Hotel_Plataran_Heritage_Borobudur",
+            "patterns": [
+                "Berapa harga per malam di Plataran Heritage Borobudur?",
+                "Apa fasilitas yang ada di Plataran Heritage Borobudur?",
+                "Dimana lokasi Plataran Heritage Borobudur?",
+                "Ceritakan tentang Plataran Heritage Borobudur",
+                "Apakah Plataran Heritage Borobudur memiliki spa?",
+                "Berapa jarak Plataran Heritage Borobudur dari Candi Borobudur?",
+                "Plataran Heritage Borobudur buka jam berapa?",
+                "Apa saja aktivitas yang bisa dilakukan di Plataran Heritage Borobudur?"
+            ],
+            "responses": [
+                "Plataran Heritage Borobudur menawarkan pengalaman menginap yang mewah dengan kombinasi arsitektur Jawa dan kolonial, serta fasilitas lengkap dan pemandangan yang luar biasa.\n\n1. Harga per malam: Mulai IDR 2,000,000 (tergantung tipe kamar dan periode pemesanan)\n2. Fasilitas: Kolam renang luar ruangan, spa, restoran dengan berbagai pilihan masakan, pusat kebugaran, dan Wi-Fi gratis\n3. Lokasi: Dusun Kretek, Karangrejo, Borobudur dengan pemandangan indah dari Menoreh Hill dan dekat dengan Candi Borobudur"
+            ]
+        },
+        {
+            "tag": "Layanan_Kantor_Desa_Borobudur",
+            "patterns": [
+                "Dimana Kantor Desa Borobudur?",
+                "Apa jam buka Kantor Desa Borobudur?",
+                "Apa nomor kontak Kantor Desa Borobudur?",
+                "Kantor Desa Borobudur buka jam berapa?",
+                "Dimana lokasi Kantor Desa Borobudur?",
+                "Bagaimana cara menghubungi Kantor Desa Borobudur?",
+                "Apa alamat lengkap Kantor Desa Borobudur?"
+            ],
+            "responses": [
+                "Kantor Desa Borobudur menyediakan layanan administrasi bagi warga setempat.\n\n1. Lokasi: Jl. Samaratungga No.21, Dusun XI, Borobudur, Magelang, Jawa Tengah\n2. Jam Operasional: 08:00 - 16:00 (Senin-Jumat)\n3. Kontak: (0293) 788832 / +62856 4111 9345"
+            ]
+        },
+        {
+            "tag": "Layanan_Posyandu",
+            "patterns": [
+                "Dimana lokasi Posyandu Borobudur?",
+                "Apa waktu Posyandu di Borobudur?",
+                "Bagaimana cara menghubungi Posyandu Borobudur?",
+                "Posyandu Borobudur buka jam berapa?",
+                "Dimana Posyandu Borobudur berada?",
+                "Siapa yang bisa saya hubungi untuk informasi Posyandu?"
+            ],
+            "responses": [
+                "Posyandu Borobudur melayani pemeriksaan kesehatan ibu dan anak di sekitar desa.\n\n1. Lokasi dan Waktu: Harap ditanyakan ke pihak Puskesmas\n2. Kontak: Melalui Puskesmas di (0293) 788569"
+            ]
+        },
+        {
+            "tag": "Layanan_Puskesmas_Borobudur",
+            "patterns": [
+                "Dimana lokasi Puskesmas Borobudur?",
+                "Apa jam buka Puskesmas Borobudur?",
+                "Bagaimana cara menghubungi Puskesmas Borobudur?",
+                "Puskesmas Borobudur buka jam berapa?",
+                "Dimana alamat lengkap Puskesmas Borobudur?",
+                "Apa nomor telepon Puskesmas Borobudur?"
+            ],
+            "responses": [
+                "Puskesmas Borobudur menyediakan layanan kesehatan dasar untuk masyarakat sekitar.\n\n1. Lokasi: Jl. Sentanu No.9, Sriyasan, Wringinputih, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553\n2. Jam Operasional: 07:00 - 11:00 (Senin-Jumat)\n3. Kontak: (0293) 788569"
+            ]
+        },
+        {
+            "tag": "Layanan_Polsek_Borobudur",
+            "patterns": [
+                "Dimana lokasi Polsek Borobudur?",
+                "Apa jam buka Polsek Borobudur?",
+                "Bagaimana cara menghubungi Polsek Borobudur?",
+                "Polsek Borobudur buka jam berapa?",
+                "Apa nomor telepon Polsek Borobudur?",
+                "Dimana Polsek Borobudur berada?"
+            ],
+            "responses": [
+                "Polsek Borobudur melayani keamanan dan ketertiban masyarakat.\n\n1. Lokasi: Jl. Sentanu No.54, Borobudur, Magelang, Jawa Tengah\n2. Jam Operasional: 24 jam\n3. Kontak: (0293) 788161"
+            ]
+        },
+        {
+            "tag": "Layanan_RS_N21_Gemilang",
+            "patterns": [
+                "Di mana letak Rumah Sakit N-21 Gemilang?",
+                "Apa alamat lengkap Rumah Sakit N-21 Gemilang?",
+                "Di jalan apa Rumah Sakit N-21 Gemilang berada?",
+                "Apa nomor telepon Rumah Sakit N-21 Gemilang?",
+                "Bagaimana cara menghubungi Rumah Sakit N-21 Gemilang?",
+                "Adakah nomor WhatsApp yang dapat dihubungi untuk Rumah Sakit N-21 Gemilang?",
+                "Apa saja layanan spesialis yang tersedia di Rumah Sakit N-21 Gemilang?",
+                "Rumah Sakit N-21 Gemilang memiliki poli apa saja?",
+                "Poliklinik apa saja yang buka di Rumah Sakit N-21 Gemilang?",
+                "Fasilitas apa saja yang tersedia di Rumah Sakit N-21 Gemilang?",
+                "Rumah Sakit N-21 Gemilang memiliki fasilitas apa saja untuk pasien?",
+                "Apa tipe rumah sakit Rumah Sakit N-21 Gemilang?",
+                "Rumah Sakit N-21 Gemilang memiliki akreditasi apa?",
+                "Di mana letak RS N-21 Gemilang?",
+                "Apa alamat lengkap RS N-21 Gemilang?",
+                "Di jalan apa RS N-21 Gemilang berada?",
+                "Apa nomor telepon RS N-21 Gemilang?",
+                "Bagaimana cara menghubungi RS N-21 Gemilang?",
+                "Adakah nomor WhatsApp yang dapat dihubungi untuk RS N-21 Gemilang?",
+                "Apa saja layanan spesialis yang tersedia di RS N-21 Gemilang?",
+                "RS N-21 Gemilang memiliki poli apa saja?",
+                "Poliklinik apa saja yang buka di RS N-21 Gemilang?",
+                "Fasilitas apa saja yang tersedia di RS N-21 Gemilang?",
+                "RS N-21 Gemilang memiliki fasilitas apa saja untuk pasien?",
+                "Apa tipe RS RS N-21 Gemilang?",
+                "RS N-21 Gemilang memiliki akreditasi apa?"
+            ],
+            "responses": [
+                "Berikut adalah informasi Rumah Sakit N-21 Gemilang:\n1. Lokasi: Jl. Pondok Pabelan No. 05 Pabelan, Mungkid, Mungkid, Jawa Tengah, Indonesia 56512\n2. Kontak: (0293) 782109 / Emergency Call: (+62) 852 2560 6864\n3. Layanan Spesialisasi: Poli Bedah, Poliklinik Gigi, Poli Obgyn, Poli CVT & Umum, Poli Syaraf, Poli Anak\n4. Fasilitas: IGD 24 Jam, Rawat jalan, Rawat Inap, Radiologi, Laboratorium, dan Farmasi\n5. Jenis Rumah Sakit: Rumah sakit umum tipe D"
+            ]
+        },
+        {
+            "tag": "Layanan_RSUD_Merah_Putih_Magelang",
+            "patterns": [
+                "Di mana letak RSUD Merah Putih Kabupaten Magelang?",
+                "Apa alamat lengkap RSUD Merah Putih Kabupaten Magelang?",
+                "Di jalan apa RSUD Merah Putih Kabupaten Magelang?",
+                "Apa nomor telepon RSUD Merah Putih Kabupaten Magelang?",
+                "Bagaimana cara menghubungi RSUD Merah Putih Kabupaten Magelang?",
+                "Adakah nomor WhatsApp yang dapat dihubungi untuk RSUD Merah Putih Kabupaten Magelang?",
+                "Apa saja layanan spesialis yang tersedia di RSUD Merah Putih Kabupaten Magelang?",
+                "RSUD Merah Putih Kabupaten Magelang memiliki poli apa saja?",
+                "Poliklinik apa saja yang buka di RSUD Merah Putih Kabupaten Magelang?",
+                "Fasilitas apa saja yang tersedia di RSUD Merah Putih Kabupaten Magelang?",
+                "RSUD Merah Putih Kabupaten Magelang memiliki fasilitas apa saja untuk pasien?",
+                "Apa tipe rumah sakit RSUD Merah Putih Kabupaten Magelang?",
+                "RSUD Merah Putih Kabupaten Magelang memiliki akreditasi apa?",
+                "Di mana letak Rumah sakit umum daerah Merah Putih Kabupaten Magelang?",
+                "Apa alamat lengkap Rumah sakit umum daerah Merah Putih Kabupaten Magelang?",
+                "Di jalan apa Rumah sakit umum daerah Merah Putih Kabupaten Magelang?",
+                "Apa nomor telepon Rumah sakit umum daerah Merah Putih Kabupaten Magelang?",
+                "Bagaimana cara menghubungi Rumah sakit umum daerah Merah Putih Kabupaten Magelang?",
+                "Adakah nomor WhatsApp yang dapat dihubungi untuk Rumah sakit umum daerah Merah Putih Kabupaten Magelang?",
+                "Apa saja layanan spesialis yang tersedia di Rumah sakit umum daerah Merah Putih Kabupaten Magelang?",
+                "Rumah sakit umum daerah Merah Putih Kabupaten Magelang memiliki poli apa saja?",
+                "Poliklinik apa saja yang buka di Rumah sakit umum daerah Merah Putih Kabupaten Magelang?",
+                "Fasilitas apa saja yang tersedia di Rumah sakit umum daerah Merah Putih Kabupaten Magelang?",
+                "Rumah sakit umum daerah Merah Putih Kabupaten Magelang memiliki fasilitas apa saja untuk pasien?",
+                "Apa tipe rumah sakit Rumah sakit umum daerah Merah Putih Kabupaten Magelang?",
+                "Rumah sakit umum daerah Merah Putih Kabupaten Magelang memiliki akreditasi apa?"
+            ],
+            "responses": [
+                "Berikut adalah informasi RSUD Merah Putih Kabupaten Magelang:\n1. Lokasi: Jl Raya Magelang - Yogyakarta KM 5 Mungkidan Danurejo, Magelang 56172\n2. Kontak: (0293) 3202654 / Emergency Call: (0293) 3276000\n3. Layanan: Poli Umum, Poli Penyakit Dalam, Poli Kandungan & Kebidanan, Poli Anak, Poli Bedah, Poli Urologi, Poli Jantung, Poli Mata, Poli Orthopedi, Poli Saraf, Poli Kulit & Kelamin, Poli THT, Poli Gigi, Klinik Psikologis\n4. Fasilitas: IGD 24 Jam, Rawat jalan, Rawat Inap, Radiologi, NICU, Laboratorium, dan Farmasi\n5. Jenis Rumah Sakit: Rumah sakit umum tipe C"
+            ]
+        },
+        {
+            "tag": "Layanan_RS_Aisyiyah_Muntilan",
+            "patterns": [
+                "Di mana letak RS Aisyiyah Muntilan?",
+                "Apa alamat lengkap RS Aisyiyah Muntilan?",
+                "Di jalan apa RS Aisyiyah Muntilan?",
+                "Apa nomor telepon RS Aisyiyah Muntilan?",
+                "Bagaimana cara menghubungi RS Aisyiyah Muntilan?",
+                "Adakah nomor WhatsApp yang dapat dihubungi untuk RS Aisyiyah Muntilan?",
+                "Apa saja layanan spesialis yang tersedia di RS Aisyiyah Muntilan?",
+                "RS Aisyiyah Muntilan memiliki poli apa saja?",
+                "Poliklinik apa saja yang buka di RS Aisyiyah Muntilan?",
+                "Fasilitas apa saja yang tersedia di RS Aisyiyah Muntilan?",
+                "RS Aisyiyah Muntilan memiliki fasilitas apa saja untuk pasien?",
+                "Apa tipe rumah sakit Rumah Sakit RS Aisyiyah Muntilan?",
+                "RS Aisyiyah Muntilan memiliki akreditasi apa?",
+                "Di mana letak Rumah sakit Aisyiyah Muntilan?",
+                "Apa alamat lengkap Rumah sakit Aisyiyah Muntilan?",
+                "Di jalan apa Rumah sakit Aisyiyah Muntilan?",
+                "Apa nomor telepon Rumah sakit Aisyiyah Muntilan?",
+                "Bagaimana cara menghubungi Rumah sakit Aisyiyah Muntilan?",
+                "Adakah nomor WhatsApp yang dapat dihubungi untuk Rumah sakit Aisyiyah Muntilan?",
+                "Apa saja layanan spesialis yang teRumah sakitedia di Rumah sakit Aisyiyah Muntilan?",
+                "Rumah sakit Aisyiyah Muntilan memiliki poli apa saja?",
+                "Poliklinik apa saja yang buka di Rumah sakit Aisyiyah Muntilan?",
+                "Fasilitas apa saja yang teRumah sakitedia di Rumah sakit Aisyiyah Muntilan?",
+                "Rumah sakit Aisyiyah Muntilan memiliki fasilitas apa saja untuk pasien?",
+                "Apa tipe rumah sakit Rumah Sakit Rumah sakit Aisyiyah Muntilan?",
+                "Rumah sakit Aisyiyah Muntilan memiliki akreditasi apa?"
+            ],
+            "responses": [
+                "Berikut adalah informasi RS Aisyiyah Muntilan:\n1. Lokasi: JL. KH A. Dahlan No. 24 Muntilan, Magelang, 56414\n2. Kontak: (+62) 895377676706\n3. Layanan Spesialisasi: Poli Kandungan, Poli Anak, Poli Syaraf, Poli Ortopedi, Poli Penyakit Dalam, Poli Mata, Poli Bedah, Poli Jiwa, Poli Umum, Poli Radiologi & USG\n4. Fasilitas: IGD 24 Jam, Radiologi, Farmasi, Laboratorium\n5. Jenis Rumah Sakit: Rumah sakit umum tipe D"
+            ]
+        },
+        {
+            "tag": "Layanan_apotek_candi_husada",
+            "patterns": [
+                "Di mana letak Apotek Candi Husada?",
+                "Di jalan apa Apotek Candi Husada berada?",
+                "Apakah Apotek Candi Husada dekat dengan candi borobudur?",
+                "Jam berapa Apotek Candi Husada buka?",
+                "Sampai jam berapa Apotek Candi Husada buka?",
+                "Apakah Apotek Candi Husada buka 24 jam?",
+                "Apakah Apotek Candi Husada buka pada hari libur?",
+                "Nomor telepon Apotek Candi Husada berapa?",
+                "Bagaimana cara menghubungi Apotek Candi Husada?"
+            ],
+            "responses": [
+                "Berikut adalah informasi mengenai Apotek Candi Husada \n1. Lokasi: Jl. Pramudyawardhani, Dusun XVI, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 \n2. Jam Buka: Senin-Sabtu (08.00-21.00), Minggu (15.00-21.00) \n3.Kontak: (0293) 789612"
+            ]
+        },
+        {
+            "tag": "Layanan_apotek_citra_farma",
+            "patterns": [
+                "Di mana letak Apotek Citra Farma?",
+                "Di jalan apa Apotek Citra Farma berada?",
+                "Apakah Apotek Citra Farma dekat dengan Candi Borobudur?",
+                "Jam berapa Apotek Citra Farma buka?",
+                "Sampai jam berapa Apotek Citra Farma buka?",
+                "Apakah Apotek Citra Farma buka 24 jam?",
+                "Apakah Apotek Citra Farma buka pada hari libur?",
+                "Nomor telepon Apotek Citra Farma berapa?",
+                "Bagaimana cara menghubungi Apotek Citra Farma?"
+            ],
+            "responses": [
+                "Berikut adalah informasi mengenai Apotek Citra Farma \n1. Lokasi: Jl. Sudirman No.14, Dusun XIV, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 \n2. Jam Buka: Senin-Sabtu (08.00-21.00) \n3. Kontak: 0857-4109-8423"
+            ]
+        },
+        {
+            "tag": "Layanan_apotek_syailendra_farma",
+            "patterns": [
+                "Di mana letak Apotek Syailendra Farma?",
+                "Di jalan apa Apotek Syailendra Farma berada?",
+                "Apakah Apotek Syailendra Farma dekat dengan Candi Borobudur?",
+                "Jam berapa Apotek Syailendra Farma buka?",
+                "Sampai jam berapa Apotek Syailendra Farma buka?",
+                "Apakah Apotek Syailendra Farma buka 24 jam?",
+                "Apakah Apotek Syailendra Farma buka pada hari libur?",
+                "Nomor telepon Apotek Syailendra Farma berapa?",
+                "Bagaimana cara menghubungi Apotek Syailendra Farma?"
+            ],
+            "responses": [
+                "Berikut adalah informasi mengenai Apotek Syailendra Farma \n1. Lokasi: Jalan Syailendra Raya No.26, Kaliabon, Borobudur, Dusun X, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56511 \n2. Jam Buka: Setiap hari (08.00-21.00) \n3. Kontak: (0293) 788544 / 0812-284-373-63"
+            ]
+        },
+        {
+            "tag": "Layanan_apotek_kurnia_as_syifa",
+            "patterns": [
+                "Di mana letak Apotek Kurnia As-Syifa?",
+                "Di jalan apa Apotek Kurnia As-Syifa berada?",
+                "Apakah Apotek Kurnia As-Syifa dekat dengan Candi Borobudur?",
+                "Jam berapa Apotek Kurnia As-Syifa buka?",
+                "Sampai jam berapa Apotek Kurnia As-Syifa buka?",
+                "Apakah Apotek Kurnia As-Syifa buka 24 jam?",
+                "Apakah Apotek Kurnia As-Syifa buka pada hari libur?",
+                "Nomor telepon Apotek Kurnia As-Syifa berapa?",
+                "Bagaimana cara menghubungi Apotek Kurnia As-Syifa?"
+            ],
+            "responses": [
+                "Berikut adalah informasi mengenai Apotek Kurnia As-Syifa \n1. Lokasi: Jl. Badrawati No.184, Pulon, Tuksongo, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 \n2. Jam Buka: Senin-Sabtu (07.30-20.00) \n3. Kontak: 0851-4710-1473"
+            ]
+        },
+        {
+            "tag": "Layanan_apotek_sawitan",
+            "patterns": [
+                "Di mana letak Apotek Sawitan?",
+                "Di jalan apa Apotek Sawitan berada?",
+                "Apakah Apotek Sawitan dekat dengan Candi Borobudur?",
+                "Jam berapa Apotek Sawitan buka?",
+                "Sampai jam berapa Apotek Sawitan buka?",
+                "Apakah Apotek Sawitan buka pada hari libur?",
+                "Apakah Apotek Sawitan buka 24 jam?",
+                "Nomor telepon Apotek Sawitan berapa?",
+                "Bagaimana cara menghubungi Apotek Sawitan?"
+            ],
+            "responses": [
+                "Berikut adalah informasi mengenai Apotek Sawitan \n1. Lokasi: Jl. Soekarno Hatta No.70, Ngentan II, Sawitan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56511 \n2. Jam Buka: Senin-Sabtu (08.00-20.30), Minggu (09.00-20.30) \n3. Kontak: (0293) 789634"
+            ]
+        },
+        {
+            "tag": "Layanan_apotek_jaya_farma",
+            "patterns": [
+                "Di mana letak Apotek Jaya Farma?",
+                "Di jalan apa Apotek Jaya Farma berada?",
+                "Apakah Apotek Jaya Farma dekat dengan Candi Borobudur?",
+                "Jam berapa Apotek Jaya Farma buka?",
+                "Sampai jam berapa Apotek Jaya Farma buka?",
+                "Apakah Apotek Jaya Farma buka 24 jam?",
+                "Apakah Apotek Jaya Farma buka pada hari libur?",
+                "Nomor telepon Apotek Jaya Farma berapa?",
+                "Bagaimana cara menghubungi Apotek Jaya Farma?"
+            ],
+            "responses": [
+                "Berikut adalah informasi mengenai Apotek Jaya Farma \n1. Lokasi: Jl. Sudirman, Dusun X, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 \n2. Jam Buka: Senin-Sabtu (07.00-20.00) \n3. Kontak: (0293) 788959"
+            ]
+        },
+        {
+            "tag": "Layanan_klinik_griya_medika_2",
+            "patterns": [
+                "Di mana Klinik Griya Medika 2 Borobudur berada?",
+                "Apa alamat lengkap Klinik Griya Medika 2 Borobudur?",
+                "Kapan Klinik Griya Medika 2 Borobudur buka?",
+                "Apakah Klinik Griya Medika 2 Borobudur buka 24 jam?",
+                "Apakah Klinik Griya Medika 2 Borobudur buka pada akhir pekan atau hari libur?",
+                "Nomor telepon Klinik Griya Medika 2 Borobudur berapa?",
+                "Apakah ada akun media sosial untuk Klinik Griya Medika 2 Borobudur?",
+                "Apa saja layanan yang disediakan oleh Klinik Griya Medika 2 Borobudur?",
+                "Apakah Klinik Griya Medika 2 Borobudur menyediakan layanan darurat?",
+                "Layanan kesehatan apa saja yang tersedia di Klinik Griya Medika 2 Borobudur?"
+            ],
+            "responses": [
+                "Berikut adalah informasi mengenai Klinik Griya Medika 2 Borobudur \n1. Lokasi: Jl. Syailendra Raya Borobudur, Dusun X, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553 \n2. Jam Buka: Senin-Sabtu (14.00-22.00) \n3. Kontak: 0813-2587-4799 / Social Media: griyamedika2borobudur (instagram) \n4. Layanan: IGD, Poli Umum, Poli Gigi, Laboratorium"
+            ]
+        },
+        {
+            "tag": "Layanan_klinik_kjp_magelang",
+            "patterns": [
+                "Di mana Klinik KJP Magelang berada?",
+                "Apa alamat lengkap Klinik KJP Magelang?",
+                "Kapan Klinik KJP Magelang buka?",
+                "Apakah Klinik KJP Magelang buka 24 jam?",
+                "Apakah Klinik KJP Magelang buka pada akhir pekan atau hari libur?",
+                "Nomor telepon Klinik KJP Magelang berapa?",
+                "Apakah ada akun media sosial untuk Klinik KJP Magelang?",
+                "Apa saja layanan yang disediakan oleh Klinik KJP Magelang?",
+                "Apakah Klinik KJP Magelang menyediakan layanan darurat?",
+                "Layanan kesehatan apa saja yang tersedia di Klinik KJP Magelang?"
+            ],
+            "responses": [
+                "Berikut adalah informasi mengenai Klinik KJP Magelang \n1. Lokasi: Jl. Soekarno Hatta, Patran, Sawitan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56511 \n2. Jam Buka: Senin-Minggu (07.00-21.00) \n3. Kontak: 0819-5263-3727 / Social Media: kjp_magelang (instagram) \n4. Layanan: Poli Umum, Poli Gigi, Laboratorium, Laboratorium, USG 2D&4D, Pemeriksaan kehamilan"
+            ]
+        },
+        {
+            "tag": "Layanan_klinik_dhiaulhaq_srowol",
+            "patterns": [
+                "Di mana Klinik Dhiaulhaq Srowol berada?",
+                "Apa alamat lengkap Klinik Dhiaulhaq Srowol?",
+                "Kapan Klinik Dhiaulhaq Srowol buka?",
+                "Apakah Klinik Dhiaulhaq Srowol buka 24 jam?",
+                "Apakah Klinik Dhiaulhaq Srowol buka pada akhir pekan atau hari libur?",
+                "Nomor telepon Klinik Dhiaulhaq Srowol berapa?",
+                "Apakah ada akun media sosial untuk Klinik Dhiaulhaq Srowol?",
+                "Apa saja layanan yang disediakan oleh Klinik Dhiaulhaq Srowol?",
+                "Apakah Klinik Dhiaulhaq Srowol menyediakan layanan darurat?",
+                "Layanan kesehatan apa saja yang tersedia di Klinik Dhiaulhaq Srowol?"
+            ],
+            "responses": [
+                "Berikut adalah informasi mengenai Klinik Dhiaulhaq Srowol \n1. Lokasi: Srowol, Jl. Village Progowati, Kanden, Progowati, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512 \n2. Jam Buka: 24 jam \n3. Kontak: 0857-0069-5135 / Social Media: bpmdhiaulhaq__ (instagram) \n4. Layanan: Pemeriksaan kehamilan, Persalinan, Pemeriksaan Kesehatan Ibu dan Anak, Imunisasi Bayi Balita, Konsultasi"
+            ]
+        },
+        {
+            "tag": "Transport_Terminal_Borobudur",
+            "patterns": [
+                "Dimana Terminal Borobudur?",
+                "Apa alamat Terminal Borobudur?",
+                "Alamat Terminal Borobudur?",
+                "Di mana saya bisa menemukan Terminal Borobudur?",
+                "Terminal Borobudur letaknya di mana?"
+            ],
+            "responses": [
+                "Terminal Borobudur terletak di Jl. Pramudyawardhani No.19A, Dusun XV, Borobudur."
+            ]
+        },
+        {
+            "tag": "Transport_Stasiun_Magelang",
+            "patterns": [
+                "Dimana Stasiun Magelang?",
+                "Alamat Stasiun Magelang?",
+                "Apa alamat Stasiun Magelang?",
+                "Di mana Stasiun Magelang berada?",
+                "Stasiun Magelang letaknya di mana?"
+            ],
+            "responses": [
+                "Stasiun Magelang terletak di Jl. Semarang - Yogyakarta, Potrobangsan, Magelang Utara, Magelang."
+            ]
+        },
+        {
+            "tag": "Transport_Agen_Bus_Satono",
+            "patterns": [
+                "Dimana Agen Bus Satono?",
+                "Alamat Agen Bus Satono?",
+                "Apa alamat Agen Bus Satono?",
+                "Di mana saya bisa menemukan Agen Bus Satono?",
+                "Agen Bus Satono ada di mana?"
+            ],
+            "responses": [
+                "Agen Bus Satono terletak di Jl. Syailendra Raya No. 17, Wringinputih."
+            ]
+        },
+        {
+            "tag": "Transport_Becak_Dokar_Borobudur",
+            "patterns": [
+                "Dimana saya bisa menemukan becak dan dokar di Borobudur?",
+                "Adakah becak atau dokar di daerah Borobudur?",
+                "Apa yang dapat saya gunakan untuk berkeliling di Borobudur?",
+                "Becak dan dokar ada di mana saja di Borobudur?",
+                "Dimana saya bisa naik becak atau dokar di sekitar Candi Borobudur?"
+            ],
+            "responses": [
+                "Becak dan dokar dapat ditemukan di berbagai tempat di sekitar Borobudur, terutama dekat dengan pintu masuk Candi Borobudur dan di area wisata sekitar."
+            ]
+        },
+        {
+            "tag": "Wisata_Punthuk_Setumbu",
+            "patterns": [
+                "Dimana Punthuk Setumbu?",
+                "Apa itu Punthuk Setumbu?",
+                "Berapa harga tiket Punthuk Setumbu?",
+                "Jam operasional Punthuk Setumbu?",
+                "Punthuk Setumbu buka jam berapa?",
+                "Punthuk Setumbu terletak di mana?",
+                "Berapa biaya masuk Punthuk Setumbu?"
+            ],
+            "responses": [
+                "Punthuk Setumbu adalah bukit dengan pemandangan matahari terbit yang spektakuler, menampilkan siluet Candi Borobudur dan Pegunungan Menoreh.\n\n1. Harga Tiket: Rp 20.000\n2. Jam Operasional: 04:00 - 18:00\n3. Lokasi: Kurahan, Karangrejo, Borobudur."
+            ]
+        },
+        {
+            "tag": "Wisata_Gereja_Ayam",
+            "patterns": [
+                "Dimana Gereja Ayam?",
+                "Apa itu Gereja Ayam?",
+                "Berapa harga tiket Gereja Ayam?",
+                "Jam operasional Gereja Ayam?",
+                "Gereja Ayam buka jam berapa?",
+                "Lokasi Gereja Ayam?",
+                "Apa yang bisa dilihat di Gereja Ayam?"
+            ],
+            "responses": [
+                "Gereja Ayam adalah bangunan ikonik berbentuk ayam, sering menjadi lokasi foto dan memiliki area observasi dengan pemandangan indah.\n\n1. Harga Tiket: Rp 25.000\n2. Jam Operasional: 07:00 - 17:00\n3. Lokasi: Karangrejo Gombong, Kurahan, Kembanglimus, Kec. Borobudur, Kabupaten Magelang."
+            ]
+        },
+        {
+            "tag": "Wisata_Curug_Watuploso",
+            "patterns": [
+                "Dimana Curug Watuploso?",
+                "Apa itu Curug Watuploso?",
+                "Berapa harga tiket Curug Watuploso?",
+                "Jam operasional Curug Watuploso?",
+                "Curug Watuploso buka jam berapa?",
+                "Lokasi Curug Watuploso?",
+                "Apa saja yang bisa dilihat di Curug Watuploso?"
+            ],
+            "responses": [
+                "Curug Watuploso adalah sebuah air terjun yang terletak di Olgung, Giripurno, Kec. Borobudur. Tempat ini menawarkan keindahan alam yang alami.\n\n1. Harga Tiket: Rp 10.000\n2. Jam Operasional: 08:00 - 18:00\n3. Lokasi: 956C+R33, Olgung, Giripurno, Kec. Borobudur."
+            ]
+        },
+        {
+            "tag": "Wisata_Candi_Mendut_Pawon",
+            "patterns": [
+                "Dimana Candi Mendut dan Candi Pawon?",
+                "Apa itu Candi Mendut dan Candi Pawon?",
+                "Berapa harga tiket Candi Mendut dan Candi Pawon?",
+                "Jam operasional Candi Mendut dan Candi Pawon?",
+                "Candi Mendut dan Candi Pawon buka jam berapa?",
+                "Lokasi Candi Mendut dan Candi Pawon?",
+                "Apa yang bisa dilihat di Candi Mendut dan Candi Pawon?"
+            ],
+            "responses": [
+                "Candi Mendut dan Candi Pawon adalah candi-candi bersejarah yang terletak di sekitar Borobudur. Candi Mendut terkenal dengan patung Buddha besar yang ada di dalamnya.\n\n1. Harga Tiket: Rp 10.000 untuk domestik (plus asuransi Rp 500), Rp 20.500 untuk wisatawan mancanegara\n2. Jam Operasional: 07:00 - 16:00\n3. Lokasi: 96V9+GRV, Brojonalan, Dusun 1, Wanurejo, Kec. Borobudur."
+            ]
+        },
+        {
+            "tag": "Wisata_Museum_Kapal_Samudra_Raksa",
+            "patterns": [
+                "Dimana Museum Kapal Samudra Raksa?",
+                "Apa itu Museum Kapal Samudra Raksa?",
+                "Berapa harga tiket Museum Kapal Samudra Raksa?",
+                "Jam operasional Museum Kapal Samudra Raksa?",
+                "Museum Kapal Samudra Raksa buka jam berapa?",
+                "Lokasi Museum Kapal Samudra Raksa?",
+                "Apa yang bisa dilihat di Museum Kapal Samudra Raksa?"
+            ],
+            "responses": [
+                "Museum Kapal Samudra Raksa adalah museum yang terletak di kompleks Taman Wisata Candi Borobudur, menampilkan replika kapal dan koleksi terkait sejarah maritim.\n\n1. Harga Tiket: Sepaket dengan tiket masuk Candi Borobudur\n2. Jam Operasional: 08:00 - 15:30\n3. Lokasi: Taman Wisata Candi Borobudur, Jl. Badrawati, Borobudur, Kw. Candi Borobudur."
+            ]
+        },
+        {
+            "tag": "Kuliner_Rumah_Makan_Bale_Kambang",
+            "patterns": [
+                "Dimana Rumah Makan Bale Kambang?",
+                "Apa menu yang tersedia di Rumah Makan Bale Kambang?",
+                "Berapa kisaran harga di Rumah Makan Bale Kambang?",
+                "Jam buka Rumah Makan Bale Kambang?",
+                "Apakah Rumah Makan Bale Kambang menjual ikan bakar?",
+                "Lokasi Rumah Makan Bale Kambang ada di mana?",
+                "Rumah Makan Bale Kambang buka sampai jam berapa?",
+                "Menu favorit di Rumah Makan Bale Kambang apa?"
+            ],
+            "responses": [
+                "Rumah Makan Bale Kambang menawarkan tempat makan dengan konsep apung, menyediakan berbagai sajian seperti ikan nila bakar, tumis kangkung, jamur goreng tepung, dan ikan patin rica-rica.\n\n1. Kisaran Harga: Rp 25.000 - Rp 100.000\n2. Jam Operasional: Selasa - Minggu, 08:30 - 17:00\n3. Lokasi: Jl. Raya Borobudur No.Km. 2, 8, Slak, Pabelan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
+            ]
+        },
+        {
+            "tag": "Kuliner_Borobudur_Silver_Resto",
+            "patterns": [
+                "Dimana Borobudur Silver Resto?",
+                "Apa saja menu di Borobudur Silver Resto?",
+                "Berapa harga makanan di Borobudur Silver Resto?",
+                "Jam operasional Borobudur Silver Resto?",
+                "Apakah Borobudur Silver Resto menjual makanan tradisional?",
+                "Dimana lokasi Borobudur Silver Resto?",
+                "Borobudur Silver Resto buka jam berapa?",
+                "Menu andalan Borobudur Silver Resto apa?"
+            ],
+            "responses": [
+                "Borobudur Silver Resto memiliki desain interior kontemporer Jawa yang tradisional dan elegan dengan berbagai furniture kayu, menyajikan makanan tradisional seperti nasi goreng jawa, magelangan, ayam, seafood, hingga baceman.\n\n1. Kisaran Harga: Rp 5.000 - Rp 30.000\n2. Jam Operasional: Setiap hari, 08:00 - 19:00\n3. Lokasi: Jl. Mayor Kusen No.KM. 2,4, Pabelan Satu, Pabelan, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
+            ]
+        },
+        {
+            "tag": "Kuliner_Sekar_Kedhaton_Restaurant",
+            "patterns": [
+                "Dimana Sekar Kedhaton Restaurant?",
+                "Apa saja menu yang disediakan Sekar Kedhaton Restaurant?",
+                "Berapa harga makanan di Sekar Kedhaton Restaurant?",
+                "Jam buka Sekar Kedhaton Restaurant?",
+                "Lokasi Sekar Kedhaton Restaurant ada di mana?",
+                "Sekar Kedhaton Restaurant buka sampai jam berapa?",
+                "Menu andalan Sekar Kedhaton Restaurant apa saja?",
+                "Makanan khas di Sekar Kedhaton Restaurant apa?"
+            ],
+            "responses": [
+                "Sekar Kedhaton Restaurant memiliki konsep rumah makan dengan nuansa Kerajaan Mataram Islam, menawarkan makanan khas Nusantara terutama Jawa Tengah seperti nasi goreng, bakmi, ayam goreng, dan ikan masak asam.\n\n1. Kisaran Harga: Rp 30.000 - Rp 100.000\n2. Jam Operasional: Setiap hari, 11:00 - 21:00\n3. Lokasi: Jl. Tegal Gendu No.28, Prenggan, Kec. Kotagede, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55173"
+            ]
+        },
+        {
+            "tag": "Kuliner_Mangut_Beong_Asli_Borobudur",
+            "patterns": [
+                "Dimana Mangut Beong Asli Borobudur?",
+                "Apa menu khas di Mangut Beong Asli Borobudur?",
+                "Berapa harga makanan di Mangut Beong Asli Borobudur?",
+                "Jam operasional Mangut Beong Asli Borobudur?",
+                "Apakah ada menu lele di Mangut Beong Asli Borobudur?",
+                "Mangut Beong Asli Borobudur buka jam berapa?",
+                "Lokasi Mangut Beong Asli Borobudur di mana?",
+                "Menu spesial Mangut Beong Asli Borobudur apa?"
+            ],
+            "responses": [
+                "Mangut Beong Asli Borobudur menyediakan berbagai menu varian mangut, seperti beong, lele, belut, patin, ayam goreng, serta aneka sayur seperti lompong, tahu, tempe, dan krecek.\n\n1. Kisaran Harga: Rp 30.000 - Rp 80.000\n2. Jam Operasional: Setiap hari, 08:00 - 17:00\n3. Lokasi: Kanggan, Jl. Sudirman, Wringinputih, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Stupa_Restaurant",
+            "patterns": [
+                "Dimana Stupa Restaurant?",
+                "Apa menu di Stupa Restaurant?",
+                "Berapa harga makanan di Stupa Restaurant?",
+                "Jam operasional Stupa Restaurant?",
+                "Apakah ada menu sate di Stupa Restaurant?",
+                "Stupa Restaurant buka jam berapa?",
+                "Lokasi Stupa Restaurant ada di mana?",
+                "Apa saja masakan tradisional di Stupa Restaurant?"
+            ],
+            "responses": [
+                "Stupa Restaurant menawarkan masakan tradisional Indonesia seperti sate ayam, gurami goreng, nasi uduk, rawon, ayam bakar taliwang, dan lainnya.\n\n1. Kisaran Harga: Rp 100.000 - Rp 1.000.000\n2. Jam Operasional: Setiap hari, 07:00 - 11:00\n3. Lokasi: Dusun Kretek - adjacent to Plataran Heritage Borobudur Karangrejo, Dusun II, Borobudur, Magelang Regency, Central Java 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Joglo_Panglipuran_Borobudur",
+            "patterns": [
+                "Dimana Joglo Panglipuran Borobudur?",
+                "Apa menu di Joglo Panglipuran Borobudur?",
+                "Berapa harga makanan di Joglo Panglipuran Borobudur?",
+                "Jam operasional Joglo Panglipuran Borobudur?",
+                "Apa menu khas di Joglo Panglipuran Borobudur?",
+                "Joglo Panglipuran Borobudur buka jam berapa?",
+                "Lokasi Joglo Panglipuran Borobudur ada di mana?",
+                "Menu tradisional Joglo Panglipuran Borobudur apa saja?"
+            ],
+            "responses": [
+                "Joglo Panglipuran Borobudur menyajikan menu seperti iwak kali, garang asem ayam kampung, nasi megono, buntil, dan tiwul.\n\n1. Kisaran Harga: Rp 25.000 - Rp 50.000\n2. Jam Operasional: Setiap hari, 09:00 - 17:00\n3. Lokasi: Jl. Sudirman, Dusun 1, Wanurejo, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Rumah_Makan_Sehati_Borobudur",
+            "patterns": [
+                "Dimana Rumah Makan Sehati Borobudur?",
+                "Apa menu di Rumah Makan Sehati Borobudur?",
+                "Berapa harga makanan di Rumah Makan Sehati Borobudur?",
+                "Jam operasional Rumah Makan Sehati Borobudur?",
+                "Apakah Rumah Makan Sehati Borobudur menyediakan mangut beong?",
+                "Rumah Makan Sehati Borobudur buka jam berapa?",
+                "Lokasi Rumah Makan Sehati Borobudur di mana?",
+                "Apa menu andalan Rumah Makan Sehati Borobudur?"
+            ],
+            "responses": [
+                "Rumah Makan Sehati Borobudur menawarkan menu mangut Beong super pedas, mangut lele, opor ayam, dan dawet gula Jawa.\n\n1. Kisaran Harga: Rp 25.000 - Rp 50.000\n2. Jam Operasional: Setiap hari, 08:00 - 16:00\n3. Lokasi: Bumen, RT.01/RW.06, Bumen, Kembanglimus, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Kedai_Bukit_Rhema",
+            "patterns": [
+                "Dimana Kedai Bukit Rhema?",
+                "Apa menu di Kedai Bukit Rhema?",
+                "Berapa harga makanan di Kedai Bukit Rhema?",
+                "Jam operasional Kedai Bukit Rhema?",
+                "Apakah Kedai Bukit Rhema menyajikan bakmi magelangan?",
+                "Lokasi Kedai Bukit Rhema ada di mana?",
+                "Kedai Bukit Rhema buka jam berapa?",
+                "Menu spesial di Kedai Bukit Rhema apa saja?"
+            ],
+            "responses": [
+                "Kedai Bukit Rhema terkenal dengan pemandangan indah dan menyajikan menu seperti bakmi magelangan, risol mayo, serabi, spageti, kunyit asam, dan temulawak.\n\n1. Kisaran Harga: Rp 25.000 - Rp 50.000\n2. Jam Operasional: Setiap hari, 06:00 - 18:00\n3. Lokasi: Kurahan, Karangrejo, Borobudur, Magelang Regency, Central Java 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Rumah_Ketela",
+            "patterns": [
+                "Dimana Rumah Ketela?",
+                "Apa menu di Rumah Ketela?",
+                "Berapa harga makanan di Rumah Ketela?",
+                "Jam operasional Rumah Ketela?",
+                "Apa olahan singkong yang tersedia di Rumah Ketela?",
+                "Rumah Ketela buka jam berapa?",
+                "Lokasi Rumah Ketela ada di mana?",
+                "Menu unik di Rumah Ketela apa saja?"
+            ],
+            "responses": [
+                "Rumah Ketela menyajikan berbagai olahan singkong seperti tiwul, gethuk bakar, stik singkong, dan makanan berat seperti ayam geprek, nasi goreng kambing, dan mie aceh.\n\n1. Kisaran Harga: Rp 25.000 - Rp 50.000\n2. Jam Operasional: Setiap hari, 07:00 - 16:00\n3. Lokasi: Jl. Badrawati Dusun Ngaran II, RT.01/RW.06, Dusun XIX, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Warung_Kopi_Badhek",
+            "patterns": [
+                "Dimana Warung Kopi Badhek?",
+                "Apa menu di Warung Kopi Badhek?",
+                "Berapa harga makanan di Warung Kopi Badhek?",
+                "Jam operasional Warung Kopi Badhek?",
+                "Apakah Warung Kopi Badhek menjual kopi khas desa?",
+                "Warung Kopi Badhek buka jam berapa?",
+                "Lokasi Warung Kopi Badhek ada di mana?",
+                "Menu favorit di Warung Kopi Badhek apa?"
+            ],
+            "responses": [
+                "Warung Kopi Badhek Borobudur menawarkan konsep warung kopi desa dengan suasana Jawa yang santai di pinggir persawahan.\n\n1. Kisaran Harga: Rp 1.000 - Rp 10.000\n2. Jam Operasional: Setiap hari, 08:00 - 21:00\n3. Lokasi: Dusun Sabrangrowo, RT.01/RW.16, Dusun XXII, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Amanjiwo_Restaurant",
+            "patterns": [
+                "Dimana The Restaurant & Bar at Amanjiwo?",
+                "Apa menu di Amanjiwo Restaurant?",
+                "Berapa harga makanan di Amanjiwo Restaurant?",
+                "Jam operasional Amanjiwo Restaurant?",
+                "Apakah Amanjiwo Restaurant menyajikan makanan Indonesia?",
+                "Amanjiwo Restaurant buka jam berapa?",
+                "Lokasi Amanjiwo Restaurant ada di mana?",
+                "Apa menu andalan Amanjiwo Restaurant?"
+            ],
+            "responses": [
+                "The Restaurant & Bar at Amanjiwo menyajikan berbagai makanan Indonesia, Asia, dan Western seperti nasi goreng, ayam laksa, gulai kambing, rawon, dan pizza.\n\n1. Kisaran Harga: Rp 80.000 - Rp 300.000\n2. Jam Operasional: Setiap hari, 06:30 - 23:00\n3. Lokasi: Sawah, Majaksingi, Borobudur, Magelang Regency, Central Java 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Omah_Kayoman",
+            "patterns": [
+                "Dimana Omah Kayoman?",
+                "Apa menu di Omah Kayoman?",
+                "Berapa harga makanan di Omah Kayoman?",
+                "Jam operasional Omah Kayoman?",
+                "Apakah Omah Kayoman menyediakan ikan wader?",
+                "Omah Kayoman buka jam berapa?",
+                "Lokasi Omah Kayoman ada di mana?",
+                "Apa menu spesial di Omah Kayoman?"
+            ],
+            "responses": [
+                "Omah Kayoman menyajikan hidangan ikan air tawar dari Sungai Progo, seperti ikan wader, lele, nila, patin, dan ikan beong.\n\n1. Kisaran Harga: Rp 25.000 - Rp 50.000\n2. Jam Operasional: Setiap hari, 09:00 - 16:00\n3. Lokasi: Jl. Village Pogowati, Progowati, Mungkid, Kanden, Progowati, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
+            ]
+        },
+        {
+            "tag": "Kuliner_Benoa_Borobudur_Resto",
+            "patterns": [
+                "Dimana Benoa Borobudur Resto?",
+                "Apa menu di Benoa Borobudur Resto?",
+                "Berapa harga makanan di Benoa Borobudur Resto?",
+                "Jam operasional Benoa Borobudur Resto?",
+                "Apakah Benoa Borobudur Resto menyediakan masakan Indonesia?",
+                "Benoa Borobudur Resto buka jam berapa?",
+                "Lokasi Benoa Borobudur Resto ada di mana?",
+                "Apa menu andalan Benoa Borobudur Resto?"
+            ],
+            "responses": [
+                "Benoa Borobudur Resto and Gallery menawarkan masakan Indonesia dan Western seperti nasi goreng seafood, ayam lada hitam, spageti, dan chicken katsu.\n\n1. Kisaran Harga: Rp 50.000 - Rp 75.000\n2. Jam Operasional: Setiap hari, 11:00 - 21:00\n3. Lokasi: Jl. Balaputradewa No.57 B, Dusun XVI, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Menoreh_Restaurant",
+            "patterns": [
+                "Dimana Menoreh Restaurant?",
+                "Apa menu di Menoreh Restaurant?",
+                "Berapa harga makanan di Menoreh Restaurant?",
+                "Jam operasional Menoreh Restaurant?",
+                "Apakah Menoreh Restaurant menyediakan dimsum?",
+                "Menoreh Restaurant buka jam berapa?",
+                "Lokasi Menoreh Restaurant ada di mana?",
+                "Apa menu andalan Menoreh Restaurant?"
+            ],
+            "responses": [
+                "Menoreh Restaurant memiliki arsitektur kolonial yang dipadukan dengan nuansa Jawa, menawarkan berbagai macam menu dengan cita rasa khas masakan Asia, dengan aneka dimsum sebagai salah satu menu unggulannya.\n\n1. Kisaran Harga: Rp 175.000 - Rp 200.000\n2. Jam Operasional: Setiap hari, 07:00 - 23:00\n3. Lokasi: Dusun Kretek, Karangrejo, Dusun II, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Dapoer_Gending_Borobudur",
+            "patterns": [
+                "Dimana Dapoer Gending Borobudur?",
+                "Apa menu di Dapoer Gending Borobudur?",
+                "Berapa harga makanan di Dapoer Gending Borobudur?",
+                "Jam operasional Dapoer Gending Borobudur?",
+                "Apakah Dapoer Gending Borobudur menyediakan nasi penyet?",
+                "Dapoer Gending Borobudur buka jam berapa?",
+                "Lokasi Dapoer Gending Borobudur ada di mana?",
+                "Apa menu spesial Dapoer Gending Borobudur?"
+            ],
+            "responses": [
+                "Dapoer Gending Borobudur menyajikan beragam menu seperti nasi penyet, ayam geprek, nasi goreng seafood, mie godok, dan lainnya.\n\n1. Kisaran Harga: Rp 16.000 - Rp 40.000\n2. Jam Operasional: Setiap hari, 10:00 - 21:00\n3. Lokasi: Jl. Pramudyawardhani No.19, Dusun XV, Borobudur, Kec. Borobudur, Kabupaten Magelang, Jawa Tengah 56553"
+            ]
+        },
+        {
+            "tag": "Kuliner_Saung_Makan_Bu_Empat",
+            "patterns": [
+                "Dimana Saung Makan Bu Empat?",
+                "Apa menu di Saung Makan Bu Empat?",
+                "Berapa harga makanan di Saung Makan Bu Empat?",
+                "Jam operasional Saung Makan Bu Empat?",
+                "Apakah Saung Makan Bu Empat menyediakan hidangan ikan?",
+                "Saung Makan Bu Empat buka jam berapa?",
+                "Lokasi Saung Makan Bu Empat ada di mana?",
+                "Apa menu spesial di Saung Makan Bu Empat?"
+            ],
+            "responses": [
+                "Saung Makan Bu Empat merupakan rumah makan dengan spesialis hidangan udang galah dan ikan, tersedia juga hidangan lain seperti tahu goreng, tempe goreng, sayur asem, ayam bakar, dan sup gurame.\n\n1. Kisaran Harga: Rp 9.000 - Rp 80.000\n2. Jam Operasional: Setiap hari, 08:00 - 21:00\n3. Lokasi: Jl. Raya Borobudur No.4, Ngrajek II, Ngrajek, Kec. Mungkid, Kabupaten Magelang, Jawa Tengah 56512"
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Detail",
+            "patterns": [
+                "Apa saja detail struktur TP PKK di Desa Borobudur?",
+                "Bagaimana struktur lengkap TP PKK Desa Borobudur?",
+                "Siapa saja dalam struktur TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Struktur TP PKK Desa Borobudur lengkap adalah sebagai berikut:\n\n**Ketua**: Ismi Prastikawati, A.MK\n**Wakil Ketua I**: Dwi Anggar Kaswati\n**Sekretaris**: Lucia Hari Sucahyowati\n**Wakil Sekretaris I**: Dianovita Paramita Wardani, S.Gz\n**Wakil Sekretaris II**: Siska Wahyanti\n**Bendahara**: Sri Hendratik\n**Wakil Bendahara I**: Munawaroh\n**Wakil Bendahara II**: Ratih Ambarsari\n\nPokja I hingga Pokja IV mencakup ketua, sekretaris, bendahara, dan anggota."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Tugas",
+            "patterns": [
+                "Apa tugas TP PKK di Desa Borobudur?",
+                "Apa tanggung jawab TP PKK di Desa Borobudur?",
+                "TP PKK Desa Borobudur bertugas untuk apa?"
+            ],
+            "responses": [
+                "TP PKK Desa Borobudur bertugas membantu pemerintahan desa dalam pemberdayaan keluarga melalui program-program kesejahteraan sosial, pendidikan, kesehatan, dan pengembangan ekonomi. Mereka berperan aktif dalam meningkatkan kualitas hidup masyarakat Desa Borobudur."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Ketua",
+            "patterns": [
+                "Siapa ketua TP PKK di Desa Borobudur?",
+                "Nama ketua TP PKK Desa Borobudur siapa?",
+                "Apa nama ketua TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Ketua TP PKK Desa Borobudur adalah Ismi Prastikawati, A.MK."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Wakil_Ketua_I",
+            "patterns": [
+                "Siapa wakil ketua I TP PKK di Desa Borobudur?",
+                "Nama wakil ketua I TP PKK Desa Borobudur siapa?",
+                "Apa nama wakil ketua I TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Wakil Ketua I TP PKK Desa Borobudur adalah Dwi Anggar Kaswati."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Sekretaris",
+            "patterns": [
+                "Siapa sekertaris TP PKK di Desa Borobudur?",
+                "Nama sekertaris TP PKK Desa Borobudur siapa?",
+                "Apa nama sekertaris TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Sekretaris TP PKK Desa Borobudur adalah Lucia Hari Sucahyowati."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Wakil_Sekretaris_I",
+            "patterns": [
+                "Siapa wakil sekertaris I TP PKK di Desa Borobudur?",
+                "Nama wakil sekertaris I TP PKK Desa Borobudur siapa?",
+                "Apa nama wakil sekertaris I TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Wakil Sekretaris I TP PKK Desa Borobudur adalah Dianovita Paramita Wardani, S.Gz."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Wakil_Sekretaris_II",
+            "patterns": [
+                "Siapa wakil sekertaris II TP PKK di Desa Borobudur?",
+                "Nama wakil sekertaris II TP PKK Desa Borobudur siapa?",
+                "Apa nama wakil sekertaris II TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Wakil Sekretaris II TP PKK Desa Borobudur adalah Siska Wahyanti."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Bendahara",
+            "patterns": [
+                "Siapa bendahara TP PKK di Desa Borobudur?",
+                "Nama bendahara TP PKK Desa Borobudur siapa?",
+                "Apa nama bendahara TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Bendahara TP PKK Desa Borobudur adalah Sri Hendratik."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Wakil_Bendahara_I",
+            "patterns": [
+                "Siapa wakil bendahara I TP PKK di Desa Borobudur?",
+                "Nama wakil bendahara I TP PKK Desa Borobudur siapa?",
+                "Apa nama wakil bendahara I TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Wakil Bendahara I TP PKK Desa Borobudur adalah Munawaroh."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Wakil_Bendahara_II",
+            "patterns": [
+                "Siapa wakil bendahara II TP PKK di Desa Borobudur?",
+                "Nama wakil bendahara II TP PKK Desa Borobudur siapa?",
+                "Apa nama wakil bendahara II TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Wakil Bendahara II TP PKK Desa Borobudur adalah Ratih Ambarsari."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Ketua_Pokja_I",
+            "patterns": [
+                "Siapa ketua Pokja I TP PKK di Desa Borobudur?",
+                "Nama ketua Pokja I TP PKK Desa Borobudur siapa?",
+                "Apa nama ketua Pokja I TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Ketua Pokja I TP PKK Desa Borobudur adalah Ika Wijayanti."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Sekretaris_Pokja_I",
+            "patterns": [
+                "Siapa sekertaris Pokja I TP PKK di Desa Borobudur?",
+                "Nama sekertaris Pokja I TP PKK Desa Borobudur siapa?",
+                "Apa nama sekertaris Pokja I TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Sekretaris Pokja I TP PKK Desa Borobudur adalah Nurul Huda."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Bendahara_Pokja_I",
+            "patterns": [
+                "Siapa bendahara Pokja I TP PKK di Desa Borobudur?",
+                "Nama bendahara Pokja I TP PKK Desa Borobudur siapa?",
+                "Apa nama bendahara Pokja I TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Bendahara Pokja I TP PKK Desa Borobudur adalah Lastari."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Anggota_Pokja_I",
+            "patterns": [
+                "Siapa anggota Pokja I TP PKK di Desa Borobudur?",
+                "Nama anggota Pokja I TP PKK Desa Borobudur siapa?",
+                "Apa nama anggota Pokja I TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Anggota Pokja I TP PKK Desa Borobudur adalah Siti Mudawimah dan Sri Wahyudati."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Ketua_Pokja_II",
+            "patterns": [
+                "Siapa ketua Pokja II TP PKK di Desa Borobudur?",
+                "Nama ketua Pokja II TP PKK Desa Borobudur siapa?",
+                "Apa nama ketua Pokja II TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Ketua Pokja II TP PKK Desa Borobudur adalah Winarti."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Sekretaris_Pokja_II",
+            "patterns": [
+                "Siapa sekertaris Pokja II TP PKK di Desa Borobudur?",
+                "Nama sekertaris Pokja II TP PKK Desa Borobudur siapa?",
+                "Apa nama sekertaris Pokja II TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Sekretaris Pokja II TP PKK Desa Borobudur adalah Furnia."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Bendahara_Pokja_II",
+            "patterns": [
+                "Siapa bendahara Pokja II TP PKK di Desa Borobudur?",
+                "Nama bendahara Pokja II TP PKK Desa Borobudur siapa?",
+                "Apa nama bendahara Pokja II TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Bendahara Pokja II TP PKK Desa Borobudur adalah Rikanah."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Anggota_Pokja_II",
+            "patterns": [
+                "Siapa anggota Pokja II TP PKK di Desa Borobudur?",
+                "Nama anggota Pokja II TP PKK Desa Borobudur siapa?",
+                "Apa nama anggota Pokja II TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Anggota Pokja II TP PKK Desa Borobudur adalah Sheny Afriyanti."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Ketua_Pokja_III",
+            "patterns": [
+                "Siapa ketua Pokja III TP PKK di Desa Borobudur?",
+                "Nama ketua Pokja III TP PKK Desa Borobudur siapa?",
+                "Apa nama ketua Pokja III TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Ketua Pokja III TP PKK Desa Borobudur adalah Rusyati."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Sekretaris_Pokja_III",
+            "patterns": [
+                "Siapa sekertaris Pokja III TP PKK di Desa Borobudur?",
+                "Nama sekertaris Pokja III TP PKK Desa Borobudur siapa?",
+                "Apa nama sekertaris Pokja III TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Sekretaris Pokja III TP PKK Desa Borobudur adalah Malikhatul Isnaeni."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Bendahara_Pokja_III",
+            "patterns": [
+                "Siapa bendahara Pokja III TP PKK di Desa Borobudur?",
+                "Nama bendahara Pokja III TP PKK Desa Borobudur siapa?",
+                "Apa nama bendahara Pokja III TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Bendahara Pokja III TP PKK Desa Borobudur adalah Arina Waliyati."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Anggota_Pokja_III",
+            "patterns": [
+                "Siapa anggota Pokja III TP PKK di Desa Borobudur?",
+                "Nama anggota Pokja III TP PKK Desa Borobudur siapa?",
+                "Apa nama anggota Pokja III TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Anggota Pokja III TP PKK Desa Borobudur adalah Setiyo Puji Lestari."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Ketua_Pokja_IV",
+            "patterns": [
+                "Siapa ketua Pokja IV TP PKK di Desa Borobudur?",
+                "Nama ketua Pokja IV TP PKK Desa Borobudur siapa?",
+                "Apa nama ketua Pokja IV TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Ketua Pokja IV TP PKK Desa Borobudur adalah Sukamti."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Sekretaris_Pokja_IV",
+            "patterns": [
+                "Siapa sekertaris Pokja IV TP PKK di Desa Borobudur?",
+                "Nama sekertaris Pokja IV TP PKK Desa Borobudur siapa?",
+                "Apa nama sekertaris Pokja IV TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Sekretaris Pokja IV TP PKK Desa Borobudur adalah Dwi Rudiati."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Bendahara_Pokja_IV",
+            "patterns": [
+                "Siapa bendahara Pokja IV TP PKK di Desa Borobudur?",
+                "Nama bendahara Pokja IV TP PKK Desa Borobudur siapa?",
+                "Apa nama bendahara Pokja IV TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Bendahara Pokja IV TP PKK Desa Borobudur adalah Yanti Wihastuti."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Anggota_Pokja_IV",
+            "patterns": [
+                "Siapa anggota Pokja IV TP PKK di Desa Borobudur?",
+                "Nama anggota Pokja IV TP PKK Desa Borobudur siapa?",
+                "Apa nama anggota Pokja IV TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Anggota Pokja IV TP PKK Desa Borobudur adalah Yati Marsudi."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Desa",
+            "patterns": [
+                "Siapa kepala desa di Desa Borobudur?",
+                "Nama kepala desa Desa Borobudur siapa?",
+                "Apa nama kepala desa Desa Borobudur?"
+            ],
+            "responses": [
+                "Kepala Desa Borobudur adalah Anwar Ujang Maryadi Lukman, S.E. dengan alamat di Kurahan, Rt. 001 Rw. 003, dan no HP: 081328036526."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Sekretaris_Desa",
+            "patterns": [
+                "Siapa sekertaris desa di Desa Borobudur?",
+                "Nama sekertaris desa Desa Borobudur siapa?",
+                "Apa nama sekertaris desa Desa Borobudur?"
+            ],
+            "responses": [
+                "Sekretaris Desa Borobudur adalah Ichsanusi dengan alamat di Kaliabon, Rt. 003 Rw. 001, dan no HP: 081227309993."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Seksi_Pemerintahan",
+            "patterns": [
+                "Siapa kepala seksi pemerintahan di Desa Borobudur?",
+                "Nama kepala seksi pemerintahan Desa Borobudur siapa?",
+                "Apa nama kepala seksi pemerintahan Desa Borobudur?"
+            ],
+            "responses": [
+                "Kepala Seksi Pemerintahan Desa Borobudur adalah Elgus Kelanawati dengan alamat di Kaliabon, Rt. 003 Rw. 001, dan no HP: 085725705300."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Seksi_Pelayanan",
+            "patterns": [
+                "Siapa kepala seksi pelayanan di Desa Borobudur?",
+                "Nama kepala seksi pelayanan Desa Borobudur siapa?",
+                "Apa nama kepala seksi pelayanan Desa Borobudur?"
+            ],
+            "responses": [
+                "Kepala Seksi Pelayanan Desa Borobudur adalah Budiman A dengan alamat di Ngaran II Rt. 002 Rw. 006, dan no HP: 087734095913."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Seksi_Kesejahteraan_Rakyat",
+            "patterns": [
+                "Siapa kepala seksi kesejahteraan rakyat di Desa Borobudur?",
+                "Nama kepala seksi kesejahteraan rakyat Desa Borobudur siapa?",
+                "Apa nama kepala seksi kesejahteraan rakyat Desa Borobudur?"
+            ],
+            "responses": [
+                "Kepala Seksi Kesejahteraan Rakyat Desa Borobudur adalah Evinda Riyandani dengan alamat di Bogowanti Kidul, Rt. 002 Rw. 013, dan no HP: 085727219000."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Urusan_Keuangan",
+            "patterns": [
+                "Siapa kepala urusan keuangan di Desa Borobudur?",
+                "Nama kepala urusan keuangan Desa Borobudur siapa?",
+                "Apa nama kepala urusan keuangan Desa Borobudur?"
+            ],
+            "responses": [
+                "Kepala Urusan Keuangan Desa Borobudur adalah Dianovita Paramita Wardani dengan alamat di Bogowanti Lor, Rt. 001 Rw. 014, dan no HP: 085743414908."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Urusan_Tata_Usaha_dan_Umum",
+            "patterns": [
+                "Siapa kepala urusan tata usaha dan umum di Desa Borobudur?",
+                "Nama kepala urusan tata usaha dan umum Desa Borobudur siapa?",
+                "Apa nama kepala urusan tata usaha dan umum Desa Borobudur?"
+            ],
+            "responses": [
+                "Kepala Urusan Tata Usaha dan Umum Desa Borobudur adalah Muh Agung Wibowo Aji dengan alamat di Ngaran I, Rt. 004 Rw. 005, dan no HP: 081328387494."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Urusan_Perencanaan",
+            "patterns": [
+                "Siapa kepala urusan perencanaan di Desa Borobudur?",
+                "Nama kepala urusan perencanaan Desa Borobudur siapa?",
+                "Apa nama kepala urusan perencanaan Desa Borobudur?"
+            ],
+            "responses": [
+                "Kepala Urusan Perencanaan Desa Borobudur adalah Andik Cahyono dengan alamat di Janan, Rt. 002 Rw. 004, dan no HP: 087723180212."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Dusun",
+            "patterns": [
+                "Siapa kepala dusun Jayan dan Kaliabon?",
+                "Nama kepala dusun Jayan dan Kaliabon siapa?",
+                "Apa nama kepala dusun Jayan dan Kaliabon?"
+            ],
+            "responses": [
+                "Kepala Dusun Jayan dan Kaliabon adalah Sutarja."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Dusun_Jligudan_dan_Kelon",
+            "patterns": [
+                "Siapa kepala dusun Jligudan dan Kelon?",
+                "Nama kepala dusun Jligudan dan Kelon siapa?",
+                "Apa nama kepala dusun Jligudan dan Kelon?"
+            ],
+            "responses": [
+                "Kepala Dusun Jligudan dan Kelon adalah Romadi."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Dusun_Kurahan_dan_Cawangsari",
+            "patterns": [
+                "Siapa kepala dusun Kurahan dan Cawangsari?",
+                "Nama kepala dusun Kurahan dan Cawangsari siapa?",
+                "Apa nama kepala dusun Kurahan dan Cawangsari?"
+            ],
+            "responses": [
+                "Kepala Dusun Kurahan dan Cawangsari adalah Ferriyanto."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Dusun_Janan",
+            "patterns": [
+                "Siapa kepala dusun Janan?",
+                "Nama kepala dusun Janan siapa?",
+                "Apa nama kepala dusun Janan?"
+            ],
+            "responses": [
+                "Kepala Dusun Janan adalah Maryoto."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Dusun_Ngaran_I_dan_Ngaran_II",
+            "patterns": [
+                "Siapa kepala dusun Ngaran I dan Ngaran II?",
+                "Nama kepala dusun Ngaran I dan Ngaran II siapa?",
+                "Apa nama kepala dusun Ngaran I dan Ngaran II?"
+            ],
+            "responses": [
+                "Kepala Dusun Ngaran I dan Ngaran II adalah Rujianto."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Dusun_Gopalan_dan_Bumisegoro",
+            "patterns": [
+                "Siapa kepala dusun Gopalan dan Bumisegoro?",
+                "Nama kepala dusun Gopalan dan Bumisegoro siapa?",
+                "Apa nama kepala dusun Gopalan dan Bumisegoro?"
+            ],
+            "responses": [
+                "Kepala Dusun Gopalan dan Bumisegoro adalah Nurul Yadin."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Dusun_Maitan_Tamanan_dan_Tanjungan",
+            "patterns": [
+                "Siapa kepala dusun Maitan, Tamanan dan Tanjungan?",
+                "Nama kepala dusun Maitan, Tamanan dan Tanjungan siapa?",
+                "Apa nama kepala dusun Maitan, Tamanan dan Tanjungan?"
+            ],
+            "responses": [
+                "Kepala Dusun Maitan, Tamanan dan Tanjungan adalah Heri Agus Setiawan."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Dusun_Sabrangrowo_Kujon_dan_Gejagan",
+            "patterns": [
+                "Siapa kepala dusun Sabrangrowo, Kujon dan Gejagan?",
+                "Nama kepala dusun Sabrangrowo, Kujon dan Gejagan siapa?",
+                "Apa nama kepala dusun Sabrangrowo, Kujon dan Gejagan?"
+            ],
+            "responses": [
+                "Kepala Dusun Sabrangrowo, Kujon dan Gejagan adalah Mugiman."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Dusun_Gendingan_dan_Bogowanti_Kidul",
+            "patterns": [
+                "Siapa kepala dusun Gendingan dan Bogowanti Kidul?",
+                "Nama kepala dusun Gendingan dan Bogowanti Kidul siapa?",
+                "Apa nama kepala dusun Gendingan dan Bogowanti Kidul?"
+            ],
+            "responses": [
+                "Kepala Dusun Gendingan dan Bogowanti Kidul adalah Matori."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa_Kepala_Dusun_Bogowanti_Lor_dan_Kenayan",
+            "patterns": [
+                "Siapa kepala dusun Bogowanti Lor dan Kenayan?",
+                "Nama kepala dusun Bogowanti Lor dan Kenayan siapa?",
+                "Apa nama kepala dusun Bogowanti Lor dan Kenayan?"
+            ],
+            "responses": [
+                "Kepala Dusun Bogowanti Lor dan Kenayan adalah Sutaryanto."
+            ]
+        },
+        {
+            "tag": "Lembaga_Kemasyarakatan_BPD_Ketua",
+            "patterns": [
+                "Siapa ketua BPD Desa Borobudur?",
+                "Nama ketua BPD Desa Borobudur siapa?",
+                "Apa nama ketua BPD Desa Borobudur?"
+            ],
+            "responses": [
+                "Ketua BPD Desa Borobudur adalah Darsono, S.T."
+            ]
+        },
+        {
+            "tag": "Lembaga_Kemasyarakatan_BPD_Wakil_Ketua",
+            "patterns": [
+                "Siapa wakil ketua BPD Desa Borobudur?",
+                "Nama wakil ketua BPD Desa Borobudur siapa?",
+                "Apa nama wakil ketua BPD Desa Borobudur?"
+            ],
+            "responses": [
+                "Wakil Ketua BPD Desa Borobudur adalah Jazin Riyono."
+            ]
+        },
+        {
+            "tag": "Lembaga_Kemasyarakatan_BPD_Sekretaris",
+            "patterns": [
+                "Siapa sekertaris BPD Desa Borobudur?",
+                "Nama sekertaris BPD Desa Borobudur siapa?",
+                "Apa nama sekertaris BPD Desa Borobudur?"
+            ],
+            "responses": [
+                "Sekretaris BPD Desa Borobudur adalah Itamawanti."
+            ]
+        },
+        {
+            "tag": "Lembaga_Kemasyarakatan_BPD_Anggota",
+            "patterns": [
+                "Siapa saja anggota BPD Desa Borobudur?",
+                "Nama anggota BPD Desa Borobudur siapa saja?",
+                "Apa nama anggota BPD Desa Borobudur?"
+            ],
+            "responses": [
+                "Anggota BPD Desa Borobudur adalah Slamet Munir, Muhamad Mukorobin, Suripto, Makmun, Sumartono, dan Dimas Septiyuga Nusantara."
+            ]
+        },
+        {
+            "tag": "Pengurus_TP_PKK_Anggota",
+            "patterns": [
+                "Siapa saja anggota TP PKK di Desa Borobudur?",
+                "Nama-nama anggota TP PKK Desa Borobudur siapa?",
+                "Apa saja nama anggota TP PKK Desa Borobudur?"
+            ],
+            "responses": [
+                "Berikut adalah daftar anggota TP PKK Desa Borobudur:\n\n1. Ismi Prastikawati, A.MK (Ketua)\n2. Dwi Anggar Kaswati (Wakil Ketua I)\n3. Lucia Hari Sucahyowati (Sekretaris)\n4. Dianovita Paramita Wardani, S.Gz (Wakil Sekretaris I)\n5. Siska Wahyanti (Wakil Sekretaris II)\n6. Sri Hendratik (Bendahara)\n7. Munawaroh (Wakil Bendahara I)\n8. Ratih Ambarsari (Wakil Bendahara II)\n9. Seluruh anggota dari Pokja I hingga Pokja IV."
+            ]
+        },
+        {
+            "tag": "Perangkat_Desa",
+            "patterns": [
+                "Siapa saja perangkat desa di Desa Borobudur?",
+                "Daftar perangkat desa Desa Borobudur?",
+                "Apa saja nama perangkat desa di Desa Borobudur?"
+            ],
+            "responses": [
+                "Berikut adalah daftar perangkat desa di Desa Borobudur:\n\n1. **Kepala Desa**: Anwar Ujang Maryadi Lukman, S.E.\n2. **Sekretaris Desa**: Ichsanusi\n3. **Kepala Seksi Pemerintahan**: Elgus Kelanawati\n4. **Kepala Seksi Pelayanan**: Budiman A\n5. **Kepala Seksi Kesejahteraan Rakyat**: Evinda Riyandani\n6. **Kepala Urusan Keuangan**: Dianovita Paramita Wardani\n7. **Kepala Urusan Tata Usaha dan Umum**: Muh Agung Wibowo Aji\n8. **Kepala Urusan Perencanaan**: Andik Cahyono\n\n**Kepala Dusun:**\n- Jayan dan Kaliabon: Sutarja\n- Jligudan dan Kelon: Romadi\n- Kurahan dan Cawangsari: Ferriyanto\n- Janan: Maryoto\n- Ngaran I dan Ngaran II: Rujianto\n- Gopalan dan Bumisegoro: Nurul Yadin\n- Maitan, Tamanan dan Tanjungan: Heri Agus Setiawan\n- Sabrangrowo, Kujon dan Gejagan: Mugiman\n- Gendingan dan Bogowanti Kidul: Matori\n- Bogowanti Lor dan Kenayan: Sutaryanto"
+            ]
+        },
+        {
+            "tag": "Lembaga_Kemasyarakatan_BPD",
+            "patterns": [
+                "Siapa saja pengurus BPD Desa Borobudur?",
+                "Bisa beri daftar pengurus BPD Desa Borobudur?",
+                "Sebutkan nama-nama pengurus BPD Desa Borobudur.",
+                "Siapa saja yang tergabung dalam pengurus BPD Desa Borobudur?"
+            ],
+            "responses": [
+                "Berikut adalah daftar pengurus BPD Desa Borobudur:\n\n1. Ketua: Darsono, S.T.\n2. Wakil Ketua: Jazin Riyono\n3. Sekretaris: Itamawanti\n4. Anggota:\n   - Slamet Munir\n   - Muhamad Mukorobin\n   - Suripto\n   - Makmun\n   - Sumartono\n   - Dimas Septiyuga Nusantara."
+            ]
+        },
+        {
+            "tag": "Layanan_Masyarakat_Borobudur",
+            "patterns": [
+                "Apa saja layanan masyarakat di Borobudur?",
+                "Layanan publik di Borobudur apa saja?",
+                "Ceritakan tentang layanan masyarakat Borobudur"
+            ],
+            "responses": [
+                "Di Borobudur, layanan masyarakat yang tersedia antara lain Kantor Desa Borobudur, Puskesmas Borobudur, Posyandu, dan Polsek Borobudur. Kantor Desa buka Senin-Jumat dari 08:00 - 16:00, Puskesmas buka 07:00 - 11:00 Senin-Jumat, dan Polsek buka 24 jam. Untuk Posyandu, harap ditanyakan langsung ke Puskesmas."
+            ]
+        },
+        
+        {
+            "tag": "Overall_Hotel",
+            "patterns": [
+              "Apa saja hotel terbaik di desa Borobudur?",
+              "Adakah hotel yang dekat dengan desa Borobudur?",
+              "Bisa beri rekomendasi hotel yang cocok untuk keluarga di desa Borobudur?",
+              "Hotel mana yang direkomendasikan di dekat desa Borobudur?",
+              "Ada hotel dekat desa Borobudur yang bisa direkomendasikan?",
+              "Apakah ada hotel di sekitar desa Borobudur?"
+            ],
+            "responses": [
+              "Berikut adalah beberapa rekomendasi hotel: \n1. Hotel Khanaya Borobudur \n2. Hotel Sankara Borobudur \n3. Hotel Cempaka Villa Borobudur \n4. Hotel Anugrah Borobudur \n5. Hotel Wahid Borobudur \n6. Hotel Amrta Borobudur \n7. Hotel Sarasvati Borobudur \n8. Hotel Gopalan Borobudur \n9. Hotel Manohara Borobudur \n10. Hotel Plataran Heritage Borobudur"
+            ]
+          },
+          {
+            "tag": "Overall_Layanan",
+            "patterns": [
+              "Apakah ada apotek atau klinik terdekat jika terjadi keadaan darurat?",
+              "apakah ada apotek di borobudur?",
+              "Apakah ada rumah sakit yang bisa dijangkau dengan mudah dari sini?",
+              "Apakah ada fasilitas kesehatan terdekat dari desa Borobudur?",
+              "Apakah ada Rumah Sakit yang dekat dari desa Borobudur?"
+            ],
+            "responses": [
+              "Berikut adalah beberapa fasilitas kesehatan: \n1. Puskesmas Borobudur \n2. Rumah Sakit: Rumah Sakit N-21 Gemilang, RSUD Merah Putih Kabupaten Magelang, RS Aisyiyah Muntilan \n3. Klinik: Klinik Griya Medika 2 Borobudur, Klinik KJP Magelang, Klinik Dhiaulhaq Srowol \n4. Apotek: Apotek Candi Husada, Apotek Citra Farma, Apotek Syailendra Farma, Apotek Kurnia As-Syifa, Apotek Sawitan, Apotek Jaya Farma"
+            ]
+          },
+          {
+            "tag": "Overall_Transport",
+            "patterns": [
+              "Apakah ada transportasi umum yang mudah diakses ke desa Borobudur?",
+              "Apakah ada layanan kereta api atau bus antar kota yang berhenti dekat Candi Borobudur?",
+              "Adakah jalur kereta api yang melewati desa Borobudur?",
+              "Apakah ada layanan bus malam atau kereta jarak jauh?",
+              "Adakah layanan bus yang beroperasi di daerah desa Borobudur?",
+              "Apakah ada terminal, stasiun, atau agen bus dekat desa Borobudur?",
+              "ada transportasi apa saja yang disediakan di Desa Borobudur"
+            ],
+            "responses": [
+              "Berikut adalah beberapa Layanan Transportasi: \n1. Terminal Borobudur \n2. Stasiun Magelang \n3. Agen Bus Satono \n4. Becak Dokar Borobudur"
+            ]
+          },
+          {
+            "tag": "Overall_Wisata",
+            "patterns": [
+              "Apa saja tempat wisata di sekitar desa Borobudur yang wajib dikunjungi?",
+              "Adakah destinasi alam di dekat desa Borobudur?",
+              "Apakah ada tempat wisata yang direkomendasikan untuk dikunjungi setelah Candi Borobudur?",
+              "Apa saja tempat wisata populer di sekitar desa Borobudur?",
+              "Apakah ada aktivitas menarik yang bisa dilakukan di sekitar desa Borobudur?"
+            ],
+            "responses": [
+              "Berikut beberapa tempat wisata rekomendasi: \n1. Punthuk Setumbu \n2. Gereja Ayam \n3. Curug Watuploso \n4. Candi Mendut Pawon \n5. Museum Kapal Samudra  Raksa"
+            ]
+          },
+          {
+            "tag": "Overall_Kuliner",
+            "patterns": [
+              "Apa saja tempat makan yang ada di sekitar Desa Borobudur?",
+              "Di mana saya bisa menemukan tempat makan yang dekat dengan desa Borobudur?",
+              "Adakah tempat makan seperti restoran, rumah makan, atau kedai di sekitar Desa Borobudur yang mudah dijangkau?",
+              "Apakah ada restoran atau warung makan di sekitar Desa Borobudur yang buka sepanjang hari?",
+              "Bisakah Anda memberi informasi tentang restoran atau warung makan terdekat di area Desa Borobudur?",
+              "Apakah di sekitar Desa Borobudur terdapat restoran, rumah makan, atau kedai makan yang bisa direkomendasikan?",
+              "Apa saja kuliner yang ada di sekitar Desa Borobudur?",
+              "Di mana saya bisa menemukan kuliner yang dekat dengan desa Borobudur?",
+              "Adakah kuliner seperti restoran, rumah makan, atau kedai di sekitar Desa Borobudur yang mudah dijangkau?",
+              "Apakah ada restoran atau warung makan di sekitar Desa Borobudur yang buka sepanjang hari?",
+              "Bisakah Anda memberi informasi tentang restoran atau warung makan terdekat di area Desa Borobudur?",
+              "Apakah di sekitar Desa Borobudur terdapat restoran, rumah makan, atau kedai makan yang bisa direkomendasikan?",
+              "Di Desa Borobudur ada restoran apa saja?",
+              "tempat makan di desa borobudur",
+              "wisata kuliner di desa borobudur"
+            ],
+            "responses": [
+              "Berikut adalah rekomendasi kuliner: \n1. Rumah Makan Bale Kambang \n2. Borobudur Silver Resto \n3. Sekar Kedhaton Restaurant \n4. Mangut Beong Asli Borobudur \n5. Stupa Restaurant \n6. Joglo Panglipuran Borobudur \n7. Rumah Makan Sehati Borobudur Spesial Ndas Beong \n8. Kedai Bukit Rhema \n9. Rumah Ketela \n10. Warung Kopi Bandhek \n11. Amanjiwo Restaurant \n12. Omah Kanyoman \n13. Benoa Borobudur Resto \n14. Manoreh Restaurant \n15. Saung Makan Bu Empat \n16. Dapoer Gending Borobudur"
+            ]
+          },
+          {
+            "tag": "desbo_Mata_Pencaharian_Petani",
+            "patterns": [
+                "Berapa jumlah petani di Desa Borobudur?",
+                "Ada berapa petani di Desa Borobudur?",
+                "Jumlah petani di Desa Borobudur berapa?",
+                "Ada berapa orang di Desa Borobudur yang menjadi petani?",
+                "Petani di Desa Borobudur ada berapa?",
+                "Berapa banyak petani yang tinggal di Desa Borobudur?",
+                "Di Desa Borobudur ada berapa petani?",
+                "Jumlah petani yang ada di Desa Borobudur berapa?",
+                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai petani?",
+                "Berapakah jumlah total petani di Desa Borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 246 petani."
+            ]
+        },
+        {
+            "tag": "desbo_Mata_Pencaharian_Buruh_Tani",
+            "patterns": [
+                "Berapa jumlah buruh tani di Desa Borobudur?",
+                "Ada berapa buruh tani di Desa Borobudur?",
+                "Jumlah buruh tani di Desa Borobudur berapa?",
+                "Ada berapa orang di Desa Borobudur yang menjadi buruh tani?",
+                "buruh tani di Desa Borobudur ada berapa?",
+                "Berapa banyak buruh tani yang tinggal di Desa Borobudur?",
+                "Di Desa Borobudur ada berapa buruh tani?",
+                "Jumlah buruh tani yang ada di Desa Borobudur berapa?",
+                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai buruh tani?",
+                "Berapakah jumlah total buruh tani di Desa Borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 125 buruh tani."
+            ]
+        },
+        {
+            "tag": "desbo_Mata_Pencaharian_Buruh_Swasta",
+            "patterns": [
+                "Berapa jumlah buruh swasta di Desa Borobudur?",
+                "Ada berapa buruh swasta di Desa Borobudur?",
+                "Jumlah buruh swasta di Desa Borobudur berapa?",
+                "Ada berapa orang di Desa Borobudur yang menjadi buruh swasta?",
+                "buruh swasta di Desa Borobudur ada berapa?",
+                "Berapa banyak buruh swasta yang tinggal di Desa Borobudur?",
+                "Di Desa Borobudur ada berapa buruh swasta?",
+                "Jumlah buruh swasta yang ada di Desa Borobudur berapa?",
+                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai buruh swasta?",
+                "Berapakah jumlah total buruh swasta di Desa Borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 136 buruh swasta."
+            ]
+        },
+        {
+            "tag": "desbo_Mata_Pencaharian_Pegawai_Negeri",
+            "patterns": [
+                "Berapa jumlah pegewai negeri di Desa Borobudur?",
+                "Ada berapa pegewai negeri di Desa Borobudur?",
+                "Jumlah pegewai negeri di Desa Borobudur berapa?",
+                "Ada berapa orang di Desa Borobudur yang menjadi pegewai negeri?",
+                "pegewai negeri di Desa Borobudur ada berapa?",
+                "Berapa banyak pegewai negeri yang tinggal di Desa Borobudur?",
+                "Di Desa Borobudur ada berapa pegewai negeri?",
+                "Jumlah pegewai negeri yang ada di Desa Borobudur berapa?",
+                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai pegewai negeri?",
+                "Berapakah jumlah total pegewai negeri di Desa Borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 35 pegawai negeri."
+            ]
+        },
+        {
+            "tag": "desbo_Mata_Pencaharian_Montir",
+            "patterns": [
+                "Berapa jumlah montir di Desa Borobudur?",
+                "Ada berapa montir di Desa Borobudur?",
+                "Jumlah montir di Desa Borobudur berapa?",
+                "Ada berapa orang di Desa Borobudur yang menjadi montir?",
+                "montir di Desa Borobudur ada berapa?",
+                "Berapa banyak montir yang tinggal di Desa Borobudur?",
+                "Di Desa Borobudur ada berapa montir?",
+                "Jumlah montir yang ada di Desa Borobudur berapa?",
+                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai montir?",
+                "Berapakah jumlah total montir di Desa Borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 8 montir."
+            ]
+        },
+        {
+            "tag": "desbo_Jumlah_KK_Desa", 
+            "patterns": [
+                "Berapa jumlah kepala keluarga di Desa Borobudur?",
+                "Ada berapa kepala keluarga di Desa Borobudur?",
+                "Jumlah kepala keluarga di Desa Borobudur berapa?",
+                "Apakah data jumlah kepala keluarga di desa borobudur sudah tersedia?",
+                "Bisa dijelaskan berapa jumlah kepala keluarga di desa borobudur menurut data terbaru?",
+                "Menurut sensus terakhir, ada berapa kepala keluarga di desa borobudur?",
+                "Berapa jumlah kepala keluarga yang terdaftar secara resmi di desa borobudur?",
+                "Dapatkah saya mengetahui data jumlah kepala keluarga di desa borobudur?",
+                "Berapa total kepala keluarga yang ada di wilayah desa borobudur?",
+                "Berapa jumlah total kepala keluarga yang tinggal di desa borobudur?",
+                "Berapa jumlah kepala keluarga yang berstatus sebagai penduduk asli desa borobudur?",
+                "Berapa jumlah kepala keluarga yang tercatat di desa borobudur?",
+                "Di desa borobudur ada berapa kepala keluarga",
+                "Kira-kira berapa jumlah kepala keluarga di desa borobudur?",
+                "Apakah tersedia data jumlah kepala keluarga di desa borobudur?",
+                "Berapa jumlah keluarga di Desa Borobudur?",
+                "Ada berapa keluarga di Desa Borobudur?",
+                "Jumlah keluarga di Desa Borobudur berapa?",
+                "Apakah data jumlah keluarga di desa borobudur sudah tersedia?",
+                "Bisa dijelaskan berapa jumlah keluarga di desa borobudur menurut data terbaru?",
+                "Menurut sensus terakhir, ada berapa keluarga di desa borobudur?",
+                "Berapa jumlah keluarga yang terdaftar secara resmi di desa borobudur?",
+                "Dapatkah saya mengetahui data jumlah keluarga di desa borobudur?",
+                "Berapa total keluarga yang ada di wilayah desa borobudur?",
+                "Berapa jumlah total keluarga yang tinggal di desa borobudur?",
+                "Berapa jumlah keluarga yang berstatus sebagai penduduk asli desa borobudur?",
+                "Berapa jumlah keluarga yang tercatat di desa borobudur?",
+                "Di desa borobudur ada berapa keluarga",
+                "Kira-kira berapa jumlah keluarga di desa borobudur?",
+                "Apakah tersedia data jumlah keluarga di desa borobudur?"  
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 3361 kepala keluarga."
+            ]
+        },
+        {
+            "tag": "desbo_Jumlah_Penduduk_Total",
+            "patterns": [
+                "Berapa total penduduk Desa Borobudur?",
+                "Desa Borobudur punya berapa penduduk secara keseluruhan?",
+                "Berapa jumlah keseluruhan penduduk di Desa Borobudur?",
+                "berapa jumlah penduduk desa borobudur",
+                "ada berapa jumlah penduduk desa borobudur",
+                "penduduk desa borobudur ada berapa",
+                "Berapa total warga Desa Borobudur?",
+                "Desa Borobudur punya berapa warga secara keseluruhan?",
+                "Berapa jumlah keseluruhan warga di Desa Borobudur?",
+                "berapa jumlah warga desa borobudur",
+                "ada berapa jumlah warga desa borobudur",
+                "warga desa borobudur ada berapa"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki total populasi 9.826 jiwa."
+            ]
+        },
+        {
+            "tag": "desbo_Jumlah_Penduduk_Laki_Laki",
+            "patterns": [
+                "Berapa jumlah penduduk laki laki di Desa Borobudur?",
+                "Ada berapa laki laki di Desa Borobudur?",
+                "Jumlah laki laki di Desa Borobudur berapa?",
+                "laki laki di desa borobudur ada berapa?",
+                "ada berapa jumlah laki laki di desa borobudur?",
+                "Berapa jumlah penduduk cowok di Desa Borobudur?",
+                "Ada berapa cowok di Desa Borobudur?",
+                "Jumlah cowok di Desa Borobudur berapa?",
+                "cowok di desa borobudur ada berapa?",
+                "ada berapa jumlah cowok di desa borobudur?",
+                "Berapa jumlah penduduk cowo di Desa Borobudur?",
+                "Ada berapa cowo di Desa Borobudur?",
+                "Jumlah cowo di Desa Borobudur berapa?",
+                "cowo di desa borobudur ada berapa?",
+                "ada berapa jumlah cowo di desa borobudur?",
+                "Berapa jumlah penduduk pria di Desa Borobudur?",
+                "Ada berapa pria di Desa Borobudur?",
+                "Jumlah pria di Desa Borobudur berapa?",
+                "pria di desa borobudur ada berapa?",
+                "ada berapa jumlah pria di desa borobudur?",
+                "Berapa jumlah warga laki laki di Desa Borobudur?",
+                "Ada berapa laki laki di Desa Borobudur?",
+                "Jumlah laki laki di Desa Borobudur berapa?",
+                "laki laki di desa borobudur ada berapa?",
+                "ada berapa jumlah laki laki di desa borobudur?",
+                "Berapa jumlah warga cowok di Desa Borobudur?",
+                "Ada berapa cowok di Desa Borobudur?",
+                "Jumlah cowok di Desa Borobudur berapa?",
+                "cowok di desa borobudur ada berapa?",
+                "ada berapa jumlah cowok di desa borobudur?",
+                "Berapa jumlah warga cowo di Desa Borobudur?",
+                "Ada berapa cowo di Desa Borobudur?",
+                "Jumlah cowo di Desa Borobudur berapa?",
+                "cowo di desa borobudur ada berapa?",
+                "ada berapa jumlah cowo di desa borobudur?",
+                "Berapa jumlah warga pria di Desa Borobudur?",
+                "Ada berapa pria di Desa Borobudur?",
+                "Jumlah pria di Desa Borobudur berapa?",
+                "pria di desa borobudur ada berapa?",
+                "ada berapa jumlah pria di desa borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 4.836 penduduk laki-laki."
+            ]
+        },
+        {
+            "tag": "desbo_Jumlah_Penduduk_Perempuan",
+            "patterns": [
+                "Berapa jumlah penduduk perempuan di Desa Borobudur?",
+                "Ada berapa perempuan di Desa Borobudur?",
+                "Jumlah perempuan di Desa Borobudur berapa?",
+                "perempuan di desa borobudur ada berapa?",
+                "ada berapa jumlah perempuan di desa borobudur?",
+                "Berapa jumlah penduduk cewek di Desa Borobudur?",
+                "Ada berapa cewek di Desa Borobudur?",
+                "Jumlah cewek di Desa Borobudur berapa?",
+                "cewek di desa borobudur ada berapa?",
+                "ada berapa jumlah cewek di desa borobudur?",
+                "Berapa jumlah penduduk cewe di Desa Borobudur?",
+                "Ada berapa cewe di Desa Borobudur?",
+                "Jumlah cewe di Desa Borobudur berapa?",
+                "cewe di desa borobudur ada berapa?",
+                "ada berapa jumlah cewe di desa borobudur?",
+                "Berapa jumlah penduduk wanita di Desa Borobudur?",
+                "Ada berapa wanita di Desa Borobudur?",
+                "Jumlah wanita di Desa Borobudur berapa?",
+                "wanita di desa borobudur ada berapa?",
+                "ada berapa jumlah wanita di desa borobudur?",
+                "Berapa jumlah warga perempuan di Desa Borobudur?",
+                "Ada berapa perempuan di Desa Borobudur?",
+                "Jumlah perempuan di Desa Borobudur berapa?",
+                "perempuan di desa borobudur ada berapa?",
+                "ada berapa jumlah perempuan di desa borobudur?",
+                "Berapa jumlah warga cewek di Desa Borobudur?",
+                "Ada berapa cewek di Desa Borobudur?",
+                "Jumlah cewek di Desa Borobudur berapa?",
+                "cewek di desa borobudur ada berapa?",
+                "ada berapa jumlah cewek di desa borobudur?",
+                "Berapa jumlah warga cewe di Desa Borobudur?",
+                "Ada berapa cewe di Desa Borobudur?",
+                "Jumlah cewe di Desa Borobudur berapa?",
+                "cewe di desa borobudur ada berapa?",
+                "ada berapa jumlah cewe di desa borobudur?",
+                "Berapa jumlah warga wanita di Desa Borobudur?",
+                "Ada berapa wanita di Desa Borobudur?",
+                "Jumlah wanita di Desa Borobudur berapa?",
+                "wanita di desa borobudur ada berapa?",
+                "ada berapa jumlah wanita di desa borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 4.990 penduduk perempuan."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_Tamat_SD",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat sd di Desa Borobudur?",
+                "Ada berapa orang yang tamat sd di Desa Borobudur?",
+                "Jumlah yang tamat sd di Desa Borobudur berapa?",
+                "penduduk yang taman sd ada berapa?",
+                "ada berapa penduduk yang tamat sd?",
+                "Berapa jumlah penduduk yang lulus sd di Desa Borobudur?",
+                "Ada berapa orang yang lulus sd di Desa Borobudur?",
+                "Jumlah yang lulus sd di Desa Borobudur berapa?",
+                "penduduk yang taman sd ada berapa?",
+                "ada berapa penduduk yang lulus sd?",
+                "Berapa jumlah warga yang tamat sd di Desa Borobudur?",
+                "Ada berapa orang yang tamat sd di Desa Borobudur?",
+                "Jumlah yang tamat sd di Desa Borobudur berapa?",
+                "warga yang taman sd ada berapa?",
+                "ada berapa warga yang tamat sd?",
+                "Berapa jumlah warga yang lulus sd di Desa Borobudur?",
+                "Ada berapa orang yang lulus sd di Desa Borobudur?",
+                "Jumlah yang lulus sd di Desa Borobudur berapa?",
+                "warga yang taman sd ada berapa?",
+                "ada berapa warga yang lulus sd?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 2.027 penduduk yang tamat SD."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_SLTP",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat sltp di Desa Borobudur?",
+                "Ada berapa orang yang tamat sltp di Desa Borobudur?",
+                "Jumlah yang tamat sltp di Desa Borobudur berapa?",
+                "penduduk yang taman sltp ada berapa?",
+                "ada berapa penduduk yang tamat sltp?",
+                "Berapa jumlah penduduk yang lulus sltp di Desa Borobudur?",
+                "Ada berapa orang yang lulus sltp di Desa Borobudur?",
+                "Jumlah yang lulus sltp di Desa Borobudur berapa?",
+                "penduduk yang taman sltp ada berapa?",
+                "ada berapa penduduk yang lulus sltp?",
+                "Berapa jumlah penduduk yang tamat smp di Desa Borobudur?",
+                "Ada berapa orang yang tamat smp di Desa Borobudur?",
+                "Jumlah yang tamat smp di Desa Borobudur berapa?",
+                "penduduk yang taman smp ada berapa?",
+                "ada berapa penduduk yang tamat smp?",
+                "Berapa jumlah penduduk yang lulus smp di Desa Borobudur?",
+                "Ada berapa orang yang lulus smp di Desa Borobudur?",
+                "Jumlah yang lulus smp di Desa Borobudur berapa?",
+                "penduduk yang taman smp ada berapa?",
+                "ada berapa penduduk yang lulus smp?",
+                "Berapa jumlah warga yang tamat sltp di Desa Borobudur?",
+                "Ada berapa orang yang tamat sltp di Desa Borobudur?",
+                "Jumlah yang tamat sltp di Desa Borobudur berapa?",
+                "warga yang taman sltp ada berapa?",
+                "ada berapa warga yang tamat sltp?",
+                "Berapa jumlah warga yang lulus sltp di Desa Borobudur?",
+                "Ada berapa orang yang lulus sltp di Desa Borobudur?",
+                "Jumlah yang lulus sltp di Desa Borobudur berapa?",
+                "warga yang taman sltp ada berapa?",
+                "ada berapa warga yang lulus sltp?",
+                "Berapa jumlah warga yang tamat smp di Desa Borobudur?",
+                "Ada berapa orang yang tamat smp di Desa Borobudur?",
+                "Jumlah yang tamat smp di Desa Borobudur berapa?",
+                "warga yang taman smp ada berapa?",
+                "ada berapa warga yang tamat smp?",
+                "Berapa jumlah warga yang lulus smp di Desa Borobudur?",
+                "Ada berapa orang yang lulus smp di Desa Borobudur?",
+                "Jumlah yang lulus smp di Desa Borobudur berapa?",
+                "warga yang taman smp ada berapa?",
+                "ada berapa warga yang lulus smp?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 1.420 penduduk yang tamat SLTP."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_SLTA",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat slta di Desa Borobudur?",
+                "Ada berapa orang yang tamat slta di Desa Borobudur?",
+                "Jumlah yang tamat slta di Desa Borobudur berapa?",
+                "penduduk yang taman slta ada berapa?",
+                "ada berapa penduduk yang tamat slta?",
+                "Berapa jumlah penduduk yang lulus slta di Desa Borobudur?",
+                "Ada berapa orang yang lulus slta di Desa Borobudur?",
+                "Jumlah yang lulus slta di Desa Borobudur berapa?",
+                "penduduk yang taman slta ada berapa?",
+                "ada berapa penduduk yang lulus slta?",
+                "Berapa jumlah penduduk yang tamat sma di Desa Borobudur?",
+                "Ada berapa orang yang tamat sma di Desa Borobudur?",
+                "Jumlah yang tamat sma di Desa Borobudur berapa?",
+                "penduduk yang taman sma ada berapa?",
+                "ada berapa penduduk yang tamat sma?",
+                "Berapa jumlah penduduk yang lulus sma di Desa Borobudur?",
+                "Ada berapa orang yang lulus sma di Desa Borobudur?",
+                "Jumlah yang lulus sma di Desa Borobudur berapa?",
+                "penduduk yang taman sma ada berapa?",
+                "ada berapa penduduk yang lulus sma?",
+                "Berapa jumlah warga yang tamat slta di Desa Borobudur?",
+                "Ada berapa orang yang tamat slta di Desa Borobudur?",
+                "Jumlah yang tamat slta di Desa Borobudur berapa?",
+                "warga yang taman slta ada berapa?",
+                "ada berapa warga yang tamat slta?",
+                "Berapa jumlah warga yang lulus slta di Desa Borobudur?",
+                "Ada berapa orang yang lulus slta di Desa Borobudur?",
+                "Jumlah yang lulus slta di Desa Borobudur berapa?",
+                "warga yang taman slta ada berapa?",
+                "ada berapa warga yang lulus slta?",
+                "Berapa jumlah warga yang tamat sma di Desa Borobudur?",
+                "Ada berapa orang yang tamat sma di Desa Borobudur?",
+                "Jumlah yang tamat sma di Desa Borobudur berapa?",
+                "warga yang taman sma ada berapa?",
+                "ada berapa warga yang tamat sma?",
+                "Berapa jumlah warga yang lulus sma di Desa Borobudur?",
+                "Ada berapa orang yang lulus sma di Desa Borobudur?",
+                "Jumlah yang lulus sma di Desa Borobudur berapa?",
+                "warga yang taman sma ada berapa?",
+                "ada berapa warga yang lulus sma?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 2.759 penduduk yang tamat SLTA."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_D1",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat d1 di Desa Borobudur?",
+                "Ada berapa orang yang tamat d1 di Desa Borobudur?",
+                "Jumlah yang tamat d1 di Desa Borobudur berapa?",
+                "penduduk yang taman d1 ada berapa?",
+                "ada berapa penduduk yang tamat d1?",
+                "Berapa jumlah penduduk yang lulus d1 di Desa Borobudur?",
+                "Ada berapa orang yang lulus d1 di Desa Borobudur?",
+                "Jumlah yang lulus d1 di Desa Borobudur berapa?",
+                "penduduk yang taman d1 ada berapa?",
+                "ada berapa penduduk yang lulus d1?",
+                "Berapa jumlah warga yang tamat d1 di Desa Borobudur?",
+                "Ada berapa orang yang tamat d1 di Desa Borobudur?",
+                "Jumlah yang tamat d1 di Desa Borobudur berapa?",
+                "warga yang taman d1 ada berapa?",
+                "ada berapa warga yang tamat d1?",
+                "Berapa jumlah warga yang lulus d1 di Desa Borobudur?",
+                "Ada berapa orang yang lulus d1 di Desa Borobudur?",
+                "Jumlah yang lulus d1 di Desa Borobudur berapa?",
+                "warga yang taman d1 ada berapa?",
+                "ada berapa warga yang lulus d1?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 44 penduduk yang tamat D1."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_S2",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat S2 di Desa Borobudur?",
+                "Ada berapa orang yang tamat S2 di Desa Borobudur?",
+                "Jumlah yang tamat S2 di Desa Borobudur berapa?",
+                "penduduk yang taman s2 ada berapa?",
+                "ada berapa penduduk yang tamat s2?",
+                "Berapa jumlah penduduk yang lulus S2 di Desa Borobudur?",
+                "Ada berapa orang yang lulus S2 di Desa Borobudur?",
+                "Jumlah yang lulus S2 di Desa Borobudur berapa?",
+                "penduduk yang taman s2 ada berapa?",
+                "ada berapa penduduk yang lulus s2?",
+                "Berapa jumlah warga yang tamat S2 di Desa Borobudur?",
+                "Ada berapa orang yang tamat S2 di Desa Borobudur?",
+                "Jumlah yang tamat S2 di Desa Borobudur berapa?",
+                "warga yang taman s2 ada berapa?",
+                "ada berapa warga yang tamat s2?",
+                "Berapa jumlah warga yang lulus S2 di Desa Borobudur?",
+                "Ada berapa orang yang lulus S2 di Desa Borobudur?",
+                "Jumlah yang lulus S2 di Desa Borobudur berapa?",
+                "warga yang taman s2 ada berapa?",
+                "ada berapa warga yang lulus s2?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 30 penduduk yang tamat S2."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_S3",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat s3 di Desa Borobudur?",
+                "Ada berapa orang yang tamat s3 di Desa Borobudur?",
+                "Jumlah yang tamat s3 di Desa Borobudur berapa?",
+                "penduduk yang taman s3 ada berapa?",
+                "ada berapa penduduk yang tamat s3?",
+                "Berapa jumlah penduduk yang lulus s3 di Desa Borobudur?",
+                "Ada berapa orang yang lulus s3 di Desa Borobudur?",
+                "Jumlah yang lulus s3 di Desa Borobudur berapa?",
+                "penduduk yang taman s3 ada berapa?",
+                "ada berapa penduduk yang lulus s3?",
+                "Berapa jumlah warga yang tamat s3 di Desa Borobudur?",
+                "Ada berapa orang yang tamat s3 di Desa Borobudur?",
+                "Jumlah yang tamat s3 di Desa Borobudur berapa?",
+                "warga yang taman s3 ada berapa?",
+                "ada berapa warga yang tamat s3?",
+                "Berapa jumlah warga yang lulus s3 di Desa Borobudur?",
+                "Ada berapa orang yang lulus s3 di Desa Borobudur?",
+                "Jumlah yang lulus s3 di Desa Borobudur berapa?",
+                "warga yang taman s3 ada berapa?",
+                "ada berapa warga yang lulus s3?"
+            ],
+            "responses": [
+                "Data tidak tersedia"
+            ]
+        },
+        {
+            "tag": "desbo_Lokasi_Desa",
+            "patterns": [
+                "Di mana lokasi Desa Borobudur?",
+                "Dimana lokasi Desa Borobudur?",
+                "Desa Borobudur ada di mana?",
+                "Lokasi Desa Borobudur itu di mana?",
+                "Desa borobudur di mana?",
+                "dimana desa borobubur?",
+                "Desa borobudur dimana?",
+                "desa borobudur di provinsi mana?",
+                "desa borobudur di kabupaten mana?",
+                "desa borobudur di provinsi apa?",
+                "desa borobudur di kabupaten apa?"
+            ],
+            "responses": [
+                "Desa Borobudur terletak di Kabupaten Magelang, Provinsi Jawa Tengah, Indonesia. Kode pos: 56553."
+            ]
+        },
+        {
+            "tag": "desbo_Sejarah_Desa",
+            "patterns": [
+                "Apa sejarah Desa Borobudur?",
+                "Ceritakan tentang Desa Borobudur.",
+                "Desa Borobudur dikenal karena apa?",
+                "bagaimana sejarah desa borobudur",
+                "sejarah desa borobudur seperti apa?",
+                "seperti apa sejarah desa borobudur?",
+                "gimana sejarah desa borobudur?",
+                "sejarah desa borobudur gimana?"
+            ],
+            "responses": [
+                "Desa Borobudur terkenal karena menjadi lokasi Candi Borobudur, candi Buddha terbesar di dunia, yang dibangun oleh Dinasti Syailendra pada abad ke-8."
+            ]
+        },
+        {
+            "tag": "desbo_Kode_Pos_Desa",
+            "patterns": [
+                "Berapa kode pos Desa Borobudur?",
+                "Kode pos di Desa Borobudur berapa?",
+                "Apa kode pos Desa Borobudur?"
+            ],
+            "responses": [
+                "Kode pos Desa Borobudur adalah 56553."
+            ]
+        },
+        {
+            "tag": "desbo_Informasi_Umum_Desa",
+            "patterns": [
+                "Ceritakan informasi umum tentang Desa Borobudur.",
+                "Desa Borobudur itu seperti apa?",
+                "Apa saja yang bisa diketahui tentang Desa Borobudur?",
+                "berikan saya informasi tentang desa borobudur?",
+                "kasih tau saya tentang desa borobudur",
+                "apa itu desa borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur terletak di Kabupaten Magelang, Jawa Tengah, Indonesia, dengan kode pos 56553. Desa ini terkenal sebagai lokasi Candi Borobudur, candi Buddha terbesar di dunia, yang dibangun pada abad ke-8 oleh Dinasti Syailendra. Saat ini, Desa Borobudur memiliki 3361 kepala keluarga."
+            ]
+        },
+        {
+            "tag": "desbo_Daftar_Agama",
+            "patterns": [
+                "Apa saja agama yang ada di Desa Borobudur?",
+                "Sebutin agama-agama yang ada di Desa Borobudur",
+                "Daftar agama di Desa Borobudur apa saja?",
+                "Sebutkan ada agama apa saja yang ada di Desa Borobudur",
+                "Di Desa Borobudur ada agama apa saja?",
+                "Agama-agama di Desa Borobudur ada apa saja?",
+                "Agama di Desa Borobudur ada apa saja?",
+                "Desa Borobudur memiliki agama apa saja?"
+            ],
+            "responses": [
+                "Agama-agama yang ada di Desa Borobudur adalah:\n1. Islam\n2. Kristen\n3. Katolik\n4. Buddha\n5. Hindu\n6. Konghucu\n7. Lainnya"
+            ]
+        },
+        {
+            "tag": "desbo_Agama_Islam",
+            "patterns": [
+                "Berapa jumlah pemeluk agama Islam di Desa Borobudur?",
+                "Ada berapa orang yang beragama Islam di Desa Borobudur?",
+                "Jumlah pemeluk agama Islam di Desa Borobudur berapa?",
+                "Orang Islam di Desa Borobudur ada berapa?",
+                "Penduduk Desa Borobudur yang menjadi pemeluk agama Islam ada berapa?",
+                "Pemeluk agama Islam di Desa Borobudur ada berapa?",
+                "ada berapa orang islam di desa borobudur?",
+                "berapa jumlah orang islam di desa borobudur?",
+                "ada berapa muslim di desa borobudur?",
+                "berapa jumlah muslim di desa borobudur?",
+                "ada berapa umat islam di desa borobudur?",
+                "berapa jumlah umat islam di desa borobudur"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 2.215 pemeluk agama Islam."
+            ]
+        },
+        {
+            "tag": "desbo_Agama_Buddha",
+            "patterns": [
+                "Berapa jumlah pemeluk agama Buddha di Desa Borobudur?",
+                "Ada berapa orang yang beragama Buddha di Desa Borobudur?",
+                "Jumlah pemeluk agama Buddha di Desa Borobudur berapa?",
+                "Orang budha di Desa Borobudur ada berapa?",
+                "Penduduk Desa Borobudur yang menjadi pemeluk agama budha ada berapa?",
+                "Pemeluk agama budha di Desa Borobudur ada berapa?",
+                "ada berapa orang budha di desa borobudur?",
+                "berapa jumlah orang budha di desa borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 1 pemeluk agama Buddha."
+            ]
+        }
+    ]
+}
