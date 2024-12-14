@@ -29,3 +29,10 @@ the following command to test it in the console.
 ```
 $ (venv) python chat.py
 ```
+
+LINK SHEET DATA "https://docs.google.com/spreadsheets/d/1OCU3lXY5LWUoTXK1qcLnb3O8ENCbL4gY7y1i6QBA8_I/edit?gid=0#gid=0"
+
+untuk update
+```
+pip install pandas requests
+```

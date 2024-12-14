@@ -130,6 +130,570 @@
             ]
         },
         {
+            "tag": "desbo_Mata_Pencaharian_Petani",
+            "patterns": [
+                "Berapa jumlah petani di Desa Borobudur?",
+                "Ada berapa petani di Desa Borobudur?",
+                "Jumlah petani di Desa Borobudur berapa?",
+                "Ada berapa orang di Desa Borobudur yang menjadi petani?",
+                "Petani di Desa Borobudur ada berapa?",
+                "Berapa banyak petani yang tinggal di Desa Borobudur?",
+                "Di Desa Borobudur ada berapa petani?",
+                "Jumlah petani yang ada di Desa Borobudur berapa?",
+                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai petani?",
+                "Berapakah jumlah total petani di Desa Borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 246 petani."
+            ]
+        },
+        {
+            "tag": "desbo_Mata_Pencaharian_Buruh_Tani",
+            "patterns": [
+                "Berapa jumlah buruh tani di Desa Borobudur?",
+                "Ada berapa buruh tani di Desa Borobudur?",
+                "Jumlah buruh tani di Desa Borobudur berapa?",
+                "Ada berapa orang di Desa Borobudur yang menjadi buruh tani?",
+                "buruh tani di Desa Borobudur ada berapa?",
+                "Berapa banyak buruh tani yang tinggal di Desa Borobudur?",
+                "Di Desa Borobudur ada berapa buruh tani?",
+                "Jumlah buruh tani yang ada di Desa Borobudur berapa?",
+                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai buruh tani?",
+                "Berapakah jumlah total buruh tani di Desa Borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 125 buruh tani."
+            ]
+        },
+        {
+            "tag": "desbo_Mata_Pencaharian_Buruh_Swasta",
+            "patterns": [
+                "Berapa jumlah buruh swasta di Desa Borobudur?",
+                "Ada berapa buruh swasta di Desa Borobudur?",
+                "Jumlah buruh swasta di Desa Borobudur berapa?",
+                "Ada berapa orang di Desa Borobudur yang menjadi buruh swasta?",
+                "buruh swasta di Desa Borobudur ada berapa?",
+                "Berapa banyak buruh swasta yang tinggal di Desa Borobudur?",
+                "Di Desa Borobudur ada berapa buruh swasta?",
+                "Jumlah buruh swasta yang ada di Desa Borobudur berapa?",
+                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai buruh swasta?",
+                "Berapakah jumlah total buruh swasta di Desa Borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 136 buruh swasta."
+            ]
+        },
+        {
+            "tag": "desbo_Mata_Pencaharian_Pegawai_Negeri",
+            "patterns": [
+                "Berapa jumlah pegewai negeri di Desa Borobudur?",
+                "Ada berapa pegewai negeri di Desa Borobudur?",
+                "Jumlah pegewai negeri di Desa Borobudur berapa?",
+                "Ada berapa orang di Desa Borobudur yang menjadi pegewai negeri?",
+                "pegewai negeri di Desa Borobudur ada berapa?",
+                "Berapa banyak pegewai negeri yang tinggal di Desa Borobudur?",
+                "Di Desa Borobudur ada berapa pegewai negeri?",
+                "Jumlah pegewai negeri yang ada di Desa Borobudur berapa?",
+                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai pegewai negeri?",
+                "Berapakah jumlah total pegewai negeri di Desa Borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 35 pegawai negeri."
+            ]
+        },
+        {
+            "tag": "desbo_Mata_Pencaharian_Montir",
+            "patterns": [
+                "Berapa jumlah montir di Desa Borobudur?",
+                "Ada berapa montir di Desa Borobudur?",
+                "Jumlah montir di Desa Borobudur berapa?",
+                "Ada berapa orang di Desa Borobudur yang menjadi montir?",
+                "montir di Desa Borobudur ada berapa?",
+                "Berapa banyak montir yang tinggal di Desa Borobudur?",
+                "Di Desa Borobudur ada berapa montir?",
+                "Jumlah montir yang ada di Desa Borobudur berapa?",
+                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai montir?",
+                "Berapakah jumlah total montir di Desa Borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 8 montir."
+            ]
+        },
+        {
+            "tag": "desbo_Jumlah_KK_Desa",
+            "patterns": [
+                "Berapa jumlah kepala keluarga di Desa Borobudur?",
+                "Ada berapa kepala keluarga di Desa Borobudur?",
+                "Jumlah kepala keluarga di Desa Borobudur berapa?",
+                "Apakah data jumlah kepala keluarga di desa borobudur sudah tersedia?",
+                "Bisa dijelaskan berapa jumlah kepala keluarga di desa borobudur menurut data terbaru?",
+                "Menurut sensus terakhir, ada berapa kepala keluarga di desa borobudur?",
+                "Berapa jumlah kepala keluarga yang terdaftar secara resmi di desa borobudur?",
+                "Dapatkah saya mengetahui data jumlah kepala keluarga di desa borobudur?",
+                "Berapa total kepala keluarga yang ada di wilayah desa borobudur?",
+                "Berapa jumlah total kepala keluarga yang tinggal di desa borobudur?",
+                "Berapa jumlah kepala keluarga yang berstatus sebagai penduduk asli desa borobudur?",
+                "Berapa jumlah kepala keluarga yang tercatat di desa borobudur?",
+                "Di desa borobudur ada berapa kepala keluarga",
+                "Kira-kira berapa jumlah kepala keluarga di desa borobudur?",
+                "Apakah tersedia data jumlah kepala keluarga di desa borobudur?",
+                "Berapa jumlah keluarga di Desa Borobudur?",
+                "Ada berapa keluarga di Desa Borobudur?",
+                "Jumlah keluarga di Desa Borobudur berapa?",
+                "Apakah data jumlah keluarga di desa borobudur sudah tersedia?",
+                "Bisa dijelaskan berapa jumlah keluarga di desa borobudur menurut data terbaru?",
+                "Menurut sensus terakhir, ada berapa keluarga di desa borobudur?",
+                "Berapa jumlah keluarga yang terdaftar secara resmi di desa borobudur?",
+                "Dapatkah saya mengetahui data jumlah keluarga di desa borobudur?",
+                "Berapa total keluarga yang ada di wilayah desa borobudur?",
+                "Berapa jumlah total keluarga yang tinggal di desa borobudur?",
+                "Berapa jumlah keluarga yang berstatus sebagai penduduk asli desa borobudur?",
+                "Berapa jumlah keluarga yang tercatat di desa borobudur?",
+                "Di desa borobudur ada berapa keluarga",
+                "Kira-kira berapa jumlah keluarga di desa borobudur?",
+                "Apakah tersedia data jumlah keluarga di desa borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 3361 kepala keluarga."
+            ]
+        },
+        {
+            "tag": "desbo_Jumlah_Penduduk_Total",
+            "patterns": [
+                "Berapa total penduduk Desa Borobudur?",
+                "Desa Borobudur punya berapa penduduk secara keseluruhan?",
+                "Berapa jumlah keseluruhan penduduk di Desa Borobudur?",
+                "berapa jumlah penduduk desa borobudur",
+                "ada berapa jumlah penduduk desa borobudur",
+                "penduduk desa borobudur ada berapa",
+                "Berapa total warga Desa Borobudur?",
+                "Desa Borobudur punya berapa warga secara keseluruhan?",
+                "Berapa jumlah keseluruhan warga di Desa Borobudur?",
+                "berapa jumlah warga desa borobudur",
+                "ada berapa jumlah warga desa borobudur",
+                "warga desa borobudur ada berapa"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki total populasi 9.826 jiwa."
+            ]
+        },
+        {
+            "tag": "desbo_Jumlah_Penduduk_Laki_Laki",
+            "patterns": [
+                "Berapa jumlah penduduk laki laki di Desa Borobudur?",
+                "Ada berapa laki laki di Desa Borobudur?",
+                "Jumlah laki laki di Desa Borobudur berapa?",
+                "laki laki di desa borobudur ada berapa?",
+                "ada berapa jumlah laki laki di desa borobudur?",
+                "Berapa jumlah penduduk cowok di Desa Borobudur?",
+                "Ada berapa cowok di Desa Borobudur?",
+                "Jumlah cowok di Desa Borobudur berapa?",
+                "cowok di desa borobudur ada berapa?",
+                "ada berapa jumlah cowok di desa borobudur?",
+                "Berapa jumlah penduduk cowo di Desa Borobudur?",
+                "Ada berapa cowo di Desa Borobudur?",
+                "Jumlah cowo di Desa Borobudur berapa?",
+                "cowo di desa borobudur ada berapa?",
+                "ada berapa jumlah cowo di desa borobudur?",
+                "Berapa jumlah penduduk pria di Desa Borobudur?",
+                "Ada berapa pria di Desa Borobudur?",
+                "Jumlah pria di Desa Borobudur berapa?",
+                "pria di desa borobudur ada berapa?",
+                "ada berapa jumlah pria di desa borobudur?",
+                "Berapa jumlah warga laki laki di Desa Borobudur?",
+                "Ada berapa laki laki di Desa Borobudur?",
+                "Jumlah laki laki di Desa Borobudur berapa?",
+                "laki laki di desa borobudur ada berapa?",
+                "ada berapa jumlah laki laki di desa borobudur?",
+                "Berapa jumlah warga cowok di Desa Borobudur?",
+                "Ada berapa cowok di Desa Borobudur?",
+                "Jumlah cowok di Desa Borobudur berapa?",
+                "cowok di desa borobudur ada berapa?",
+                "ada berapa jumlah cowok di desa borobudur?",
+                "Berapa jumlah warga cowo di Desa Borobudur?",
+                "Ada berapa cowo di Desa Borobudur?",
+                "Jumlah cowo di Desa Borobudur berapa?",
+                "cowo di desa borobudur ada berapa?",
+                "ada berapa jumlah cowo di desa borobudur?",
+                "Berapa jumlah warga pria di Desa Borobudur?",
+                "Ada berapa pria di Desa Borobudur?",
+                "Jumlah pria di Desa Borobudur berapa?",
+                "pria di desa borobudur ada berapa?",
+                "ada berapa jumlah pria di desa borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 4.836 penduduk laki-laki."
+            ]
+        },
+        {
+            "tag": "desbo_Jumlah_Penduduk_Perempuan",
+            "patterns": [
+                "Berapa jumlah penduduk perempuan di Desa Borobudur?",
+                "Ada berapa perempuan di Desa Borobudur?",
+                "Jumlah perempuan di Desa Borobudur berapa?",
+                "perempuan di desa borobudur ada berapa?",
+                "ada berapa jumlah perempuan di desa borobudur?",
+                "Berapa jumlah penduduk cewek di Desa Borobudur?",
+                "Ada berapa cewek di Desa Borobudur?",
+                "Jumlah cewek di Desa Borobudur berapa?",
+                "cewek di desa borobudur ada berapa?",
+                "ada berapa jumlah cewek di desa borobudur?",
+                "Berapa jumlah penduduk cewe di Desa Borobudur?",
+                "Ada berapa cewe di Desa Borobudur?",
+                "Jumlah cewe di Desa Borobudur berapa?",
+                "cewe di desa borobudur ada berapa?",
+                "ada berapa jumlah cewe di desa borobudur?",
+                "Berapa jumlah penduduk wanita di Desa Borobudur?",
+                "Ada berapa wanita di Desa Borobudur?",
+                "Jumlah wanita di Desa Borobudur berapa?",
+                "wanita di desa borobudur ada berapa?",
+                "ada berapa jumlah wanita di desa borobudur?",
+                "Berapa jumlah warga perempuan di Desa Borobudur?",
+                "Ada berapa perempuan di Desa Borobudur?",
+                "Jumlah perempuan di Desa Borobudur berapa?",
+                "perempuan di desa borobudur ada berapa?",
+                "ada berapa jumlah perempuan di desa borobudur?",
+                "Berapa jumlah warga cewek di Desa Borobudur?",
+                "Ada berapa cewek di Desa Borobudur?",
+                "Jumlah cewek di Desa Borobudur berapa?",
+                "cewek di desa borobudur ada berapa?",
+                "ada berapa jumlah cewek di desa borobudur?",
+                "Berapa jumlah warga cewe di Desa Borobudur?",
+                "Ada berapa cewe di Desa Borobudur?",
+                "Jumlah cewe di Desa Borobudur berapa?",
+                "cewe di desa borobudur ada berapa?",
+                "ada berapa jumlah cewe di desa borobudur?",
+                "Berapa jumlah warga wanita di Desa Borobudur?",
+                "Ada berapa wanita di Desa Borobudur?",
+                "Jumlah wanita di Desa Borobudur berapa?",
+                "wanita di desa borobudur ada berapa?",
+                "ada berapa jumlah wanita di desa borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 4.990 penduduk perempuan."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_Tamat_SD",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat sd di Desa Borobudur?",
+                "Ada berapa orang yang tamat sd di Desa Borobudur?",
+                "Jumlah yang tamat sd di Desa Borobudur berapa?",
+                "penduduk yang taman sd ada berapa?",
+                "ada berapa penduduk yang tamat sd?",
+                "Berapa jumlah penduduk yang lulus sd di Desa Borobudur?",
+                "Ada berapa orang yang lulus sd di Desa Borobudur?",
+                "Jumlah yang lulus sd di Desa Borobudur berapa?",
+                "penduduk yang taman sd ada berapa?",
+                "ada berapa penduduk yang lulus sd?",
+                "Berapa jumlah warga yang tamat sd di Desa Borobudur?",
+                "Ada berapa orang yang tamat sd di Desa Borobudur?",
+                "Jumlah yang tamat sd di Desa Borobudur berapa?",
+                "warga yang taman sd ada berapa?",
+                "ada berapa warga yang tamat sd?",
+                "Berapa jumlah warga yang lulus sd di Desa Borobudur?",
+                "Ada berapa orang yang lulus sd di Desa Borobudur?",
+                "Jumlah yang lulus sd di Desa Borobudur berapa?",
+                "warga yang taman sd ada berapa?",
+                "ada berapa warga yang lulus sd?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 2.027 penduduk yang tamat SD."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_SLTP",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat sltp di Desa Borobudur?",
+                "Ada berapa orang yang tamat sltp di Desa Borobudur?",
+                "Jumlah yang tamat sltp di Desa Borobudur berapa?",
+                "penduduk yang taman sltp ada berapa?",
+                "ada berapa penduduk yang tamat sltp?",
+                "Berapa jumlah penduduk yang lulus sltp di Desa Borobudur?",
+                "Ada berapa orang yang lulus sltp di Desa Borobudur?",
+                "Jumlah yang lulus sltp di Desa Borobudur berapa?",
+                "penduduk yang taman sltp ada berapa?",
+                "ada berapa penduduk yang lulus sltp?",
+                "Berapa jumlah penduduk yang tamat smp di Desa Borobudur?",
+                "Ada berapa orang yang tamat smp di Desa Borobudur?",
+                "Jumlah yang tamat smp di Desa Borobudur berapa?",
+                "penduduk yang taman smp ada berapa?",
+                "ada berapa penduduk yang tamat smp?",
+                "Berapa jumlah penduduk yang lulus smp di Desa Borobudur?",
+                "Ada berapa orang yang lulus smp di Desa Borobudur?",
+                "Jumlah yang lulus smp di Desa Borobudur berapa?",
+                "penduduk yang taman smp ada berapa?",
+                "ada berapa penduduk yang lulus smp?",
+                "Berapa jumlah warga yang tamat sltp di Desa Borobudur?",
+                "Ada berapa orang yang tamat sltp di Desa Borobudur?",
+                "Jumlah yang tamat sltp di Desa Borobudur berapa?",
+                "warga yang taman sltp ada berapa?",
+                "ada berapa warga yang tamat sltp?",
+                "Berapa jumlah warga yang lulus sltp di Desa Borobudur?",
+                "Ada berapa orang yang lulus sltp di Desa Borobudur?",
+                "Jumlah yang lulus sltp di Desa Borobudur berapa?",
+                "warga yang taman sltp ada berapa?",
+                "ada berapa warga yang lulus sltp?",
+                "Berapa jumlah warga yang tamat smp di Desa Borobudur?",
+                "Ada berapa orang yang tamat smp di Desa Borobudur?",
+                "Jumlah yang tamat smp di Desa Borobudur berapa?",
+                "warga yang taman smp ada berapa?",
+                "ada berapa warga yang tamat smp?",
+                "Berapa jumlah warga yang lulus smp di Desa Borobudur?",
+                "Ada berapa orang yang lulus smp di Desa Borobudur?",
+                "Jumlah yang lulus smp di Desa Borobudur berapa?",
+                "warga yang taman smp ada berapa?",
+                "ada berapa warga yang lulus smp?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 1.420 penduduk yang tamat SLTP."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_SLTA",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat slta di Desa Borobudur?",
+                "Ada berapa orang yang tamat slta di Desa Borobudur?",
+                "Jumlah yang tamat slta di Desa Borobudur berapa?",
+                "penduduk yang taman slta ada berapa?",
+                "ada berapa penduduk yang tamat slta?",
+                "Berapa jumlah penduduk yang lulus slta di Desa Borobudur?",
+                "Ada berapa orang yang lulus slta di Desa Borobudur?",
+                "Jumlah yang lulus slta di Desa Borobudur berapa?",
+                "penduduk yang taman slta ada berapa?",
+                "ada berapa penduduk yang lulus slta?",
+                "Berapa jumlah penduduk yang tamat sma di Desa Borobudur?",
+                "Ada berapa orang yang tamat sma di Desa Borobudur?",
+                "Jumlah yang tamat sma di Desa Borobudur berapa?",
+                "penduduk yang taman sma ada berapa?",
+                "ada berapa penduduk yang tamat sma?",
+                "Berapa jumlah penduduk yang lulus sma di Desa Borobudur?",
+                "Ada berapa orang yang lulus sma di Desa Borobudur?",
+                "Jumlah yang lulus sma di Desa Borobudur berapa?",
+                "penduduk yang taman sma ada berapa?",
+                "ada berapa penduduk yang lulus sma?",
+                "Berapa jumlah warga yang tamat slta di Desa Borobudur?",
+                "Ada berapa orang yang tamat slta di Desa Borobudur?",
+                "Jumlah yang tamat slta di Desa Borobudur berapa?",
+                "warga yang taman slta ada berapa?",
+                "ada berapa warga yang tamat slta?",
+                "Berapa jumlah warga yang lulus slta di Desa Borobudur?",
+                "Ada berapa orang yang lulus slta di Desa Borobudur?",
+                "Jumlah yang lulus slta di Desa Borobudur berapa?",
+                "warga yang taman slta ada berapa?",
+                "ada berapa warga yang lulus slta?",
+                "Berapa jumlah warga yang tamat sma di Desa Borobudur?",
+                "Ada berapa orang yang tamat sma di Desa Borobudur?",
+                "Jumlah yang tamat sma di Desa Borobudur berapa?",
+                "warga yang taman sma ada berapa?",
+                "ada berapa warga yang tamat sma?",
+                "Berapa jumlah warga yang lulus sma di Desa Borobudur?",
+                "Ada berapa orang yang lulus sma di Desa Borobudur?",
+                "Jumlah yang lulus sma di Desa Borobudur berapa?",
+                "warga yang taman sma ada berapa?",
+                "ada berapa warga yang lulus sma?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 2.759 penduduk yang tamat SLTA."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_D1",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat d1 di Desa Borobudur?",
+                "Ada berapa orang yang tamat d1 di Desa Borobudur?",
+                "Jumlah yang tamat d1 di Desa Borobudur berapa?",
+                "penduduk yang taman d1 ada berapa?",
+                "ada berapa penduduk yang tamat d1?",
+                "Berapa jumlah penduduk yang lulus d1 di Desa Borobudur?",
+                "Ada berapa orang yang lulus d1 di Desa Borobudur?",
+                "Jumlah yang lulus d1 di Desa Borobudur berapa?",
+                "penduduk yang taman d1 ada berapa?",
+                "ada berapa penduduk yang lulus d1?",
+                "Berapa jumlah warga yang tamat d1 di Desa Borobudur?",
+                "Ada berapa orang yang tamat d1 di Desa Borobudur?",
+                "Jumlah yang tamat d1 di Desa Borobudur berapa?",
+                "warga yang taman d1 ada berapa?",
+                "ada berapa warga yang tamat d1?",
+                "Berapa jumlah warga yang lulus d1 di Desa Borobudur?",
+                "Ada berapa orang yang lulus d1 di Desa Borobudur?",
+                "Jumlah yang lulus d1 di Desa Borobudur berapa?",
+                "warga yang taman d1 ada berapa?",
+                "ada berapa warga yang lulus d1?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 44 penduduk yang tamat D1."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_S2",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat S2 di Desa Borobudur?",
+                "Ada berapa orang yang tamat S2 di Desa Borobudur?",
+                "Jumlah yang tamat S2 di Desa Borobudur berapa?",
+                "penduduk yang taman s2 ada berapa?",
+                "ada berapa penduduk yang tamat s2?",
+                "Berapa jumlah penduduk yang lulus S2 di Desa Borobudur?",
+                "Ada berapa orang yang lulus S2 di Desa Borobudur?",
+                "Jumlah yang lulus S2 di Desa Borobudur berapa?",
+                "penduduk yang taman s2 ada berapa?",
+                "ada berapa penduduk yang lulus s2?",
+                "Berapa jumlah warga yang tamat S2 di Desa Borobudur?",
+                "Ada berapa orang yang tamat S2 di Desa Borobudur?",
+                "Jumlah yang tamat S2 di Desa Borobudur berapa?",
+                "warga yang taman s2 ada berapa?",
+                "ada berapa warga yang tamat s2?",
+                "Berapa jumlah warga yang lulus S2 di Desa Borobudur?",
+                "Ada berapa orang yang lulus S2 di Desa Borobudur?",
+                "Jumlah yang lulus S2 di Desa Borobudur berapa?",
+                "warga yang taman s2 ada berapa?",
+                "ada berapa warga yang lulus s2?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 30 penduduk yang tamat S2."
+            ]
+        },
+        {
+            "tag": "desbo_Pendidikan_Terakhir_S3",
+            "patterns": [
+                "Berapa jumlah penduduk yang tamat s3 di Desa Borobudur?",
+                "Ada berapa orang yang tamat s3 di Desa Borobudur?",
+                "Jumlah yang tamat s3 di Desa Borobudur berapa?",
+                "penduduk yang taman s3 ada berapa?",
+                "ada berapa penduduk yang tamat s3?",
+                "Berapa jumlah penduduk yang lulus s3 di Desa Borobudur?",
+                "Ada berapa orang yang lulus s3 di Desa Borobudur?",
+                "Jumlah yang lulus s3 di Desa Borobudur berapa?",
+                "penduduk yang taman s3 ada berapa?",
+                "ada berapa penduduk yang lulus s3?",
+                "Berapa jumlah warga yang tamat s3 di Desa Borobudur?",
+                "Ada berapa orang yang tamat s3 di Desa Borobudur?",
+                "Jumlah yang tamat s3 di Desa Borobudur berapa?",
+                "warga yang taman s3 ada berapa?",
+                "ada berapa warga yang tamat s3?",
+                "Berapa jumlah warga yang lulus s3 di Desa Borobudur?",
+                "Ada berapa orang yang lulus s3 di Desa Borobudur?",
+                "Jumlah yang lulus s3 di Desa Borobudur berapa?",
+                "warga yang taman s3 ada berapa?",
+                "ada berapa warga yang lulus s3?"
+            ],
+            "responses": [
+                "Data tidak tersedia"
+            ]
+        },
+        {
+            "tag": "desbo_Lokasi_Desa",
+            "patterns": [
+                "Di mana lokasi Desa Borobudur?",
+                "Dimana lokasi Desa Borobudur?",
+                "Desa Borobudur ada di mana?",
+                "Lokasi Desa Borobudur itu di mana?",
+                "Desa borobudur di mana?",
+                "dimana desa borobubur?",
+                "Desa borobudur dimana?",
+                "desa borobudur di provinsi mana?",
+                "desa borobudur di kabupaten mana?",
+                "desa borobudur di provinsi apa?",
+                "desa borobudur di kabupaten apa?"
+            ],
+            "responses": [
+                "Desa Borobudur terletak di Kabupaten Magelang, Provinsi Jawa Tengah, Indonesia. Kode pos: 56553."
+            ]
+        },
+        {
+            "tag": "desbo_Sejarah_Desa",
+            "patterns": [
+                "Apa sejarah Desa Borobudur?",
+                "Ceritakan tentang Desa Borobudur.",
+                "Desa Borobudur dikenal karena apa?",
+                "bagaimana sejarah desa borobudur",
+                "sejarah desa borobudur seperti apa?",
+                "seperti apa sejarah desa borobudur?",
+                "gimana sejarah desa borobudur?",
+                "sejarah desa borobudur gimana?"
+            ],
+            "responses": [
+                "Desa Borobudur terkenal karena menjadi lokasi Candi Borobudur, candi Buddha terbesar di dunia, yang dibangun oleh Dinasti Syailendra pada abad ke-8."
+            ]
+        },
+        {
+            "tag": "desbo_Kode_Pos_Desa",
+            "patterns": [
+                "Berapa kode pos Desa Borobudur?",
+                "Kode pos di Desa Borobudur berapa?",
+                "Apa kode pos Desa Borobudur?"
+            ],
+            "responses": [
+                "Kode pos Desa Borobudur adalah 56553."
+            ]
+        },
+        {
+            "tag": "desbo_Informasi_Umum_Desa",
+            "patterns": [
+                "Ceritakan informasi umum tentang Desa Borobudur.",
+                "Desa Borobudur itu seperti apa?",
+                "Apa saja yang bisa diketahui tentang Desa Borobudur?",
+                "berikan saya informasi tentang desa borobudur?",
+                "kasih tau saya tentang desa borobudur",
+                "apa itu desa borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur terletak di Kabupaten Magelang, Jawa Tengah, Indonesia, dengan kode pos 56553. Desa ini terkenal sebagai lokasi Candi Borobudur, candi Buddha terbesar di dunia, yang dibangun pada abad ke-8 oleh Dinasti Syailendra. Saat ini, Desa Borobudur memiliki 3361 kepala keluarga."
+            ]
+        },
+        {
+            "tag": "desbo_Daftar_Agama",
+            "patterns": [
+                "Apa saja agama yang ada di Desa Borobudur?",
+                "Sebutin agama-agama yang ada di Desa Borobudur",
+                "Daftar agama di Desa Borobudur apa saja?",
+                "Sebutkan ada agama apa saja yang ada di Desa Borobudur",
+                "Di Desa Borobudur ada agama apa saja?",
+                "Agama-agama di Desa Borobudur ada apa saja?",
+                "Agama di Desa Borobudur ada apa saja?",
+                "Desa Borobudur memiliki agama apa saja?"
+            ],
+            "responses": [
+                "Agama-agama yang ada di Desa Borobudur adalah:<br>1. Islam<br>2. Kristen<br>3. Katolik<br>4. Buddha<br>5. Hindu<br>6. Konghucu<br>7. Lainnya"
+            ]
+        },
+        {
+            "tag": "desbo_Agama_Islam",
+            "patterns": [
+                "Berapa jumlah pemeluk agama Islam di Desa Borobudur?",
+                "Ada berapa orang yang beragama Islam di Desa Borobudur?",
+                "Jumlah pemeluk agama Islam di Desa Borobudur berapa?",
+                "Orang Islam di Desa Borobudur ada berapa?",
+                "Penduduk Desa Borobudur yang menjadi pemeluk agama Islam ada berapa?",
+                "Pemeluk agama Islam di Desa Borobudur ada berapa?",
+                "ada berapa orang islam di desa borobudur?",
+                "berapa jumlah orang islam di desa borobudur?",
+                "ada berapa muslim di desa borobudur?",
+                "berapa jumlah muslim di desa borobudur?",
+                "ada berapa umat islam di desa borobudur?",
+                "berapa jumlah umat islam di desa borobudur"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 2.215 pemeluk agama Islam."
+            ]
+        },
+        {
+            "tag": "desbo_Agama_Buddha",
+            "patterns": [
+                "Berapa jumlah pemeluk agama Buddha di Desa Borobudur?",
+                "Ada berapa orang yang beragama Buddha di Desa Borobudur?",
+                "Jumlah pemeluk agama Buddha di Desa Borobudur berapa?",
+                "Orang budha di Desa Borobudur ada berapa?",
+                "Penduduk Desa Borobudur yang menjadi pemeluk agama budha ada berapa?",
+                "Pemeluk agama budha di Desa Borobudur ada berapa?",
+                "ada berapa orang budha di desa borobudur?",
+                "berapa jumlah orang budha di desa borobudur?"
+            ],
+            "responses": [
+                "Desa Borobudur memiliki 1 pemeluk agama Buddha."
+            ]
+        },
+        {
             "tag": "canbo_Sejarah_Borobudur",
             "patterns": [
                 "Apa sejarah Candi Borobudur?",
@@ -2120,7 +2684,7 @@
                 "Siapa saja yang tergabung dalam pengurus BPD Desa Borobudur?"
             ],
             "responses": [
-                "Berikut adalah daftar pengurus BPD Desa Borobudur:<br><br>1. Ketua: Darsono, S.T.<br>2. Wakil Ketua: Jazin Riyono<br>3. Sekretaris: Itamawanti<br>4. Anggota:<br>   - Slamet Munir<br>   - Muhamad Mukorobin<br>   - Suripto<br>   - Makmun<br>   - Sumartono<br>   - Dimas Septiyuga Nusantara."
+                "Berikut adalah daftar pengurus BPD Desa Borobudur:<br><br>1. Ketua: Darsono, S.T.<br>2. Wakil Ketua: Jazin Riyono<br>3. Sekretaris: Itamawanti<br>4. Anggota:<br> - Slamet Munir<br> - Muhamad Mukorobin<br> - Suripto<br> - Makmun<br> - Sumartono<br> - Dimas Septiyuga Nusantara."
             ]
         },
         {
@@ -2134,647 +2698,82 @@
                 "Di Borobudur, layanan masyarakat yang tersedia antara lain Kantor Desa Borobudur, Puskesmas Borobudur, Posyandu, dan Polsek Borobudur. Kantor Desa buka Senin-Jumat dari 08:00 - 16:00, Puskesmas buka 07:00 - 11:00 Senin-Jumat, dan Polsek buka 24 jam. Untuk Posyandu, harap ditanyakan langsung ke Puskesmas."
             ]
         },
-        
         {
             "tag": "Overall_Hotel",
             "patterns": [
-              "Apa saja hotel terbaik di desa Borobudur?",
-              "Adakah hotel yang dekat dengan desa Borobudur?",
-              "Bisa beri rekomendasi hotel yang cocok untuk keluarga di desa Borobudur?",
-              "Hotel mana yang direkomendasikan di dekat desa Borobudur?",
-              "Ada hotel dekat desa Borobudur yang bisa direkomendasikan?",
-              "Apakah ada hotel di sekitar desa Borobudur?"
+                "Apa saja hotel terbaik di desa Borobudur?",
+                "Adakah hotel yang dekat dengan desa Borobudur?",
+                "Bisa beri rekomendasi hotel yang cocok untuk keluarga di desa Borobudur?",
+                "Hotel mana yang direkomendasikan di dekat desa Borobudur?",
+                "Ada hotel dekat desa Borobudur yang bisa direkomendasikan?",
+                "Apakah ada hotel di sekitar desa Borobudur?"
             ],
             "responses": [
-              "Berikut adalah beberapa rekomendasi hotel: <br>1. Hotel Khanaya Borobudur <br>2. Hotel Sankara Borobudur <br>3. Hotel Cempaka Villa Borobudur <br>4. Hotel Anugrah Borobudur <br>5. Hotel Wahid Borobudur <br>6. Hotel Amrta Borobudur <br>7. Hotel Sarasvati Borobudur <br>8. Hotel Gopalan Borobudur <br>9. Hotel Manohara Borobudur <br>10. Hotel Plataran Heritage Borobudur"
+                "Berikut adalah beberapa rekomendasi hotel: <br>1. Hotel Khanaya Borobudur <br>2. Hotel Sankara Borobudur <br>3. Hotel Cempaka Villa Borobudur <br>4. Hotel Anugrah Borobudur <br>5. Hotel Wahid Borobudur <br>6. Hotel Amrta Borobudur <br>7. Hotel Sarasvati Borobudur <br>8. Hotel Gopalan Borobudur <br>9. Hotel Manohara Borobudur <br>10. Hotel Plataran Heritage Borobudur"
             ]
-          },
-          {
+        },
+        {
             "tag": "Overall_Layanan",
             "patterns": [
-              "Apakah ada apotek atau klinik terdekat jika terjadi keadaan darurat?",
-              "apakah ada apotek di borobudur?",
-              "Apakah ada rumah sakit yang bisa dijangkau dengan mudah dari sini?",
-              "Apakah ada fasilitas kesehatan terdekat dari desa Borobudur?",
-              "Apakah ada Rumah Sakit yang dekat dari desa Borobudur?"
+                "Apakah ada apotek atau klinik terdekat jika terjadi keadaan darurat?",
+                "apakah ada apotek di borobudur?",
+                "Apakah ada rumah sakit yang bisa dijangkau dengan mudah dari sini?",
+                "Apakah ada fasilitas kesehatan terdekat dari desa Borobudur?",
+                "Apakah ada Rumah Sakit yang dekat dari desa Borobudur?"
             ],
             "responses": [
-              "Berikut adalah beberapa fasilitas kesehatan: <br>1. Puskesmas Borobudur <br>2. Rumah Sakit: Rumah Sakit N-21 Gemilang, RSUD Merah Putih Kabupaten Magelang, RS Aisyiyah Muntilan <br>3. Klinik: Klinik Griya Medika 2 Borobudur, Klinik KJP Magelang, Klinik Dhiaulhaq Srowol <br>4. Apotek: Apotek Candi Husada, Apotek Citra Farma, Apotek Syailendra Farma, Apotek Kurnia As-Syifa, Apotek Sawitan, Apotek Jaya Farma"
+                "Berikut adalah beberapa fasilitas kesehatan: <br>1. Puskesmas Borobudur <br>2. Rumah Sakit: Rumah Sakit N-21 Gemilang, RSUD Merah Putih Kabupaten Magelang, RS Aisyiyah Muntilan <br>3. Klinik: Klinik Griya Medika 2 Borobudur, Klinik KJP Magelang, Klinik Dhiaulhaq Srowol <br>4. Apotek: Apotek Candi Husada, Apotek Citra Farma, Apotek Syailendra Farma, Apotek Kurnia As-Syifa, Apotek Sawitan, Apotek Jaya Farma"
             ]
-          },
-          {
+        },
+        {
             "tag": "Overall_Transport",
             "patterns": [
-              "Apakah ada transportasi umum yang mudah diakses ke desa Borobudur?",
-              "Apakah ada layanan kereta api atau bus antar kota yang berhenti dekat Candi Borobudur?",
-              "Adakah jalur kereta api yang melewati desa Borobudur?",
-              "Apakah ada layanan bus malam atau kereta jarak jauh?",
-              "Adakah layanan bus yang beroperasi di daerah desa Borobudur?",
-              "Apakah ada terminal, stasiun, atau agen bus dekat desa Borobudur?",
-              "ada transportasi apa saja yang disediakan di Desa Borobudur"
+                "Apakah ada transportasi umum yang mudah diakses ke desa Borobudur?",
+                "Apakah ada layanan kereta api atau bus antar kota yang berhenti dekat Candi Borobudur?",
+                "Adakah jalur kereta api yang melewati desa Borobudur?",
+                "Apakah ada layanan bus malam atau kereta jarak jauh?",
+                "Adakah layanan bus yang beroperasi di daerah desa Borobudur?",
+                "Apakah ada terminal, stasiun, atau agen bus dekat desa Borobudur?",
+                "ada transportasi apa saja yang disediakan di Desa Borobudur"
             ],
             "responses": [
-              "Berikut adalah beberapa Layanan Transportasi: <br>1. Terminal Borobudur <br>2. Stasiun Magelang <br>3. Agen Bus Satono <br>4. Becak Dokar Borobudur"
+                "Berikut adalah beberapa Layanan Transportasi: <br>1. Terminal Borobudur <br>2. Stasiun Magelang <br>3. Agen Bus Satono <br>4. Becak Dokar Borobudur"
             ]
-          },
-          {
+        },
+        {
             "tag": "Overall_Wisata",
             "patterns": [
-              "Apa saja tempat wisata di sekitar desa Borobudur yang wajib dikunjungi?",
-              "Adakah destinasi alam di dekat desa Borobudur?",
-              "Apakah ada tempat wisata yang direkomendasikan untuk dikunjungi setelah Candi Borobudur?",
-              "Apa saja tempat wisata populer di sekitar desa Borobudur?",
-              "Apakah ada aktivitas menarik yang bisa dilakukan di sekitar desa Borobudur?"
+                "Apa saja tempat wisata di sekitar desa Borobudur yang wajib dikunjungi?",
+                "Adakah destinasi alam di dekat desa Borobudur?",
+                "Apakah ada tempat wisata yang direkomendasikan untuk dikunjungi setelah Candi Borobudur?",
+                "Apa saja tempat wisata populer di sekitar desa Borobudur?",
+                "Apakah ada aktivitas menarik yang bisa dilakukan di sekitar desa Borobudur?"
             ],
             "responses": [
-              "Berikut beberapa tempat wisata rekomendasi: <br>1. Punthuk Setumbu <br>2. Gereja Ayam <br>3. Curug Watuploso <br>4. Candi Mendut Pawon <br>5. Museum Kapal Samudra  Raksa"
+                "Berikut beberapa tempat wisata rekomendasi: <br>1. Punthuk Setumbu <br>2. Gereja Ayam <br>3. Curug Watuploso <br>4. Candi Mendut Pawon <br>5. Museum Kapal Samudra Raksa"
             ]
-          },
-          {
+        },
+        {
             "tag": "Overall_Kuliner",
             "patterns": [
-              "Apa saja tempat makan yang ada di sekitar Desa Borobudur?",
-              "Di mana saya bisa menemukan tempat makan yang dekat dengan desa Borobudur?",
-              "Adakah tempat makan seperti restoran, rumah makan, atau kedai di sekitar Desa Borobudur yang mudah dijangkau?",
-              "Apakah ada restoran atau warung makan di sekitar Desa Borobudur yang buka sepanjang hari?",
-              "Bisakah Anda memberi informasi tentang restoran atau warung makan terdekat di area Desa Borobudur?",
-              "Apakah di sekitar Desa Borobudur terdapat restoran, rumah makan, atau kedai makan yang bisa direkomendasikan?",
-              "Apa saja kuliner yang ada di sekitar Desa Borobudur?",
-              "Di mana saya bisa menemukan kuliner yang dekat dengan desa Borobudur?",
-              "Adakah kuliner seperti restoran, rumah makan, atau kedai di sekitar Desa Borobudur yang mudah dijangkau?",
-              "Apakah ada restoran atau warung makan di sekitar Desa Borobudur yang buka sepanjang hari?",
-              "Bisakah Anda memberi informasi tentang restoran atau warung makan terdekat di area Desa Borobudur?",
-              "Apakah di sekitar Desa Borobudur terdapat restoran, rumah makan, atau kedai makan yang bisa direkomendasikan?",
-              "Di Desa Borobudur ada restoran apa saja?",
-              "tempat makan di desa borobudur",
-              "wisata kuliner di desa borobudur"
+                "Apa saja tempat makan yang ada di sekitar Desa Borobudur?",
+                "Di mana saya bisa menemukan tempat makan yang dekat dengan desa Borobudur?",
+                "Adakah tempat makan seperti restoran, rumah makan, atau kedai di sekitar Desa Borobudur yang mudah dijangkau?",
+                "Apakah ada restoran atau warung makan di sekitar Desa Borobudur yang buka sepanjang hari?",
+                "Bisakah Anda memberi informasi tentang restoran atau warung makan terdekat di area Desa Borobudur?",
+                "Apakah di sekitar Desa Borobudur terdapat restoran, rumah makan, atau kedai makan yang bisa direkomendasikan?",
+                "Apa saja kuliner yang ada di sekitar Desa Borobudur?",
+                "Di mana saya bisa menemukan kuliner yang dekat dengan desa Borobudur?",
+                "Adakah kuliner seperti restoran, rumah makan, atau kedai di sekitar Desa Borobudur yang mudah dijangkau?",
+                "Apakah ada restoran atau warung makan di sekitar Desa Borobudur yang buka sepanjang hari?",
+                "Bisakah Anda memberi informasi tentang restoran atau warung makan terdekat di area Desa Borobudur?",
+                "Apakah di sekitar Desa Borobudur terdapat restoran, rumah makan, atau kedai makan yang bisa direkomendasikan?",
+                "Di Desa Borobudur ada restoran apa saja?",
+                "tempat makan di desa borobudur",
+                "wisata kuliner di desa borobudur"
             ],
             "responses": [
-              "Berikut adalah rekomendasi kuliner: <br>1. Rumah Makan Bale Kambang <br>2. Borobudur Silver Resto <br>3. Sekar Kedhaton Restaurant <br>4. Mangut Beong Asli Borobudur <br>5. Stupa Restaurant <br>6. Joglo Panglipuran Borobudur <br>7. Rumah Makan Sehati Borobudur Spesial Ndas Beong <br>8. Kedai Bukit Rhema <br>9. Rumah Ketela <br>10. Warung Kopi Bandhek <br>11. Amanjiwo Restaurant <br>12. Omah Kanyoman <br>13. Benoa Borobudur Resto <br>14. Manoreh Restaurant <br>15. Saung Makan Bu Empat <br>16. Dapoer Gending Borobudur"
-            ]
-          },
-          {
-            "tag": "desbo_Mata_Pencaharian_Petani",
-            "patterns": [
-                "Berapa jumlah petani di Desa Borobudur?",
-                "Ada berapa petani di Desa Borobudur?",
-                "Jumlah petani di Desa Borobudur berapa?",
-                "Ada berapa orang di Desa Borobudur yang menjadi petani?",
-                "Petani di Desa Borobudur ada berapa?",
-                "Berapa banyak petani yang tinggal di Desa Borobudur?",
-                "Di Desa Borobudur ada berapa petani?",
-                "Jumlah petani yang ada di Desa Borobudur berapa?",
-                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai petani?",
-                "Berapakah jumlah total petani di Desa Borobudur?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 246 petani."
-            ]
-        },
-        {
-            "tag": "desbo_Mata_Pencaharian_Buruh_Tani",
-            "patterns": [
-                "Berapa jumlah buruh tani di Desa Borobudur?",
-                "Ada berapa buruh tani di Desa Borobudur?",
-                "Jumlah buruh tani di Desa Borobudur berapa?",
-                "Ada berapa orang di Desa Borobudur yang menjadi buruh tani?",
-                "buruh tani di Desa Borobudur ada berapa?",
-                "Berapa banyak buruh tani yang tinggal di Desa Borobudur?",
-                "Di Desa Borobudur ada berapa buruh tani?",
-                "Jumlah buruh tani yang ada di Desa Borobudur berapa?",
-                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai buruh tani?",
-                "Berapakah jumlah total buruh tani di Desa Borobudur?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 125 buruh tani."
-            ]
-        },
-        {
-            "tag": "desbo_Mata_Pencaharian_Buruh_Swasta",
-            "patterns": [
-                "Berapa jumlah buruh swasta di Desa Borobudur?",
-                "Ada berapa buruh swasta di Desa Borobudur?",
-                "Jumlah buruh swasta di Desa Borobudur berapa?",
-                "Ada berapa orang di Desa Borobudur yang menjadi buruh swasta?",
-                "buruh swasta di Desa Borobudur ada berapa?",
-                "Berapa banyak buruh swasta yang tinggal di Desa Borobudur?",
-                "Di Desa Borobudur ada berapa buruh swasta?",
-                "Jumlah buruh swasta yang ada di Desa Borobudur berapa?",
-                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai buruh swasta?",
-                "Berapakah jumlah total buruh swasta di Desa Borobudur?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 136 buruh swasta."
-            ]
-        },
-        {
-            "tag": "desbo_Mata_Pencaharian_Pegawai_Negeri",
-            "patterns": [
-                "Berapa jumlah pegewai negeri di Desa Borobudur?",
-                "Ada berapa pegewai negeri di Desa Borobudur?",
-                "Jumlah pegewai negeri di Desa Borobudur berapa?",
-                "Ada berapa orang di Desa Borobudur yang menjadi pegewai negeri?",
-                "pegewai negeri di Desa Borobudur ada berapa?",
-                "Berapa banyak pegewai negeri yang tinggal di Desa Borobudur?",
-                "Di Desa Borobudur ada berapa pegewai negeri?",
-                "Jumlah pegewai negeri yang ada di Desa Borobudur berapa?",
-                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai pegewai negeri?",
-                "Berapakah jumlah total pegewai negeri di Desa Borobudur?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 35 pegawai negeri."
-            ]
-        },
-        {
-            "tag": "desbo_Mata_Pencaharian_Montir",
-            "patterns": [
-                "Berapa jumlah montir di Desa Borobudur?",
-                "Ada berapa montir di Desa Borobudur?",
-                "Jumlah montir di Desa Borobudur berapa?",
-                "Ada berapa orang di Desa Borobudur yang menjadi montir?",
-                "montir di Desa Borobudur ada berapa?",
-                "Berapa banyak montir yang tinggal di Desa Borobudur?",
-                "Di Desa Borobudur ada berapa montir?",
-                "Jumlah montir yang ada di Desa Borobudur berapa?",
-                "Berapa banyak orang di Desa Borobudur yang bekerja sebagai montir?",
-                "Berapakah jumlah total montir di Desa Borobudur?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 8 montir."
-            ]
-        },
-        {
-            "tag": "desbo_Jumlah_KK_Desa", 
-            "patterns": [
-                "Berapa jumlah kepala keluarga di Desa Borobudur?",
-                "Ada berapa kepala keluarga di Desa Borobudur?",
-                "Jumlah kepala keluarga di Desa Borobudur berapa?",
-                "Apakah data jumlah kepala keluarga di desa borobudur sudah tersedia?",
-                "Bisa dijelaskan berapa jumlah kepala keluarga di desa borobudur menurut data terbaru?",
-                "Menurut sensus terakhir, ada berapa kepala keluarga di desa borobudur?",
-                "Berapa jumlah kepala keluarga yang terdaftar secara resmi di desa borobudur?",
-                "Dapatkah saya mengetahui data jumlah kepala keluarga di desa borobudur?",
-                "Berapa total kepala keluarga yang ada di wilayah desa borobudur?",
-                "Berapa jumlah total kepala keluarga yang tinggal di desa borobudur?",
-                "Berapa jumlah kepala keluarga yang berstatus sebagai penduduk asli desa borobudur?",
-                "Berapa jumlah kepala keluarga yang tercatat di desa borobudur?",
-                "Di desa borobudur ada berapa kepala keluarga",
-                "Kira-kira berapa jumlah kepala keluarga di desa borobudur?",
-                "Apakah tersedia data jumlah kepala keluarga di desa borobudur?",
-                "Berapa jumlah keluarga di Desa Borobudur?",
-                "Ada berapa keluarga di Desa Borobudur?",
-                "Jumlah keluarga di Desa Borobudur berapa?",
-                "Apakah data jumlah keluarga di desa borobudur sudah tersedia?",
-                "Bisa dijelaskan berapa jumlah keluarga di desa borobudur menurut data terbaru?",
-                "Menurut sensus terakhir, ada berapa keluarga di desa borobudur?",
-                "Berapa jumlah keluarga yang terdaftar secara resmi di desa borobudur?",
-                "Dapatkah saya mengetahui data jumlah keluarga di desa borobudur?",
-                "Berapa total keluarga yang ada di wilayah desa borobudur?",
-                "Berapa jumlah total keluarga yang tinggal di desa borobudur?",
-                "Berapa jumlah keluarga yang berstatus sebagai penduduk asli desa borobudur?",
-                "Berapa jumlah keluarga yang tercatat di desa borobudur?",
-                "Di desa borobudur ada berapa keluarga",
-                "Kira-kira berapa jumlah keluarga di desa borobudur?",
-                "Apakah tersedia data jumlah keluarga di desa borobudur?"  
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 3361 kepala keluarga."
-            ]
-        },
-        {
-            "tag": "desbo_Jumlah_Penduduk_Total",
-            "patterns": [
-                "Berapa total penduduk Desa Borobudur?",
-                "Desa Borobudur punya berapa penduduk secara keseluruhan?",
-                "Berapa jumlah keseluruhan penduduk di Desa Borobudur?",
-                "berapa jumlah penduduk desa borobudur",
-                "ada berapa jumlah penduduk desa borobudur",
-                "penduduk desa borobudur ada berapa",
-                "Berapa total warga Desa Borobudur?",
-                "Desa Borobudur punya berapa warga secara keseluruhan?",
-                "Berapa jumlah keseluruhan warga di Desa Borobudur?",
-                "berapa jumlah warga desa borobudur",
-                "ada berapa jumlah warga desa borobudur",
-                "warga desa borobudur ada berapa"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki total populasi 9.826 jiwa."
-            ]
-        },
-        {
-            "tag": "desbo_Jumlah_Penduduk_Laki_Laki",
-            "patterns": [
-                "Berapa jumlah penduduk laki laki di Desa Borobudur?",
-                "Ada berapa laki laki di Desa Borobudur?",
-                "Jumlah laki laki di Desa Borobudur berapa?",
-                "laki laki di desa borobudur ada berapa?",
-                "ada berapa jumlah laki laki di desa borobudur?",
-                "Berapa jumlah penduduk cowok di Desa Borobudur?",
-                "Ada berapa cowok di Desa Borobudur?",
-                "Jumlah cowok di Desa Borobudur berapa?",
-                "cowok di desa borobudur ada berapa?",
-                "ada berapa jumlah cowok di desa borobudur?",
-                "Berapa jumlah penduduk cowo di Desa Borobudur?",
-                "Ada berapa cowo di Desa Borobudur?",
-                "Jumlah cowo di Desa Borobudur berapa?",
-                "cowo di desa borobudur ada berapa?",
-                "ada berapa jumlah cowo di desa borobudur?",
-                "Berapa jumlah penduduk pria di Desa Borobudur?",
-                "Ada berapa pria di Desa Borobudur?",
-                "Jumlah pria di Desa Borobudur berapa?",
-                "pria di desa borobudur ada berapa?",
-                "ada berapa jumlah pria di desa borobudur?",
-                "Berapa jumlah warga laki laki di Desa Borobudur?",
-                "Ada berapa laki laki di Desa Borobudur?",
-                "Jumlah laki laki di Desa Borobudur berapa?",
-                "laki laki di desa borobudur ada berapa?",
-                "ada berapa jumlah laki laki di desa borobudur?",
-                "Berapa jumlah warga cowok di Desa Borobudur?",
-                "Ada berapa cowok di Desa Borobudur?",
-                "Jumlah cowok di Desa Borobudur berapa?",
-                "cowok di desa borobudur ada berapa?",
-                "ada berapa jumlah cowok di desa borobudur?",
-                "Berapa jumlah warga cowo di Desa Borobudur?",
-                "Ada berapa cowo di Desa Borobudur?",
-                "Jumlah cowo di Desa Borobudur berapa?",
-                "cowo di desa borobudur ada berapa?",
-                "ada berapa jumlah cowo di desa borobudur?",
-                "Berapa jumlah warga pria di Desa Borobudur?",
-                "Ada berapa pria di Desa Borobudur?",
-                "Jumlah pria di Desa Borobudur berapa?",
-                "pria di desa borobudur ada berapa?",
-                "ada berapa jumlah pria di desa borobudur?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 4.836 penduduk laki-laki."
-            ]
-        },
-        {
-            "tag": "desbo_Jumlah_Penduduk_Perempuan",
-            "patterns": [
-                "Berapa jumlah penduduk perempuan di Desa Borobudur?",
-                "Ada berapa perempuan di Desa Borobudur?",
-                "Jumlah perempuan di Desa Borobudur berapa?",
-                "perempuan di desa borobudur ada berapa?",
-                "ada berapa jumlah perempuan di desa borobudur?",
-                "Berapa jumlah penduduk cewek di Desa Borobudur?",
-                "Ada berapa cewek di Desa Borobudur?",
-                "Jumlah cewek di Desa Borobudur berapa?",
-                "cewek di desa borobudur ada berapa?",
-                "ada berapa jumlah cewek di desa borobudur?",
-                "Berapa jumlah penduduk cewe di Desa Borobudur?",
-                "Ada berapa cewe di Desa Borobudur?",
-                "Jumlah cewe di Desa Borobudur berapa?",
-                "cewe di desa borobudur ada berapa?",
-                "ada berapa jumlah cewe di desa borobudur?",
-                "Berapa jumlah penduduk wanita di Desa Borobudur?",
-                "Ada berapa wanita di Desa Borobudur?",
-                "Jumlah wanita di Desa Borobudur berapa?",
-                "wanita di desa borobudur ada berapa?",
-                "ada berapa jumlah wanita di desa borobudur?",
-                "Berapa jumlah warga perempuan di Desa Borobudur?",
-                "Ada berapa perempuan di Desa Borobudur?",
-                "Jumlah perempuan di Desa Borobudur berapa?",
-                "perempuan di desa borobudur ada berapa?",
-                "ada berapa jumlah perempuan di desa borobudur?",
-                "Berapa jumlah warga cewek di Desa Borobudur?",
-                "Ada berapa cewek di Desa Borobudur?",
-                "Jumlah cewek di Desa Borobudur berapa?",
-                "cewek di desa borobudur ada berapa?",
-                "ada berapa jumlah cewek di desa borobudur?",
-                "Berapa jumlah warga cewe di Desa Borobudur?",
-                "Ada berapa cewe di Desa Borobudur?",
-                "Jumlah cewe di Desa Borobudur berapa?",
-                "cewe di desa borobudur ada berapa?",
-                "ada berapa jumlah cewe di desa borobudur?",
-                "Berapa jumlah warga wanita di Desa Borobudur?",
-                "Ada berapa wanita di Desa Borobudur?",
-                "Jumlah wanita di Desa Borobudur berapa?",
-                "wanita di desa borobudur ada berapa?",
-                "ada berapa jumlah wanita di desa borobudur?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 4.990 penduduk perempuan."
-            ]
-        },
-        {
-            "tag": "desbo_Pendidikan_Terakhir_Tamat_SD",
-            "patterns": [
-                "Berapa jumlah penduduk yang tamat sd di Desa Borobudur?",
-                "Ada berapa orang yang tamat sd di Desa Borobudur?",
-                "Jumlah yang tamat sd di Desa Borobudur berapa?",
-                "penduduk yang taman sd ada berapa?",
-                "ada berapa penduduk yang tamat sd?",
-                "Berapa jumlah penduduk yang lulus sd di Desa Borobudur?",
-                "Ada berapa orang yang lulus sd di Desa Borobudur?",
-                "Jumlah yang lulus sd di Desa Borobudur berapa?",
-                "penduduk yang taman sd ada berapa?",
-                "ada berapa penduduk yang lulus sd?",
-                "Berapa jumlah warga yang tamat sd di Desa Borobudur?",
-                "Ada berapa orang yang tamat sd di Desa Borobudur?",
-                "Jumlah yang tamat sd di Desa Borobudur berapa?",
-                "warga yang taman sd ada berapa?",
-                "ada berapa warga yang tamat sd?",
-                "Berapa jumlah warga yang lulus sd di Desa Borobudur?",
-                "Ada berapa orang yang lulus sd di Desa Borobudur?",
-                "Jumlah yang lulus sd di Desa Borobudur berapa?",
-                "warga yang taman sd ada berapa?",
-                "ada berapa warga yang lulus sd?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 2.027 penduduk yang tamat SD."
-            ]
-        },
-        {
-            "tag": "desbo_Pendidikan_Terakhir_SLTP",
-            "patterns": [
-                "Berapa jumlah penduduk yang tamat sltp di Desa Borobudur?",
-                "Ada berapa orang yang tamat sltp di Desa Borobudur?",
-                "Jumlah yang tamat sltp di Desa Borobudur berapa?",
-                "penduduk yang taman sltp ada berapa?",
-                "ada berapa penduduk yang tamat sltp?",
-                "Berapa jumlah penduduk yang lulus sltp di Desa Borobudur?",
-                "Ada berapa orang yang lulus sltp di Desa Borobudur?",
-                "Jumlah yang lulus sltp di Desa Borobudur berapa?",
-                "penduduk yang taman sltp ada berapa?",
-                "ada berapa penduduk yang lulus sltp?",
-                "Berapa jumlah penduduk yang tamat smp di Desa Borobudur?",
-                "Ada berapa orang yang tamat smp di Desa Borobudur?",
-                "Jumlah yang tamat smp di Desa Borobudur berapa?",
-                "penduduk yang taman smp ada berapa?",
-                "ada berapa penduduk yang tamat smp?",
-                "Berapa jumlah penduduk yang lulus smp di Desa Borobudur?",
-                "Ada berapa orang yang lulus smp di Desa Borobudur?",
-                "Jumlah yang lulus smp di Desa Borobudur berapa?",
-                "penduduk yang taman smp ada berapa?",
-                "ada berapa penduduk yang lulus smp?",
-                "Berapa jumlah warga yang tamat sltp di Desa Borobudur?",
-                "Ada berapa orang yang tamat sltp di Desa Borobudur?",
-                "Jumlah yang tamat sltp di Desa Borobudur berapa?",
-                "warga yang taman sltp ada berapa?",
-                "ada berapa warga yang tamat sltp?",
-                "Berapa jumlah warga yang lulus sltp di Desa Borobudur?",
-                "Ada berapa orang yang lulus sltp di Desa Borobudur?",
-                "Jumlah yang lulus sltp di Desa Borobudur berapa?",
-                "warga yang taman sltp ada berapa?",
-                "ada berapa warga yang lulus sltp?",
-                "Berapa jumlah warga yang tamat smp di Desa Borobudur?",
-                "Ada berapa orang yang tamat smp di Desa Borobudur?",
-                "Jumlah yang tamat smp di Desa Borobudur berapa?",
-                "warga yang taman smp ada berapa?",
-                "ada berapa warga yang tamat smp?",
-                "Berapa jumlah warga yang lulus smp di Desa Borobudur?",
-                "Ada berapa orang yang lulus smp di Desa Borobudur?",
-                "Jumlah yang lulus smp di Desa Borobudur berapa?",
-                "warga yang taman smp ada berapa?",
-                "ada berapa warga yang lulus smp?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 1.420 penduduk yang tamat SLTP."
-            ]
-        },
-        {
-            "tag": "desbo_Pendidikan_Terakhir_SLTA",
-            "patterns": [
-                "Berapa jumlah penduduk yang tamat slta di Desa Borobudur?",
-                "Ada berapa orang yang tamat slta di Desa Borobudur?",
-                "Jumlah yang tamat slta di Desa Borobudur berapa?",
-                "penduduk yang taman slta ada berapa?",
-                "ada berapa penduduk yang tamat slta?",
-                "Berapa jumlah penduduk yang lulus slta di Desa Borobudur?",
-                "Ada berapa orang yang lulus slta di Desa Borobudur?",
-                "Jumlah yang lulus slta di Desa Borobudur berapa?",
-                "penduduk yang taman slta ada berapa?",
-                "ada berapa penduduk yang lulus slta?",
-                "Berapa jumlah penduduk yang tamat sma di Desa Borobudur?",
-                "Ada berapa orang yang tamat sma di Desa Borobudur?",
-                "Jumlah yang tamat sma di Desa Borobudur berapa?",
-                "penduduk yang taman sma ada berapa?",
-                "ada berapa penduduk yang tamat sma?",
-                "Berapa jumlah penduduk yang lulus sma di Desa Borobudur?",
-                "Ada berapa orang yang lulus sma di Desa Borobudur?",
-                "Jumlah yang lulus sma di Desa Borobudur berapa?",
-                "penduduk yang taman sma ada berapa?",
-                "ada berapa penduduk yang lulus sma?",
-                "Berapa jumlah warga yang tamat slta di Desa Borobudur?",
-                "Ada berapa orang yang tamat slta di Desa Borobudur?",
-                "Jumlah yang tamat slta di Desa Borobudur berapa?",
-                "warga yang taman slta ada berapa?",
-                "ada berapa warga yang tamat slta?",
-                "Berapa jumlah warga yang lulus slta di Desa Borobudur?",
-                "Ada berapa orang yang lulus slta di Desa Borobudur?",
-                "Jumlah yang lulus slta di Desa Borobudur berapa?",
-                "warga yang taman slta ada berapa?",
-                "ada berapa warga yang lulus slta?",
-                "Berapa jumlah warga yang tamat sma di Desa Borobudur?",
-                "Ada berapa orang yang tamat sma di Desa Borobudur?",
-                "Jumlah yang tamat sma di Desa Borobudur berapa?",
-                "warga yang taman sma ada berapa?",
-                "ada berapa warga yang tamat sma?",
-                "Berapa jumlah warga yang lulus sma di Desa Borobudur?",
-                "Ada berapa orang yang lulus sma di Desa Borobudur?",
-                "Jumlah yang lulus sma di Desa Borobudur berapa?",
-                "warga yang taman sma ada berapa?",
-                "ada berapa warga yang lulus sma?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 2.759 penduduk yang tamat SLTA."
-            ]
-        },
-        {
-            "tag": "desbo_Pendidikan_Terakhir_D1",
-            "patterns": [
-                "Berapa jumlah penduduk yang tamat d1 di Desa Borobudur?",
-                "Ada berapa orang yang tamat d1 di Desa Borobudur?",
-                "Jumlah yang tamat d1 di Desa Borobudur berapa?",
-                "penduduk yang taman d1 ada berapa?",
-                "ada berapa penduduk yang tamat d1?",
-                "Berapa jumlah penduduk yang lulus d1 di Desa Borobudur?",
-                "Ada berapa orang yang lulus d1 di Desa Borobudur?",
-                "Jumlah yang lulus d1 di Desa Borobudur berapa?",
-                "penduduk yang taman d1 ada berapa?",
-                "ada berapa penduduk yang lulus d1?",
-                "Berapa jumlah warga yang tamat d1 di Desa Borobudur?",
-                "Ada berapa orang yang tamat d1 di Desa Borobudur?",
-                "Jumlah yang tamat d1 di Desa Borobudur berapa?",
-                "warga yang taman d1 ada berapa?",
-                "ada berapa warga yang tamat d1?",
-                "Berapa jumlah warga yang lulus d1 di Desa Borobudur?",
-                "Ada berapa orang yang lulus d1 di Desa Borobudur?",
-                "Jumlah yang lulus d1 di Desa Borobudur berapa?",
-                "warga yang taman d1 ada berapa?",
-                "ada berapa warga yang lulus d1?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 44 penduduk yang tamat D1."
-            ]
-        },
-        {
-            "tag": "desbo_Pendidikan_Terakhir_S2",
-            "patterns": [
-                "Berapa jumlah penduduk yang tamat S2 di Desa Borobudur?",
-                "Ada berapa orang yang tamat S2 di Desa Borobudur?",
-                "Jumlah yang tamat S2 di Desa Borobudur berapa?",
-                "penduduk yang taman s2 ada berapa?",
-                "ada berapa penduduk yang tamat s2?",
-                "Berapa jumlah penduduk yang lulus S2 di Desa Borobudur?",
-                "Ada berapa orang yang lulus S2 di Desa Borobudur?",
-                "Jumlah yang lulus S2 di Desa Borobudur berapa?",
-                "penduduk yang taman s2 ada berapa?",
-                "ada berapa penduduk yang lulus s2?",
-                "Berapa jumlah warga yang tamat S2 di Desa Borobudur?",
-                "Ada berapa orang yang tamat S2 di Desa Borobudur?",
-                "Jumlah yang tamat S2 di Desa Borobudur berapa?",
-                "warga yang taman s2 ada berapa?",
-                "ada berapa warga yang tamat s2?",
-                "Berapa jumlah warga yang lulus S2 di Desa Borobudur?",
-                "Ada berapa orang yang lulus S2 di Desa Borobudur?",
-                "Jumlah yang lulus S2 di Desa Borobudur berapa?",
-                "warga yang taman s2 ada berapa?",
-                "ada berapa warga yang lulus s2?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 30 penduduk yang tamat S2."
-            ]
-        },
-        {
-            "tag": "desbo_Pendidikan_Terakhir_S3",
-            "patterns": [
-                "Berapa jumlah penduduk yang tamat s3 di Desa Borobudur?",
-                "Ada berapa orang yang tamat s3 di Desa Borobudur?",
-                "Jumlah yang tamat s3 di Desa Borobudur berapa?",
-                "penduduk yang taman s3 ada berapa?",
-                "ada berapa penduduk yang tamat s3?",
-                "Berapa jumlah penduduk yang lulus s3 di Desa Borobudur?",
-                "Ada berapa orang yang lulus s3 di Desa Borobudur?",
-                "Jumlah yang lulus s3 di Desa Borobudur berapa?",
-                "penduduk yang taman s3 ada berapa?",
-                "ada berapa penduduk yang lulus s3?",
-                "Berapa jumlah warga yang tamat s3 di Desa Borobudur?",
-                "Ada berapa orang yang tamat s3 di Desa Borobudur?",
-                "Jumlah yang tamat s3 di Desa Borobudur berapa?",
-                "warga yang taman s3 ada berapa?",
-                "ada berapa warga yang tamat s3?",
-                "Berapa jumlah warga yang lulus s3 di Desa Borobudur?",
-                "Ada berapa orang yang lulus s3 di Desa Borobudur?",
-                "Jumlah yang lulus s3 di Desa Borobudur berapa?",
-                "warga yang taman s3 ada berapa?",
-                "ada berapa warga yang lulus s3?"
-            ],
-            "responses": [
-                "Data tidak tersedia"
-            ]
-        },
-        {
-            "tag": "desbo_Lokasi_Desa",
-            "patterns": [
-                "Di mana lokasi Desa Borobudur?",
-                "Dimana lokasi Desa Borobudur?",
-                "Desa Borobudur ada di mana?",
-                "Lokasi Desa Borobudur itu di mana?",
-                "Desa borobudur di mana?",
-                "dimana desa borobubur?",
-                "Desa borobudur dimana?",
-                "desa borobudur di provinsi mana?",
-                "desa borobudur di kabupaten mana?",
-                "desa borobudur di provinsi apa?",
-                "desa borobudur di kabupaten apa?"
-            ],
-            "responses": [
-                "Desa Borobudur terletak di Kabupaten Magelang, Provinsi Jawa Tengah, Indonesia. Kode pos: 56553."
-            ]
-        },
-        {
-            "tag": "desbo_Sejarah_Desa",
-            "patterns": [
-                "Apa sejarah Desa Borobudur?",
-                "Ceritakan tentang Desa Borobudur.",
-                "Desa Borobudur dikenal karena apa?",
-                "bagaimana sejarah desa borobudur",
-                "sejarah desa borobudur seperti apa?",
-                "seperti apa sejarah desa borobudur?",
-                "gimana sejarah desa borobudur?",
-                "sejarah desa borobudur gimana?"
-            ],
-            "responses": [
-                "Desa Borobudur terkenal karena menjadi lokasi Candi Borobudur, candi Buddha terbesar di dunia, yang dibangun oleh Dinasti Syailendra pada abad ke-8."
-            ]
-        },
-        {
-            "tag": "desbo_Kode_Pos_Desa",
-            "patterns": [
-                "Berapa kode pos Desa Borobudur?",
-                "Kode pos di Desa Borobudur berapa?",
-                "Apa kode pos Desa Borobudur?"
-            ],
-            "responses": [
-                "Kode pos Desa Borobudur adalah 56553."
-            ]
-        },
-        {
-            "tag": "desbo_Informasi_Umum_Desa",
-            "patterns": [
-                "Ceritakan informasi umum tentang Desa Borobudur.",
-                "Desa Borobudur itu seperti apa?",
-                "Apa saja yang bisa diketahui tentang Desa Borobudur?",
-                "berikan saya informasi tentang desa borobudur?",
-                "kasih tau saya tentang desa borobudur",
-                "apa itu desa borobudur?"
-            ],
-            "responses": [
-                "Desa Borobudur terletak di Kabupaten Magelang, Jawa Tengah, Indonesia, dengan kode pos 56553. Desa ini terkenal sebagai lokasi Candi Borobudur, candi Buddha terbesar di dunia, yang dibangun pada abad ke-8 oleh Dinasti Syailendra. Saat ini, Desa Borobudur memiliki 3361 kepala keluarga."
-            ]
-        },
-        {
-            "tag": "desbo_Daftar_Agama",
-            "patterns": [
-                "Apa saja agama yang ada di Desa Borobudur?",
-                "Sebutin agama-agama yang ada di Desa Borobudur",
-                "Daftar agama di Desa Borobudur apa saja?",
-                "Sebutkan ada agama apa saja yang ada di Desa Borobudur",
-                "Di Desa Borobudur ada agama apa saja?",
-                "Agama-agama di Desa Borobudur ada apa saja?",
-                "Agama di Desa Borobudur ada apa saja?",
-                "Desa Borobudur memiliki agama apa saja?"
-            ],
-            "responses": [
-                "Agama-agama yang ada di Desa Borobudur adalah:<br>1. Islam<br>2. Kristen<br>3. Katolik<br>4. Buddha<br>5. Hindu<br>6. Konghucu<br>7. Lainnya"
-            ]
-        },
-        {
-            "tag": "desbo_Agama_Islam",
-            "patterns": [
-                "Berapa jumlah pemeluk agama Islam di Desa Borobudur?",
-                "Ada berapa orang yang beragama Islam di Desa Borobudur?",
-                "Jumlah pemeluk agama Islam di Desa Borobudur berapa?",
-                "Orang Islam di Desa Borobudur ada berapa?",
-                "Penduduk Desa Borobudur yang menjadi pemeluk agama Islam ada berapa?",
-                "Pemeluk agama Islam di Desa Borobudur ada berapa?",
-                "ada berapa orang islam di desa borobudur?",
-                "berapa jumlah orang islam di desa borobudur?",
-                "ada berapa muslim di desa borobudur?",
-                "berapa jumlah muslim di desa borobudur?",
-                "ada berapa umat islam di desa borobudur?",
-                "berapa jumlah umat islam di desa borobudur"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 2.215 pemeluk agama Islam."
-            ]
-        },
-        {
-            "tag": "desbo_Agama_Buddha",
-            "patterns": [
-                "Berapa jumlah pemeluk agama Buddha di Desa Borobudur?",
-                "Ada berapa orang yang beragama Buddha di Desa Borobudur?",
-                "Jumlah pemeluk agama Buddha di Desa Borobudur berapa?",
-                "Orang budha di Desa Borobudur ada berapa?",
-                "Penduduk Desa Borobudur yang menjadi pemeluk agama budha ada berapa?",
-                "Pemeluk agama budha di Desa Borobudur ada berapa?",
-                "ada berapa orang budha di desa borobudur?",
-                "berapa jumlah orang budha di desa borobudur?"
-            ],
-            "responses": [
-                "Desa Borobudur memiliki 1 pemeluk agama Buddha."
+                "Berikut adalah rekomendasi kuliner: <br>1. Rumah Makan Bale Kambang <br>2. Borobudur Silver Resto <br>3. Sekar Kedhaton Restaurant <br>4. Mangut Beong Asli Borobudur <br>5. Stupa Restaurant <br>6. Joglo Panglipuran Borobudur <br>7. Rumah Makan Sehati Borobudur Spesial Ndas Beong <br>8. Kedai Bukit Rhema <br>9. Rumah Ketela <br>10. Warung Kopi Bandhek <br>11. Amanjiwo Restaurant <br>12. Omah Kanyoman <br>13. Benoa Borobudur Resto <br>14. Manoreh Restaurant <br>15. Saung Makan Bu Empat <br>16. Dapoer Gending Borobudur"
             ]
         }
     ]
