@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import requests
 import io
+import time
 
 # Fungsi untuk membaca data dari Google Sheets dalam format CSV
 def fetch_public_gsheet_csv(spreadsheet_url):
@@ -10,6 +11,8 @@ def fetch_public_gsheet_csv(spreadsheet_url):
     :param spreadsheet_url: URL Google Sheets
     :return: DataFrame berisi data dari sheet
     """
+    print("Program selesai berjalan sekitar 60 detik")
+    time.sleep(30)  # Diberikan delay selama 30 detik untuk memastikan data pada google sheets sudah tersimpan terlebih dahulu
     try:
         # Mengunduh data dalam format CSV
         response = requests.get(spreadsheet_url)

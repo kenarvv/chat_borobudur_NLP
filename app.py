@@ -26,7 +26,7 @@ def predict():
     message = {"answer": response}
     return jsonify(message)
 
-@app.post("/update_model")
+@app.get("/update_model")
 def update_model():
     # Jalankan update_model.py untuk memperbarui model
     if run_update_model():
