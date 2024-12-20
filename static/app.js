@@ -30,19 +30,52 @@ class Chatbox {
         
         if(this.state) {
             chatbox.classList.add('chatbox--active')
+            this.addInitialMessages(chatbox);
         } else{
             chatbox.classList.remove('chatbox--active')
         }
     }
-
-    toogleState(chatbox){
-        this.state = !this.state;
-
-        if(this.state){
-            chatbox.classList.add('chatbot--active')
-        }
-        else{
-            chatbox.classList.remove('chatboc--active')
+    addInitialMessages(chatbox) {
+        if (this.messages.length === 0) {
+            
+            const initialMessages = [
+                "Hi, I'm Chatbot Virtual Agent.",
+                "I can provide more information on Desa Borobudur, assist with purchasing, and more!",
+                "How can I help you today?"
+            ];
+    
+            
+            initialMessages.forEach(msg => {
+                this.messages.push({ name: "Sam", message: msg });
+            });
+    
+            
+            const suggestedResponses = [
+                "Harga tiket Candi Borobudur",
+                "Lokasi hotel di Desa Borobudur",
+                "Kuliner di Desa Borobudur",
+                "Fasilitas di Candi Borobudur"
+            ];
+    
+            this.messages.push({
+                name: "Sam",
+                message: `
+                    <strong>Suggested:</strong>
+                    ${suggestedResponses.map(resp => `<button class="suggested-btn">${resp}</button>`).join(' ')}
+                `
+            });
+    
+            // Render pesan
+            this.updateChatText(chatbox);
+    
+           
+            const chatmessage = chatbox.querySelector('.chatbox__messages');
+            chatmessage.querySelectorAll('.suggested-btn').forEach(button => {
+                button.addEventListener('click', () => {
+                    const input = chatbox.querySelector('input');
+                    input.value = button.textContent;
+                });
+            });
         }
     }
 
@@ -90,6 +123,7 @@ class Chatbox {
 
         const chatmessage = chatbox.querySelector('.chatbox__messages');
         chatmessage.innerHTML = html;
+
     }
 }
 

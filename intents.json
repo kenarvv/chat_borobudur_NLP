@@ -132,6 +132,9 @@
         {
             "tag": "desbo_Mata_Pencaharian_Petani",
             "patterns": [
+                "Mata pencaharian petani",
+                "Jumlah petani",
+                "Berapa petani",
                 "Berapa jumlah petani di Desa Borobudur?",
                 "Ada berapa petani di Desa Borobudur?",
                 "Jumlah petani di Desa Borobudur berapa?",
@@ -150,6 +153,9 @@
         {
             "tag": "desbo_Mata_Pencaharian_Buruh_Tani",
             "patterns": [
+                "Mata pencaharian buruh tani",
+                "Jumlah buruh tani",
+                "Berapa buruh tani",
                 "Berapa jumlah buruh tani di Desa Borobudur?",
                 "Ada berapa buruh tani di Desa Borobudur?",
                 "Jumlah buruh tani di Desa Borobudur berapa?",
@@ -168,6 +174,12 @@
         {
             "tag": "desbo_Mata_Pencaharian_Buruh_Swasta",
             "patterns": [
+                "Mata pencaharian buruh swasta",
+                "Jumlah buruh swasta",
+                "Berapa buruh swasta",
+                "Mata pencaharian pegawai swasta",
+                "Jumlah pegawai swasta",
+                "Berapa pegawai swasta",
                 "Berapa jumlah buruh swasta di Desa Borobudur?",
                 "Ada berapa buruh swasta di Desa Borobudur?",
                 "Jumlah buruh swasta di Desa Borobudur berapa?",
@@ -186,6 +198,9 @@
         {
             "tag": "desbo_Mata_Pencaharian_Pegawai_Negeri",
             "patterns": [
+                "Mata pencaharian pegawai negeri",
+                "Jumlah pegawai negeri",
+                "Berapa pegawai negeri",
                 "Berapa jumlah pegewai negeri di Desa Borobudur?",
                 "Ada berapa pegewai negeri di Desa Borobudur?",
                 "Jumlah pegewai negeri di Desa Borobudur berapa?",
@@ -204,6 +219,9 @@
         {
             "tag": "desbo_Mata_Pencaharian_Montir",
             "patterns": [
+                "Mata pencaharian montir",
+                "Jumlah montir",
+                "Berapa montir",
                 "Berapa jumlah montir di Desa Borobudur?",
                 "Ada berapa montir di Desa Borobudur?",
                 "Jumlah montir di Desa Borobudur berapa?",
@@ -222,6 +240,7 @@
         {
             "tag": "desbo_Jumlah_KK_Desa",
             "patterns": [
+                "Jumlah kepala keluarga",
                 "Berapa jumlah kepala keluarga di Desa Borobudur?",
                 "Ada berapa kepala keluarga di Desa Borobudur?",
                 "Jumlah kepala keluarga di Desa Borobudur berapa?",
@@ -260,6 +279,7 @@
         {
             "tag": "desbo_Jumlah_Penduduk_Total",
             "patterns": [
+                "Jumlah penduduk total",
                 "Berapa total penduduk Desa Borobudur?",
                 "Desa Borobudur punya berapa penduduk secara keseluruhan?",
                 "Berapa jumlah keseluruhan penduduk di Desa Borobudur?",
@@ -280,6 +300,9 @@
         {
             "tag": "desbo_Jumlah_Penduduk_Laki_Laki",
             "patterns": [
+                "Jumlah penduduk laki-laki",
+                "Jumlah penduduk pria",
+                "Jumlah penduduk cowok",
                 "Berapa jumlah penduduk laki laki di Desa Borobudur?",
                 "Ada berapa laki laki di Desa Borobudur?",
                 "Jumlah laki laki di Desa Borobudur berapa?",
@@ -328,6 +351,9 @@
         {
             "tag": "desbo_Jumlah_Penduduk_Perempuan",
             "patterns": [
+                "Jumlah penduduk perempuan",
+                "Jumlah penduduk wanita",
+                "Jumlah penduduk cewek",
                 "Berapa jumlah penduduk perempuan di Desa Borobudur?",
                 "Ada berapa perempuan di Desa Borobudur?",
                 "Jumlah perempuan di Desa Borobudur berapa?",
@@ -376,6 +402,7 @@
         {
             "tag": "desbo_Pendidikan_Terakhir_Tamat_SD",
             "patterns": [
+                "pendidikan terakhir SD",
                 "Berapa jumlah penduduk yang tamat sd di Desa Borobudur?",
                 "Ada berapa orang yang tamat sd di Desa Borobudur?",
                 "Jumlah yang tamat sd di Desa Borobudur berapa?",
@@ -404,6 +431,8 @@
         {
             "tag": "desbo_Pendidikan_Terakhir_SLTP",
             "patterns": [
+                "Pendidikan terakhir SLTP",
+                "Pendidikan terakhir SMP",
                 "Berapa jumlah penduduk yang tamat sltp di Desa Borobudur?",
                 "Ada berapa orang yang tamat sltp di Desa Borobudur?",
                 "Jumlah yang tamat sltp di Desa Borobudur berapa?",
@@ -452,6 +481,8 @@
         {
             "tag": "desbo_Pendidikan_Terakhir_SLTA",
             "patterns": [
+                "Jumlah pendidikan terakhir SLTA",
+                "Jumlah pendidikan terakhir SMA",
                 "Berapa jumlah penduduk yang tamat slta di Desa Borobudur?",
                 "Ada berapa orang yang tamat slta di Desa Borobudur?",
                 "Jumlah yang tamat slta di Desa Borobudur berapa?",
@@ -500,6 +531,7 @@
         {
             "tag": "desbo_Pendidikan_Terakhir_D1",
             "patterns": [
+                "Jumlah pendidikan terakhir D1",
                 "Berapa jumlah penduduk yang tamat d1 di Desa Borobudur?",
                 "Ada berapa orang yang tamat d1 di Desa Borobudur?",
                 "Jumlah yang tamat d1 di Desa Borobudur berapa?",
@@ -528,6 +560,7 @@
         {
             "tag": "desbo_Pendidikan_Terakhir_S2",
             "patterns": [
+                "Jumlah pendidikan terakhir S2",
                 "Berapa jumlah penduduk yang tamat S2 di Desa Borobudur?",
                 "Ada berapa orang yang tamat S2 di Desa Borobudur?",
                 "Jumlah yang tamat S2 di Desa Borobudur berapa?",
@@ -556,6 +589,7 @@
         {
             "tag": "desbo_Pendidikan_Terakhir_S3",
             "patterns": [
+                "Jumlah pendidikan terakhir S3",
                 "Berapa jumlah penduduk yang tamat s3 di Desa Borobudur?",
                 "Ada berapa orang yang tamat s3 di Desa Borobudur?",
                 "Jumlah yang tamat s3 di Desa Borobudur berapa?",
@@ -584,6 +618,7 @@
         {
             "tag": "desbo_Lokasi_Desa",
             "patterns": [
+                "Lokasi desa",
                 "Di mana lokasi Desa Borobudur?",
                 "Dimana lokasi Desa Borobudur?",
                 "Desa Borobudur ada di mana?",
@@ -603,6 +638,7 @@
         {
             "tag": "desbo_Sejarah_Desa",
             "patterns": [
+                "Sejarah desa",
                 "Apa sejarah Desa Borobudur?",
                 "Ceritakan tentang Desa Borobudur.",
                 "Desa Borobudur dikenal karena apa?",
@@ -619,6 +655,7 @@
         {
             "tag": "desbo_Kode_Pos_Desa",
             "patterns": [
+                "Kode pos",
                 "Berapa kode pos Desa Borobudur?",
                 "Kode pos di Desa Borobudur berapa?",
                 "Apa kode pos Desa Borobudur?"
@@ -630,6 +667,7 @@
         {
             "tag": "desbo_Informasi_Umum_Desa",
             "patterns": [
+                "Informasi umum",
                 "Ceritakan informasi umum tentang Desa Borobudur.",
                 "Desa Borobudur itu seperti apa?",
                 "Apa saja yang bisa diketahui tentang Desa Borobudur?",
@@ -644,6 +682,9 @@
         {
             "tag": "desbo_Daftar_Agama",
             "patterns": [
+                "Daftar agama",
+                "Jumlah agama",
+                "Agama apa saja",
                 "Apa saja agama yang ada di Desa Borobudur?",
                 "Sebutin agama-agama yang ada di Desa Borobudur",
                 "Daftar agama di Desa Borobudur apa saja?",
@@ -660,6 +701,8 @@
         {
             "tag": "desbo_Agama_Islam",
             "patterns": [
+                "Jumlah agama islam",
+                "jumlah muslim",
                 "Berapa jumlah pemeluk agama Islam di Desa Borobudur?",
                 "Ada berapa orang yang beragama Islam di Desa Borobudur?",
                 "Jumlah pemeluk agama Islam di Desa Borobudur berapa?",
@@ -680,6 +723,7 @@
         {
             "tag": "desbo_Agama_Buddha",
             "patterns": [
+                "Jumlah agama buddha",
                 "Berapa jumlah pemeluk agama Buddha di Desa Borobudur?",
                 "Ada berapa orang yang beragama Buddha di Desa Borobudur?",
                 "Jumlah pemeluk agama Buddha di Desa Borobudur berapa?",
@@ -696,6 +740,7 @@
         {
             "tag": "canbo_Sejarah_Borobudur",
             "patterns": [
+                "Sejarah borobudur",
                 "Apa sejarah Candi Borobudur?",
                 "Siapa yang membangun Candi Borobudur?",
                 "Ceritakan tentang asal-usul Borobudur.",
@@ -712,6 +757,9 @@
         {
             "tag": "canbo_Arsitektur_Borobudur",
             "patterns": [
+                "Arsitektur borobudur",
+                "desain borobudur",
+                "Struktur borobudur",
                 "Bagaimana bentuk arsitektur Borobudur?",
                 "Apa yang unik dari desain Borobudur?",
                 "Ceritakan tentang struktur arsitektur Borobudur.",
@@ -727,6 +775,9 @@
         {
             "tag": "canbo_Fungsi_Religius_Borobudur",
             "patterns": [
+                "Fungsi borobudur",
+                "Religius borobudur",
+                "Ziarah borobudur",
                 "Apa fungsi utama Borobudur?",
                 "Kenapa Borobudur penting untuk umat Buddha?",
                 "Apa tujuan religius dari Candi Borobudur?",

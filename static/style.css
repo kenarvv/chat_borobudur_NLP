@@ -12,7 +12,7 @@ body {
 }
 
 *, html {
-    --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
+    --primaryGradient: linear-gradient(93.12deg, #581b98 0.52%, #10120f 100%);
     --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
@@ -198,3 +198,19 @@ body {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
+
+.suggested-btn {
+    background-color: #4845f3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.suggested-btn:hover {
+    background-color: #10120f;
+}
+
