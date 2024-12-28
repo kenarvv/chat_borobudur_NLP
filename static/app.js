@@ -45,7 +45,6 @@ class Chatbox {
                 "Hai! Saya di sini untuk membantu Anda menjelajahi Desa Borobudur.",
                 "Halo! Bagaimana saya bisa membantu perjalanan Anda di Desa Borobudur hari ini?",
                 "Selamat datang di Chatbot Desa Borobudur! Apa yang bisa saya bantu?",
-                "Hai! Penasaran tentang tiket, fasilitas, atau lokasi di Desa Borobudur? Saya siap menjawab!",
                 "Halo! Apa kabar? Saya di sini untuk mempermudah pencarian informasi Anda tentang Desa Borobudur.",
                 "Selamat datang! Ingin tahu lebih banyak tentang Candi Borobudur dan sekitarnya?",
                 "Hai! Ada yang bisa saya bantu hari ini? Jelajahi Desa Borobudur bersama saya!"
