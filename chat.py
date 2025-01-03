@@ -6,7 +6,7 @@ import torch
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cpu')
 
 with open('intents.json', 'r') as json_data:
     intents = json.load(json_data)
@@ -26,8 +26,6 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
-
 def get_response(msg):
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
@@ -46,7 +44,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "data belum tersedia"
+    return "Mohon maaf data belum tersedia, silahkan coba pertanyaan lain terkait desa borobudur"
 
 if __name__ == "__main__":
     print("Let's chat! (type 'quit' to exit)")

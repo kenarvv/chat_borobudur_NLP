@@ -1,12 +1,25 @@
 from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS
 import subprocess
 import sys
+import os
+import signal
 
 from chat import get_response
 
 app = Flask(__name__)
+CORS(app)
 
-# Fungsi untuk menjalankan update_model.py
+# Store the process ID in a file for reboot.py to use
+with open('app.pid', 'w') as f:
+    f.write(str(os.getpid()))
+
+@app.after_request
+def add_header(response):
+    response.headers['X-Frame-Options'] = 'ALLOWALL'
+    response.headers['Content-Security-Policy'] = "frame-ancestors *"
+    return response
+
 def run_update_model():
     try:
         subprocess.run([sys.executable, 'update_model.py'], check=True)
@@ -28,11 +41,12 @@ def predict():
 
 @app.get("/update_model")
 def update_model():
-    # Jalankan update_model.py untuk memperbarui model
     if run_update_model():
-        return jsonify({"status": "success", "message": "Model berhasil diperbarui"})
+        # Run reboot.py in a separate process
+        subprocess.Popen([sys.executable, 'reboot.py'])
+        return jsonify({"status": "success", "message": "Model berhasil diperbarui dan aplikasi akan di-restart"})
     else:
         return jsonify({"status": "error", "message": "Terjadi kesalahan saat memperbarui model"})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
