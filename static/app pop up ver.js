@@ -1,17 +1,19 @@
 class Chatbox {
     constructor() {
         this.args = {
+            openButton: document.querySelector('.chatbox__button'),
             chatBox: document.querySelector('.chatbox__support'),
             sendButton: document.querySelector('.send__button')
         }
 
         this.state = false;
         this.messages = [];
-        this.init();
     }
 
     display() {
-        const {chatBox, sendButton} = this.args;
+        const {openButton, chatBox, sendButton} = this.args;
+
+        openButton.addEventListener('click', () => this.toggleState(chatBox))
 
         sendButton.addEventListener('click', () => this.onSendButton(chatBox))
 
@@ -23,14 +25,15 @@ class Chatbox {
         })
     }
 
-    init() {
-        const {chatBox} = this.args;
-        this.toggleState(chatBox);
-    }
-
     toggleState(chatbox) {
         this.state = !this.state;
-        if(this.state) this.addInitialMessages(chatbox);
+        
+        if(this.state) {
+            chatbox.classList.add('chatbox--active')
+            this.addInitialMessages(chatbox);
+        } else{
+            chatbox.classList.remove('chatbox--active')
+        }
     }
     addInitialMessages(chatbox) {
         if (this.messages.length === 0) {

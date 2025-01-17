@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borobudur Village Virtual Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-content">
+                <div class="profile-image">
+                    <img src="{{ url_for('static', filename='images/prof.png') }}" alt="Virtual Agent">
+                </div>
+                <div class="header-text">
+                    <h1>Virtual Agent Desa Borobudur</h1>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-content">
+            <div class="chat-messages">
+                <div class="messages-wrapper"></div>
+            </div>
+            
+            <div class="suggestions-container">
+                <div class="suggestions-wrapper">
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" placeholder="Tuliskan pesan Anda di sini...">
+            <button class="send-button">Kirim</button>
+        </div>
+    </div>
+
+    <script>
+        $SCRIPT_ROOT = 'http://145.223.102.176:5000/'
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

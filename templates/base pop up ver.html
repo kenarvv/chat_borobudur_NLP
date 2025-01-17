@@ -7,6 +7,7 @@
     <title>Chatbot</title>
 </head>
 <body>
+<div class="chatbox">
     <div class="chatbox__support">
         <div class="chatbox__header">
             <div class="chatbox__image--header">
@@ -25,6 +26,10 @@
             <button class="chatbox__send--footer send__button">Kirim</button>
         </div>
     </div>
+    <div class="chatbox__button">
+        <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+    </div>
+</div>
 
     <script>
         $SCRIPT_ROOT = 'https://www.chatdesaborobudur.id/'

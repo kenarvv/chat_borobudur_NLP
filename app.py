@@ -88,11 +88,9 @@ def update_model():
     else:
         filtered_errors = filter_error_messages(messages)
         return jsonify({
-            # "status": "error",
-            # "message": "Terjadi kesalahan saat memperbarui model",
             "details": filtered_errors
-            # "suggestion": "Silakan periksa baris yang kosong pada Google Sheets dan pastikan semua kolom (tag, patterns, responses) telah diisi"
         })
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
+    
